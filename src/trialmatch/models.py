@@ -106,6 +106,19 @@ CriterionStatus = Literal["met", "not_met", "unknown"]
 Verdict = Literal["likely_eligible", "possibly_eligible", "likely_ineligible"]
 
 
+class LabCheck(BaseModel):
+    """A numeric criterion stated so code can verify it: "<lab> <operator> <value> <unit>".
+
+    The condition is the criterion as written, for either kind: for an exclusion
+    "eGFR < 30", the condition is eGFR < 30, and the exclusion is met when it holds.
+    """
+
+    lab_ref: str  # the Observation cited for this criterion
+    operator: Literal["<", "<=", ">", ">="]
+    value: float
+    unit: str | None = None
+
+
 class CriterionAssessment(BaseModel):
     criterion: str  # one criterion, paraphrased or quoted from the trial text
     kind: Literal["inclusion", "exclusion"]
@@ -114,6 +127,7 @@ class CriterionAssessment(BaseModel):
     status: CriterionStatus
     evidence_refs: list[str] = Field(default_factory=list)  # FHIR resource ids
     rationale: str
+    lab_check: LabCheck | None = None  # set for numeric lab thresholds; code verifies it
 
 
 class TrialMatch(BaseModel):
@@ -175,6 +189,9 @@ class GroundingIssue(BaseModel):
         "verdict_inconsistent",  # verdict contradicts the criterion assessments
         "duplicate_trial",  # same nct_id or rank appears twice
         "criteria_truncated",  # model saw only part of the criteria text
+        "lab_value_contradiction",  # status disagrees with the cited lab value
+        "lab_check_invalid",  # lab_check cannot be evaluated as stated
+        "evidence_mismatch",  # cited medication is outside the drug class named
     ]
     nct_id: str | None = None
     detail: str

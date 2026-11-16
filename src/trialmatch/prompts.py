@@ -64,6 +64,13 @@ specific item to missing_info (for example "Recent eGFR (last within 90 days)").
 - Mind dates. A lab from years ago may not satisfy a criterion that needs a \
 recent value; say so in the rationale.
 - Keep each rationale to one or two sentences.
+- For a numeric lab threshold (eGFR, HbA1c, LVEF, platelets, ...), fill lab_check \
+with the cited Observation and the condition exactly as the criterion states it, \
+converted to the record's unit; code recomputes met or not_met from the value. For \
+an exclusion such as "eGFR < 30", the condition is eGFR < 30. Otherwise lab_check \
+is null.
+- When a criterion names a drug or drug class, cite only medications that belong \
+to it. Code checks this against a drug-class table.
 
 ## Verdicts
 

@@ -33,7 +33,7 @@ flowchart LR
 | Trials client | `trials.py` | Retries with backoff, honours `Retry-After`, trims criteria, unescapes Markdown, live / record / replay modes |
 | Hard checks | `hard_checks.py` | Age and sex limits, authoritative over the model |
 | Agent | `agent.py`, `tools.py`, `prompts.py` | Manual tool loop, strict tool schemas, append-only history, refusal fallback, prompt caching, turn cap |
-| Grounding | `grounding.py` | Flags invented evidence ids, unseen trials, and "eligible" verdicts that failed a hard check |
+| Grounding | `grounding.py`, `drug_classes.py` | Flags invented evidence ids, unseen trials, "eligible" verdicts that failed a hard check, lab claims the cited value contradicts, and medications outside the drug class a criterion names |
 | Eval | `eval.py`, `evals/` | Rule-based metrics, no LLM judge; see `evals/README.md` |
 | Service | `api.py`, `cli.py`, `config.py` | Async job API, CLI, structured logs without patient data |
 | Ops | `Dockerfile`, `docker-compose.yml`, `.github/workflows/ci.yml` | CI runs fully offline with recorded API responses |
@@ -125,13 +125,13 @@ Metrics: run health, hard-constraint violations (target 0), citation validity (t
 | NCT05208762 (triple-negative only) | likely ineligible | Yes, but cited no evidence |
 | NCT07213791 (HR+ HER2- cohort) | possibly eligible | No: marked "prior CDK4/6 inhibitor" as met, citing tamoxifen, which is not one |
 
-The last row passed every code check, because the cited record entry exists. It is the limitation listed below (a citation can exist without supporting the claim) showing up in practice, and the comparison a Claude run is meant to test.
+The last row passed every code check at the time, because the cited record entry exists: a citation can exist without supporting the claim. That led to two checks on what a citation *says* (see below). Re-checking this saved report now flags it as `evidence_mismatch: cites tamoxifen, which is not in the class the criterion names (CDK4/6 inhibitor)`, and a test pins that.
 
 ## Limitations
 
 - Synthetic data only, eight patients, one run each. Not validated on real records.
-- Only age and sex are checked in code. Everything else (lab thresholds, prior therapy, pregnancy) is the model's reading, checked only for citation existence and by the planted-issue eval.
-- Citation validity proves an entry exists, not that it supports the claim.
+- Code checks age and sex, numeric lab thresholds the model states (recomputed from the cited value), and medications cited for a drug-class criterion (against a small built-in table, not RxNorm/ATC). Everything else, such as pregnancy or diagnoses, is the model's reading, checked for citation existence and by the planted-issue eval.
+- The lab check only works when the model fills `lab_check`; a model that leaves it null on a lab criterion is not caught. The drug table skips medications and classes it does not know rather than guess.
 - Live trials change daily, so live runs are not reproducible; use `record` then `replay` to pin one.
 - The job store is in memory and per process.
 - Cost estimates use Opus 5.5 prices for every turn, even turns served by the fallback model.

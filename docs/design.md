@@ -8,6 +8,13 @@ The model reads free-text criteria and connects them to the record. That is the 
 
 The rule: anything deterministic is computed, anything interpretive is cited, and contradictions between the two are surfaced in the result instead of being smoothed over.
 
+A citation that exists can still be the wrong one. The first local-model run marked "prior CDK4/6 inhibitor" as met by citing tamoxifen, and every check passed. Two checks now split such claims the same way as age: the model does the reading, code does the comparison.
+
+- **Lab thresholds.** For a numeric criterion the model fills `lab_check` (cited Observation, operator, threshold, unit). Code recomputes the status from the recorded value and rejects a mismatch, or a threshold in a different unit than the record.
+- **Drug classes.** If a criterion names a drug class and every medication cited for "met" is a known drug outside it, code rejects the claim. The table in `drug_classes.py` is small on purpose and stays silent on anything it does not know; a site would put an RxNorm or ATC lookup behind the same function.
+
+Both go back to the model as fixable errors, like every other check.
+
 ## 2. A hand-written agent loop instead of the SDK tool runner
 
 The Anthropic SDK has a tool runner that drives the loop. This project writes the loop itself (`agent.py`) because it needs:

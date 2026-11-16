@@ -69,6 +69,27 @@ _ASSESSMENT_SCHEMA = _obj(
             "description": "Exact resource ids from tool results, e.g. 'Observation/o-1'.",
         },
         "rationale": {"type": "string"},
+        "lab_check": {
+            "anyOf": [
+                _obj(
+                    {
+                        "lab_ref": {
+                            "type": "string",
+                            "description": "The Observation id cited for this criterion.",
+                        },
+                        "operator": {"type": "string", "enum": ["<", "<=", ">", ">="]},
+                        "value": {"type": "number"},
+                        "unit": {"type": ["string", "null"]},
+                    }
+                ),
+                {"type": "null"},
+            ],
+            "description": (
+                "For a numeric lab threshold, the condition as written in the criterion "
+                "(e.g. eGFR >= 30 mL/min/1.73m2), in the record's unit; code recomputes "
+                "the status from the cited value. null for any other criterion."
+            ),
+        },
     }
 )
 

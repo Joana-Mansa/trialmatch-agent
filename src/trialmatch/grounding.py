@@ -6,18 +6,112 @@ never retrieved or that is not recruiting, ignoring a failed hard check, giving 
 verdict that contradicts its own criterion assessments, or calling a trial likely
 eligible when part of its criteria text was never seen.
 
+Two checks look at what a citation says, not only that it exists: a stated lab
+threshold is recomputed from the cited value, and a medication cited for a drug-class
+criterion must belong to that class (``drug_classes.py``).
+
 The agent runs these checks when the report is submitted and sends any problems back
 to the model to fix, then runs them again on the final report.
 """
 
 from __future__ import annotations
 
+import operator
 from collections.abc import Iterable, Mapping
 
-from .models import GroundingIssue, HardCheckResult, MatchReport, TrialEligibility, TrialMatch
-from .ports import PatientStore
+from .drug_classes import unsupported_medication_claim
+from .models import (
+    CriterionAssessment,
+    GroundingIssue,
+    HardCheckResult,
+    LabResult,
+    MatchReport,
+    TrialEligibility,
+    TrialMatch,
+)
+from .ports import PatientNotFound, PatientStore
 
 TRUNCATION_MARKER = "[truncated:"
+
+_OPS = {"<": operator.lt, "<=": operator.le, ">": operator.gt, ">=": operator.ge}
+
+
+def _norm_unit(unit: str | None) -> str:
+    return "".join((unit or "").lower().split())
+
+
+class _Record:
+    """The patient's medications and lab results by resource id, for semantic checks."""
+
+    def __init__(self, store: PatientStore, patient_id: str):
+        self.medications: dict[str, str] = {}
+        self.labs: dict[str, LabResult] = {}
+        try:
+            summary = store.summary(patient_id)
+            labs = store.labs(patient_id, "")
+        except PatientNotFound:
+            return
+        self.medications = {m.resource_id: m.display for m in summary.medications}
+        self.labs = {lab.resource_id: lab for lab in [*summary.latest_labs, *labs]}
+
+
+def _lab_check_issue(a: CriterionAssessment, nct: str, record: _Record) -> GroundingIssue | None:
+    """Recompute a stated lab threshold from the cited value, like the age check."""
+    chk = a.lab_check
+    if chk is None:
+        return None
+    where = f"criterion {a.criterion[:100]!r}"
+
+    def invalid(detail: str) -> GroundingIssue:
+        return GroundingIssue(kind="lab_check_invalid", nct_id=nct, detail=f"{where}: {detail}")
+
+    if chk.lab_ref not in a.evidence_refs:
+        return invalid(f"lab_check.lab_ref {chk.lab_ref!r} must also be in evidence_refs.")
+    lab = record.labs.get(chk.lab_ref)
+    if lab is None:
+        return invalid(f"lab_check.lab_ref {chk.lab_ref!r} is not a lab result in the record.")
+    if not isinstance(lab.value, (int, float)) or isinstance(lab.value, bool):
+        return invalid(f"{chk.lab_ref} has no numeric value; set lab_check to null.")
+    if lab.comparator:
+        return None  # e.g. "<5": the exact value is unknown, so code does not decide
+    if chk.unit and lab.unit and _norm_unit(chk.unit) != _norm_unit(lab.unit):
+        return invalid(f"threshold unit {chk.unit!r} differs from the record's unit "
+                       f"{lab.unit!r}; convert the threshold to {lab.unit!r}.")
+    if a.status == "unknown":
+        return None  # allowed, e.g. when the value is too old for the criterion
+    holds = _OPS[chk.operator](float(lab.value), chk.value)
+    expected = "met" if holds else "not_met"
+    if a.status == expected:
+        return None
+    unit = f" {lab.unit}" if lab.unit else ""
+    return GroundingIssue(
+        kind="lab_value_contradiction",
+        nct_id=nct,
+        detail=f"{where}: {lab.display} is {lab.value:g}{unit} ({chk.lab_ref}), and "
+        f"{lab.value:g} {chk.operator} {chk.value:g} is {holds}, so status must be "
+        f"{expected}, not {a.status}.",
+    )
+
+
+def _medication_issue(
+    a: CriterionAssessment, nct: str, record: _Record
+) -> GroundingIssue | None:
+    if a.status != "met":
+        return None
+    meds = [r for r in a.evidence_refs if r.startswith(("MedicationRequest/",
+                                                       "MedicationStatement/"))]
+    if not meds or any(r not in record.medications for r in meds):
+        return None
+    why = unsupported_medication_claim(a.criterion, [record.medications[r] for r in meds])
+    if why is None:
+        return None
+    return GroundingIssue(
+        kind="evidence_mismatch",
+        nct_id=nct,
+        detail=f"criterion {a.criterion[:100]!r} is marked met but {why}. Cite a "
+        "medication in that class, or change the status (unknown if the record does not "
+        "settle it).",
+    )
 
 
 def _verdict_issues(match: TrialMatch) -> list[GroundingIssue]:
@@ -70,6 +164,7 @@ def validate(
     seen = set(seen_nct_ids)
     elig = eligibility or {}
     issues: list[GroundingIssue] = []
+    record = _Record(store, report.patient_id)
 
     ids = [m.nct_id for m in report.matches]
     for nct in sorted({n for n in ids if ids.count(n) > 1}):
@@ -143,6 +238,12 @@ def validate(
                             f"(criterion: {assessment.criterion[:120]!r}).",
                         )
                     )
+
+        for assessment in match.assessments:
+            for found in (_lab_check_issue(assessment, nct, record),
+                          _medication_issue(assessment, nct, record)):
+                if found is not None:
+                    issues.append(found)
 
         hard = hard_results.get(nct)
         if hard is not None and not hard.passed and match.verdict != "likely_ineligible":

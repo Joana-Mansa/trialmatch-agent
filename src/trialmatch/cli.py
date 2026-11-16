@@ -223,11 +223,14 @@ def main(
     """Entry point. ``run_fn``, ``store`` and ``trials`` are test seams."""
     out = stdout or sys.stdout
     err = stderr or sys.stderr
-    for stream in (out, err):  # criteria text is often non-ASCII; never crash a cp1252 console
+    # Criteria text is often non-ASCII ("≤"). A real Windows console already prints it;
+    # a pipe or file defaults to cp1252 there, so write UTF-8 instead of "?".
+    for stream in (out, err):
         reconfigure: Any = getattr(stream, "reconfigure", None)
         if reconfigure is not None:
             try:
-                reconfigure(errors="replace")
+                isatty = stream.isatty()
+                reconfigure(errors="replace", **({} if isatty else {"encoding": "utf-8"}))
             except Exception:
                 pass
 

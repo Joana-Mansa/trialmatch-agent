@@ -228,7 +228,8 @@ def create_app(
 ) -> FastAPI:
     settings = settings or config.get_settings()
     config.configure_logging()
-    needs_credentials = run_fn is None  # the real agent; injected fakes need no key
+    # The real agent on Claude needs a key; injected fakes and local models do not.
+    needs_credentials = run_fn is None and settings.provider == "anthropic"
     run_fn = run_fn or default_run_fn
     lazy_store = _Lazy(store, lambda: config.make_store(settings))
     lazy_trials = _Lazy(trials, lambda: config.make_trials(settings))
@@ -267,7 +268,7 @@ def create_app(
                 patient_id,
                 store=lazy_store.get(),
                 trials=lazy_trials.get(),
-                model=settings.model,
+                **settings.run_kwargs(),
                 effort=effort,
                 max_turns=settings.max_turns,
                 country=country,

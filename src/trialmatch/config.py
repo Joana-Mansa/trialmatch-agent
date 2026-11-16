@@ -5,7 +5,11 @@ Variables (all optional):
 * ``TRIALMATCH_PATIENT_DIR``: directory of FHIR Bundle files (default: the repo's
   ``data/patients``, or ``./data/patients`` when the package is installed elsewhere).
 * ``TRIALMATCH_HTTP``: ClinicalTrials.gov client mode, ``live`` | ``record`` | ``replay``.
-* ``TRIALMATCH_MODEL``: Claude model id (default ``claude-opus-5-5``).
+* ``TRIALMATCH_PROVIDER``: ``anthropic`` (Claude, default) or ``ollama`` (local model).
+* ``TRIALMATCH_MODEL``: model id (default ``claude-opus-5-5`` for anthropic,
+  ``qwen3:8b`` for ollama).
+* ``TRIALMATCH_OLLAMA_URL``: Ollama server (default ``http://localhost:11434``).
+* ``TRIALMATCH_OLLAMA_NUM_CTX``: context window to request from Ollama (default 24576).
 * ``TRIALMATCH_EFFORT``: default effort, ``low`` | ``medium`` | ``high`` | ``xhigh`` | ``max``.
 * ``TRIALMATCH_MAX_TURNS``: agent turn cap per run (default 25).
 * ``TRIALMATCH_MAX_CONCURRENT_RUNS``: API worker threads (default 2).
@@ -31,7 +35,9 @@ from .patients import DEFAULT_DIRECTORY, FhirPatientStore
 from .trials import MODES, CtGovClient
 
 EFFORTS = ("low", "medium", "high", "xhigh", "max")
+PROVIDERS = ("anthropic", "ollama")
 DEFAULT_MODEL = "claude-opus-5-5"
+DEFAULT_MODELS = {"anthropic": DEFAULT_MODEL, "ollama": "qwen3:8b"}
 
 
 def _default_patient_dir() -> Path:
@@ -59,12 +65,24 @@ def _positive_int(env: Mapping[str, str], name: str, default: int) -> int:
 class Settings:
     patient_dir: Path
     http_mode: str = "live"
+    provider: str = "anthropic"
     model: str = DEFAULT_MODEL
+    ollama_url: str = "http://localhost:11434"
+    ollama_num_ctx: int = 24_576
     effort: str = "high"
     max_turns: int = 25
     max_concurrent_runs: int = 2
     max_queued_runs: int = 10
     api_token: str | None = field(default=None, repr=False)  # never printed
+
+    def run_kwargs(self) -> dict:
+        """Provider settings to pass to ``run_match``."""
+        return {
+            "provider": self.provider,
+            "model": self.model,
+            "ollama_url": self.ollama_url,
+            "ollama_num_ctx": self.ollama_num_ctx,
+        }
 
     @classmethod
     def from_env(cls, env: Mapping[str, str] | None = None) -> Settings:
@@ -76,10 +94,16 @@ class Settings:
         effort = (env.get("TRIALMATCH_EFFORT") or "high").strip().lower()
         if effort not in EFFORTS:
             raise ValueError(f"TRIALMATCH_EFFORT must be one of {EFFORTS}, got {effort!r}")
+        provider = (env.get("TRIALMATCH_PROVIDER") or "anthropic").strip().lower()
+        if provider not in PROVIDERS:
+            raise ValueError(f"TRIALMATCH_PROVIDER must be one of {PROVIDERS}, got {provider!r}")
         return cls(
             patient_dir=Path(patient_dir) if patient_dir else _default_patient_dir(),
             http_mode=http_mode,
-            model=(env.get("TRIALMATCH_MODEL") or DEFAULT_MODEL).strip(),
+            provider=provider,
+            model=(env.get("TRIALMATCH_MODEL") or DEFAULT_MODELS[provider]).strip(),
+            ollama_url=(env.get("TRIALMATCH_OLLAMA_URL") or "http://localhost:11434").strip(),
+            ollama_num_ctx=_positive_int(env, "TRIALMATCH_OLLAMA_NUM_CTX", 24_576),
             effort=effort,
             max_turns=_positive_int(env, "TRIALMATCH_MAX_TURNS", 25),
             max_concurrent_runs=_positive_int(env, "TRIALMATCH_MAX_CONCURRENT_RUNS", 2),

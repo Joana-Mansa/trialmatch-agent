@@ -98,8 +98,12 @@ NUDGE_MESSAGE = (
 )
 
 
-def first_user_message(patient_id: str, country: str | None = None) -> str:
+def first_user_message(
+    patient_id: str, country: str | None = None, trial_budget: int | None = None
+) -> str:
     lines = [f"Find recruiting clinical trials for patient {patient_id} and assess eligibility."]
     if country:
         lines.append(f"The coordinator's preferred country is {country}.")
+    if trial_budget:
+        lines.append(f"Fetch eligibility for at most {trial_budget} trials, then submit.")
     return "\n".join(lines)

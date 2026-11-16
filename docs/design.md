@@ -31,6 +31,8 @@ The agent only knows two protocols in `ports.py`:
 
 Nothing in the agent, tools, eval or API changes when either is replaced.
 
+The model is a third port. `llm.ChatModel` has four methods (start, next turn, add tool results, add user text), and each provider keeps its own history in its native format, so Claude's rule of appending every turn's full content unchanged lives inside `AnthropicChat` only. `OllamaChat` runs a local model for sites that cannot send records to an external API. The agent loop, the code checks and the eval are shared, which makes the comparison between a frontier model and a small local one fair: same tools, same prompt, same checks.
+
 ## 5. Record and replay for external APIs
 
 ClinicalTrials.gov changes daily and has rate limits. The client can record responses to JSON cassettes and replay them, so CI runs the whole suite offline and deterministically, and an eval run can be pinned to a snapshot.

@@ -60,6 +60,19 @@ trialmatch patients
 trialmatch match --patient p001 --country Netherlands
 ```
 
+### Run it locally with no API key (Ollama)
+
+The agent talks to models through a small provider interface (`src/trialmatch/llm.py`). Claude is the reference provider; a local open-weights model through [Ollama](https://ollama.com) also works, at no cost and with no data leaving the machine (the on-premises setup many hospitals require).
+
+```bash
+# install Ollama, then:
+ollama pull qwen3:8b                  # about 5 GB; qwen3:4b for smaller GPUs
+trialmatch match --patient p004 --provider ollama
+python -m trialmatch.eval --patients all --provider ollama --yes
+```
+
+Small local models are much weaker at long tool-use runs, so local runs assess at most 4 trials and are expected to trip the code checks more often. The same checks apply to every provider; that is the point of them.
+
 ### Service
 
 ```bash

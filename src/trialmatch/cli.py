@@ -132,8 +132,17 @@ def _cmd_match(
         print(f"Unknown patient id {args.patient!r}. Known ids: {known}", file=err)
         return EXIT_ERROR
 
+    if args.provider or args.model:
+        from dataclasses import replace
+
+        provider = args.provider or settings.provider
+        model = args.model or (
+            config.DEFAULT_MODELS[provider] if args.provider else settings.model
+        )
+        settings = replace(settings, provider=provider, model=model)
+
     if run_fn is None:
-        if not config.credentials_available():
+        if settings.provider == "anthropic" and not config.credentials_available():
             print(MISSING_KEY_MESSAGE, file=err)
             return EXIT_ERROR
         from .agent import run_match
@@ -144,7 +153,7 @@ def _cmd_match(
         args.patient,
         store=store,
         trials=trials if trials is not None else config.make_trials(settings),
-        model=settings.model,
+        **settings.run_kwargs(),
         effort=args.effort or settings.effort,
         max_turns=settings.max_turns,
         country=args.country,
@@ -188,6 +197,11 @@ def build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Model effort (default: TRIALMATCH_EFFORT or high).",
     )
+    m.add_argument(
+        "--provider", choices=list(config.PROVIDERS), default=None,
+        help="Model provider: anthropic (Claude, default) or ollama (local model).",
+    )
+    m.add_argument("--model", default=None, help="Model id, e.g. claude-opus-5-5 or qwen3:8b.")
     m.add_argument("--json", action="store_true", help="Print the MatchResult as JSON.")
     m.add_argument("--out", default=None, help="Also write the MatchResult JSON to this file.")
 

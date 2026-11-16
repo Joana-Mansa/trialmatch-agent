@@ -299,7 +299,10 @@ def usage_cost(usage: Usage, model: str, pricing: Mapping[str, Any] = PRICING) -
     """Dollar cost of a run's usage; None when the model has no price entry.
 
     ``input_tokens`` from the API excludes cached tokens, so the four buckets add up.
+    Local models (``ollama:...``) have no API cost.
     """
+    if model.startswith("ollama:"):
+        return 0.0
     p = pricing["per_mtok"].get(model)
     if p is None:
         return None
@@ -613,7 +616,6 @@ def _out_dir(base: Path) -> Path:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    from .agent import DEFAULT_MODEL
 
     ap = argparse.ArgumentParser(
         prog="python -m trialmatch.eval",
@@ -623,7 +625,11 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--http", choices=["live", "record", "replay"], default=None,
                     help="ClinicalTrials.gov mode (default: TRIALMATCH_HTTP or live).")
     ap.add_argument("--effort", default="high")
-    ap.add_argument("--model", default=DEFAULT_MODEL)
+    ap.add_argument("--provider", choices=["anthropic", "ollama"], default="anthropic")
+    ap.add_argument("--model", default=None,
+                    help="Model id (default claude-opus-5-5, or qwen3:8b for ollama).")
+    ap.add_argument("--ollama-url", default="http://localhost:11434")
+    ap.add_argument("--ollama-num-ctx", type=int, default=24_576)
     ap.add_argument("--max-turns", type=int, default=25)
     ap.add_argument("--concurrency", type=int, default=1)
     ap.add_argument("--out", default=str(DEFAULT_OUT))
@@ -646,6 +652,9 @@ def main(
     from .agent import run_match
 
     args = build_parser().parse_args(argv)
+    if args.model is None:
+        args.model = "claude-opus-5-5" if args.provider == "anthropic" else "qwen3:8b"
+    paid = args.provider == "anthropic"
 
     if store is None:
         from .patients import FhirPatientStore
@@ -669,8 +678,9 @@ def main(
 
     http_mode = args.http or getattr(trials, "mode", None) or "injected"
     print(f"About to run {len(patient_ids)} patient(s) with model {args.model} "
-          f"(effort {args.effort}, trials http mode {http_mode}). Each run makes paid "
-          f"Anthropic API calls.")
+          f"(provider {args.provider}, effort {args.effort}, trials http mode {http_mode}). "
+          + ("Each run makes paid Anthropic API calls." if paid
+             else "Runs use a local model: no API cost, but they can be slow."))
     if not args.yes:
         try:
             answer = input_fn("Continue? [y/N] ")
@@ -681,15 +691,17 @@ def main(
             return 1
 
     try:
-        if client is None:
+        if client is None and paid:
             import anthropic
 
             client = anthropic.Anthropic()
 
         def run(pid: str) -> MatchResult:
-            return run_match(pid, store=store, trials=trials, client=client, model=args.model,
+            return run_match(pid, store=store, trials=trials, client=client,
+                             provider=args.provider, model=args.model,
                              effort=args.effort, max_turns=args.max_turns,
-                             fallback=not args.no_fallback)
+                             fallback=not args.no_fallback, ollama_url=args.ollama_url,
+                             ollama_num_ctx=args.ollama_num_ctx)
 
         started = datetime.now(timezone.utc)
         if args.concurrency > 1:

@@ -403,6 +403,41 @@ def test_main_end_to_end(tmp_path, store, trials, capsys):
     assert chr(0x2014) not in md
 
 
+def test_resume_keeps_finished_runs_and_reruns_errors(tmp_path, store, trials, capsys):
+    rc = ev.main(["--patients", "p004", "--yes", "--out", str(tmp_path)],
+                 store=store, trials=trials, client=FakeAnthropic(_p004_script()))
+    assert rc == 0
+    (run_dir,) = list(tmp_path.iterdir())
+
+    # A finished run is kept: resuming makes no model calls and rescores it.
+    idle = FakeAnthropic([])
+    rc = ev.main(["--patients", "p004", "--yes", "--resume", str(run_dir)],
+                 store=store, trials=trials, client=idle)
+    assert rc == 0 and idle.calls == []
+    assert "Keeping 1 finished run(s)" in capsys.readouterr().out
+    data = json.loads((run_dir / "results.json").read_text(encoding="utf-8"))
+    assert data["overall"]["health"]["completed"] == 1
+
+    # An errored run is run again and overwritten.
+    errored = MatchResult(status="error", error="killed",
+                          trace=RunTrace(run_id="x", patient_id="p004", model="m"))
+    (run_dir / "runs" / "p004.json").write_text(errored.model_dump_json(), encoding="utf-8")
+    again = FakeAnthropic(_p004_script())
+    rc = ev.main(["--patients", "p004", "--yes", "--resume", str(run_dir)],
+                 store=store, trials=trials, client=again)
+    assert rc == 0 and again.beta.messages.remaining == 0
+    saved = MatchResult.model_validate_json(
+        (run_dir / "runs" / "p004.json").read_text(encoding="utf-8"))
+    assert saved.status == "completed"
+    assert len(list(tmp_path.iterdir())) == 1  # no new folder
+
+
+def test_resume_needs_a_runs_folder(tmp_path, store, trials):
+    rc = ev.main(["--patients", "p004", "--yes", "--resume", str(tmp_path / "nope")],
+                 store=store, trials=trials, client=FakeAnthropic([]))
+    assert rc == 2
+
+
 def test_main_aborts_without_confirmation(tmp_path, store, trials):
     client = FakeAnthropic([])
     rc = ev.main(["--patients", "p004", "--out", str(tmp_path)], store=store, trials=trials,

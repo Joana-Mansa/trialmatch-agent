@@ -636,6 +636,9 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--max-turns", type=int, default=25)
     ap.add_argument("--concurrency", type=int, default=1)
     ap.add_argument("--out", default=str(DEFAULT_OUT))
+    ap.add_argument("--resume", default=None, metavar="DIR",
+                    help="Continue an earlier results folder: keep its finished runs, "
+                    "run only the missing (or errored) patients, then score them all.")
     ap.add_argument("--expectations", default=str(DEFAULT_EXPECTATIONS))
     ap.add_argument("--gold", default=str(DEFAULT_GOLD))
     ap.add_argument("--no-fallback", action="store_true", help="Disable server-side fallback.")
@@ -679,8 +682,25 @@ def main(
             print(f"Unknown patient ids: {', '.join(unknown)}", file=sys.stderr)
             return 2
 
+    # Each run is saved as soon as it finishes, so a crash or a killed process loses
+    # at most the patient in progress; --resume picks up from there.
+    done: dict[str, MatchResult] = {}
+    out: Path | None = None
+    if args.resume:
+        out = Path(args.resume)
+        if not (out / "runs").is_dir():
+            print(f"No runs folder in {out}", file=sys.stderr)
+            return 2
+        for path in sorted((out / "runs").glob("*.json")):
+            prior = MatchResult.model_validate_json(path.read_text(encoding="utf-8"))
+            if prior.status != "error" and prior.trace.patient_id in patient_ids:
+                done[prior.trace.patient_id] = prior
+    todo = [p for p in patient_ids if p not in done]
+    if done:
+        print(f"Keeping {len(done)} finished run(s) from {out}: {', '.join(done)}")
+
     http_mode = args.http or getattr(trials, "mode", None) or "injected"
-    print(f"About to run {len(patient_ids)} patient(s) with model {args.model} "
+    print(f"About to run {len(todo)} patient(s) with model {args.model} "
           f"(provider {args.provider}, effort {args.effort}, trials http mode {http_mode}). "
           + ("Each run makes paid Anthropic API calls." if paid
              else "Runs use a local model: no API cost, but they can be slow."))
@@ -692,6 +712,9 @@ def main(
         if answer.strip().lower() not in ("y", "yes"):
             print("Aborted.")
             return 1
+    if out is None:
+        out = _out_dir(Path(args.out))
+    print(f"Saving runs to {out}", flush=True)
 
     try:
         if client is None and paid:
@@ -708,15 +731,24 @@ def main(
                              ollama_think=args.ollama_think,
                              ollama_timeout=args.ollama_timeout)
 
+        def run_and_save(pid: str) -> MatchResult:
+            result = _run_one(pid, run, args.model)
+            (out / "runs" / f"{pid}.json").write_text(result.model_dump_json(indent=2),
+                                                      encoding="utf-8")
+            print(f"  {pid}: {result.status} ({result.trace.wall_seconds:.0f}s), saved",
+                  flush=True)
+            return result
+
         started = datetime.now(timezone.utc)
         if args.concurrency > 1:
             with ThreadPoolExecutor(max_workers=args.concurrency) as pool:
-                results = list(pool.map(lambda p: _run_one(p, run, args.model), patient_ids))
+                fresh = dict(zip(todo, pool.map(run_and_save, todo), strict=True))
         else:
-            results = []
-            for pid in patient_ids:
+            fresh = {}
+            for pid in todo:
                 print(f"  running {pid} ...", flush=True)
-                results.append(_run_one(pid, run, args.model))
+                fresh[pid] = run_and_save(pid)
+        results = [done.get(p) or fresh[p] for p in patient_ids]
 
         expectations = load_expectations(args.expectations)
         gold = load_gold(args.gold)
@@ -725,14 +757,10 @@ def main(
         if owned_trials is not None:
             owned_trials.close()
 
-    out = _out_dir(Path(args.out))
     meta = {"started_utc": started.strftime("%Y-%m-%d %H:%M:%S"), "model": args.model,
             "effort": args.effort, "http": http_mode, "patients": ", ".join(patient_ids),
             "output": str(out)}
     summary["meta"] = meta
-    for r in results:
-        (out / "runs" / f"{r.trace.patient_id}.json").write_text(
-            r.model_dump_json(indent=2), encoding="utf-8")
     (out / "results.json").write_text(json.dumps(summary, indent=2, default=str),
                                       encoding="utf-8")
     md = render_markdown(summary, meta)

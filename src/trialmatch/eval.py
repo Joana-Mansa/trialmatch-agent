@@ -629,7 +629,10 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--model", default=None,
                     help="Model id (default claude-opus-5-5, or qwen3:8b for ollama).")
     ap.add_argument("--ollama-url", default="http://localhost:11434")
-    ap.add_argument("--ollama-num-ctx", type=int, default=24_576)
+    ap.add_argument("--ollama-num-ctx", type=int, default=16_384)
+    ap.add_argument("--ollama-think", action="store_true",
+                    help="Turn on reasoning for local models (slower).")
+    ap.add_argument("--ollama-timeout", type=float, default=1_800.0)
     ap.add_argument("--max-turns", type=int, default=25)
     ap.add_argument("--concurrency", type=int, default=1)
     ap.add_argument("--out", default=str(DEFAULT_OUT))
@@ -701,7 +704,9 @@ def main(
                              provider=args.provider, model=args.model,
                              effort=args.effort, max_turns=args.max_turns,
                              fallback=not args.no_fallback, ollama_url=args.ollama_url,
-                             ollama_num_ctx=args.ollama_num_ctx)
+                             ollama_num_ctx=args.ollama_num_ctx,
+                             ollama_think=args.ollama_think,
+                             ollama_timeout=args.ollama_timeout)
 
         started = datetime.now(timezone.utc)
         if args.concurrency > 1:

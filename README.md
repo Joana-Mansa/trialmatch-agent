@@ -114,7 +114,18 @@ python -m trialmatch.eval --patients all --http live --effort high
 
 Metrics: run health, hard-constraint violations (target 0), citation validity (target 100%), criterion coverage, planted-disqualifier recall, and cost, latency and tool calls per patient. Results go to `evals/results/<timestamp>/`.
 
-**Results:** pending the first live run.
+**Results:** the full Claude eval is pending the first funded live run.
+
+**First local-model run** (`qwen3:4b` through Ollama, patient p004, live ClinicalTrials.gov, 4 trials, about 27 minutes on a laptop GPU). Saved in [`examples/p004-qwen3-4b.json`](examples/p004-qwen3-4b.json).
+
+| Trial | Model verdict | Correct? |
+|---|---|---|
+| NCT06193525 (talazoparib) | likely ineligible | Yes: caught the planted pregnancy, cited `Observation/p004-obs-4` |
+| NCT05982678 (HER2-positive basket) | likely ineligible | Yes: cited the HER2-negative result |
+| NCT05208762 (triple-negative only) | likely ineligible | Yes, but cited no evidence |
+| NCT07213791 (HR+ HER2- cohort) | possibly eligible | No: marked "prior CDK4/6 inhibitor" as met, citing tamoxifen, which is not one |
+
+The last row passed every code check, because the cited record entry exists. It is the limitation listed below (a citation can exist without supporting the claim) showing up in practice, and the comparison a Claude run is meant to test.
 
 ## Limitations
 

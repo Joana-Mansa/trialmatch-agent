@@ -225,7 +225,8 @@ class AnthropicChat:
 
 OLLAMA_DEFAULT_MODEL = "qwen3:8b"
 OLLAMA_DEFAULT_URL = "http://localhost:11434"
-OLLAMA_DEFAULT_NUM_CTX = 24_576  # Ollama's own default (a few thousand) is far too small
+OLLAMA_DEFAULT_NUM_CTX = 16_384  # Ollama's own default (a few thousand) is far too small
+OLLAMA_DEFAULT_TIMEOUT = 1_800.0  # seconds per turn; partly-CPU models are slow
 
 
 def _ollama_tool(tool: dict[str, Any]) -> dict[str, Any]:
@@ -254,7 +255,8 @@ class OllamaChat:
         base_url: str = OLLAMA_DEFAULT_URL,
         num_ctx: int = OLLAMA_DEFAULT_NUM_CTX,
         num_predict: int = 8_192,
-        timeout: float = 600.0,
+        timeout: float = OLLAMA_DEFAULT_TIMEOUT,
+        think: bool = False,
         http: httpx.Client | None = None,
     ) -> None:
         self.name = f"ollama:{model}"
@@ -262,6 +264,8 @@ class OllamaChat:
         self.base_url = base_url.rstrip("/")
         self.num_ctx = num_ctx
         self.num_predict = num_predict
+        self.think = think  # reasoning models (e.g. qwen3): off is several times faster
+        self.timeout = timeout
         self.http = http or httpx.Client(timeout=timeout)
         self.messages: list[dict[str, Any]] = []
         self._tools: list[dict[str, Any]] = []
@@ -279,10 +283,17 @@ class OllamaChat:
             "messages": self.messages,
             "tools": self._tools,
             "stream": False,
+            "think": self.think,
             "options": {"num_ctx": self.num_ctx, "num_predict": self.num_predict},
         }
         try:
             resp = self.http.post(f"{self.base_url}/api/chat", json=body)
+        except httpx.TimeoutException as e:
+            raise ModelError(
+                f"Ollama did not answer within {self.timeout:.0f}s. The model is probably "
+                "too slow on this machine (check `ollama ps`: a model partly on CPU is very "
+                "slow). Try a smaller model or num_ctx, or raise the timeout."
+            ) from e
         except httpx.HTTPError as e:
             raise ModelError(
                 f"Could not reach Ollama at {self.base_url} ({type(e).__name__}). Is it "
@@ -359,6 +370,8 @@ def make_chat_model(
     client: Any | None = None,
     ollama_url: str = OLLAMA_DEFAULT_URL,
     ollama_num_ctx: int = OLLAMA_DEFAULT_NUM_CTX,
+    ollama_think: bool = False,
+    ollama_timeout: float = OLLAMA_DEFAULT_TIMEOUT,
 ) -> ChatModel:
     if provider == "anthropic":
         return AnthropicChat(
@@ -366,6 +379,7 @@ def make_chat_model(
         )
     if provider == "ollama":
         return OllamaChat(
-            model=model or OLLAMA_DEFAULT_MODEL, base_url=ollama_url, num_ctx=ollama_num_ctx
+            model=model or OLLAMA_DEFAULT_MODEL, base_url=ollama_url, num_ctx=ollama_num_ctx,
+            think=ollama_think, timeout=ollama_timeout,
         )
     raise ValueError(f"Unknown provider {provider!r}; use 'anthropic' or 'ollama'.")

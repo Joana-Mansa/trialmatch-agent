@@ -9,7 +9,10 @@ Variables (all optional):
 * ``TRIALMATCH_MODEL``: model id (default ``claude-opus-5-5`` for anthropic,
   ``qwen3:8b`` for ollama).
 * ``TRIALMATCH_OLLAMA_URL``: Ollama server (default ``http://localhost:11434``).
-* ``TRIALMATCH_OLLAMA_NUM_CTX``: context window to request from Ollama (default 24576).
+* ``TRIALMATCH_OLLAMA_NUM_CTX``: context window to request from Ollama (default 16384).
+* ``TRIALMATCH_OLLAMA_THINK``: ``1`` turns on reasoning for models that support it
+  (better answers, several times slower; default off).
+* ``TRIALMATCH_OLLAMA_TIMEOUT``: seconds to wait for one local model turn (default 1800).
 * ``TRIALMATCH_EFFORT``: default effort, ``low`` | ``medium`` | ``high`` | ``xhigh`` | ``max``.
 * ``TRIALMATCH_MAX_TURNS``: agent turn cap per run (default 25).
 * ``TRIALMATCH_MAX_CONCURRENT_RUNS``: API worker threads (default 2).
@@ -68,7 +71,9 @@ class Settings:
     provider: str = "anthropic"
     model: str = DEFAULT_MODEL
     ollama_url: str = "http://localhost:11434"
-    ollama_num_ctx: int = 24_576
+    ollama_num_ctx: int = 16_384
+    ollama_think: bool = False
+    ollama_timeout: int = 1_800
     effort: str = "high"
     max_turns: int = 25
     max_concurrent_runs: int = 2
@@ -82,6 +87,8 @@ class Settings:
             "model": self.model,
             "ollama_url": self.ollama_url,
             "ollama_num_ctx": self.ollama_num_ctx,
+            "ollama_think": self.ollama_think,
+            "ollama_timeout": float(self.ollama_timeout),
         }
 
     @classmethod
@@ -103,7 +110,10 @@ class Settings:
             provider=provider,
             model=(env.get("TRIALMATCH_MODEL") or DEFAULT_MODELS[provider]).strip(),
             ollama_url=(env.get("TRIALMATCH_OLLAMA_URL") or "http://localhost:11434").strip(),
-            ollama_num_ctx=_positive_int(env, "TRIALMATCH_OLLAMA_NUM_CTX", 24_576),
+            ollama_num_ctx=_positive_int(env, "TRIALMATCH_OLLAMA_NUM_CTX", 16_384),
+            ollama_think=(env.get("TRIALMATCH_OLLAMA_THINK") or "").strip().lower()
+            in ("1", "true", "yes", "on"),
+            ollama_timeout=_positive_int(env, "TRIALMATCH_OLLAMA_TIMEOUT", 1_800),
             effort=effort,
             max_turns=_positive_int(env, "TRIALMATCH_MAX_TURNS", 25),
             max_concurrent_runs=_positive_int(env, "TRIALMATCH_MAX_CONCURRENT_RUNS", 2),

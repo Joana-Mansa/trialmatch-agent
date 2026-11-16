@@ -78,6 +78,7 @@ def test_happy_path_through_ollama(fake_store, fake_trials):
 
     first = server.bodies[0]
     assert first["model"] == "qwen3:8b" and first["stream"] is False
+    assert first["think"] is False  # reasoning off by default for speed
     assert first["options"]["num_ctx"] >= 16_384  # Ollama's default is far too small
     assert first["messages"][0]["role"] == "system"
     assert f"at most {LOCAL_TRIAL_BUDGET} trials" in first["messages"][1]["content"]
@@ -175,3 +176,20 @@ def test_settings_provider_defaults():
 def test_local_runs_cost_nothing():
     usage = Usage(input_tokens=50_000, output_tokens=9_000)
     assert ev.usage_cost(usage, "ollama:qwen3:8b") == 0.0
+
+
+def test_timeout_message_is_not_a_connection_error(fake_store, fake_trials):
+    server = FakeOllama([httpx.ReadTimeout("slow")])
+    result = run_match("test-001", store=fake_store, trials=fake_trials,
+                       llm=server.chat(timeout=5), provider="ollama")
+    assert result.status == "error"
+    assert "did not answer within 5s" in result.error and "ollama serve" not in result.error
+
+
+def test_think_and_timeout_settings():
+    s = config.Settings.from_env({"TRIALMATCH_PROVIDER": "ollama",
+                                  "TRIALMATCH_OLLAMA_THINK": "1",
+                                  "TRIALMATCH_OLLAMA_TIMEOUT": "60"})
+    kw = s.run_kwargs()
+    assert kw["ollama_think"] is True and kw["ollama_timeout"] == 60.0
+    assert kw["ollama_num_ctx"] == 16_384

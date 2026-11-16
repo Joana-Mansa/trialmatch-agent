@@ -16,6 +16,7 @@ from .llm import (
     ANTHROPIC_DEFAULT_MODEL,
     FALLBACK_BETA,
     OLLAMA_DEFAULT_NUM_CTX,
+    OLLAMA_DEFAULT_TIMEOUT,
     OLLAMA_DEFAULT_URL,
     ChatModel,
     ModelError,
@@ -65,6 +66,8 @@ def run_match(
     trial_budget: int | None = None,
     ollama_url: str = OLLAMA_DEFAULT_URL,
     ollama_num_ctx: int = OLLAMA_DEFAULT_NUM_CTX,
+    ollama_think: bool = False,
+    ollama_timeout: float = OLLAMA_DEFAULT_TIMEOUT,
 ) -> MatchResult:
     started = time.perf_counter()
     if provider == "ollama" and model and model.startswith("claude"):
@@ -95,6 +98,7 @@ def run_match(
             llm = make_chat_model(
                 provider, model=model, effort=effort, fallback=fallback, client=client,
                 ollama_url=ollama_url, ollama_num_ctx=ollama_num_ctx,
+                ollama_think=ollama_think, ollama_timeout=ollama_timeout,
             )
         except ValueError as e:
             return finish("error", error=str(e))

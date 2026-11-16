@@ -1,0 +1,562 @@
+{
+  "resourceType": "Bundle",
+  "id": "bundle-p007",
+  "meta": {
+    "tag": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "code": "HTEST",
+        "display": "test health data"
+      },
+      {
+        "system": "urn:trialmatch:tags",
+        "code": "synthetic",
+        "display": "Synthetic record, not a real person"
+      }
+    ]
+  },
+  "type": "collection",
+  "timestamp": "2026-11-01T00:00:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:trialmatch:p007:Patient/p007",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p007",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:trialmatch:synthetic-mrn",
+            "value": "SYN-P007"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Jansen846",
+            "given": [
+              "Lotte109"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2008-11-20",
+        "address": [
+          {
+            "city": "Eindhoven",
+            "country": "Netherlands"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p007:Condition/p007-cond-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "p007-cond-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Moderate persistent asthma",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "195967001",
+              "display": "Asthma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p007"
+        },
+        "onsetDateTime": "2015-06-02",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p007:MedicationRequest/p007-med-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "p007-med-1",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Budesonide 0.2 MG/ACTUAT Dry Powder Inhaler",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "19831",
+              "display": "budesonide"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p007"
+        },
+        "authoredOn": "2019-09-10",
+        "dosageInstruction": [
+          {
+            "text": "2 inhalations twice daily"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/p007-cond-1"
+          }
+        ],
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p007:MedicationRequest/p007-med-2",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "p007-med-2",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Albuterol 0.1 MG/ACTUAT Metered Dose Inhaler",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "435",
+              "display": "albuterol"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p007"
+        },
+        "authoredOn": "2015-06-02",
+        "dosageInstruction": [
+          {
+            "text": "2 puffs as needed"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/p007-cond-1"
+          }
+        ],
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p007:MedicationRequest/p007-med-3",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "p007-med-3",
+        "status": "completed",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Prednisone 5 MG Oral Tablet",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "8640",
+              "display": "prednisone"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p007"
+        },
+        "authoredOn": "2026-02-14",
+        "dosageInstruction": [
+          {
+            "text": "40 mg daily for 5 days (exacerbation)"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/p007-cond-1"
+          }
+        ],
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p007:Procedure/p007-proc-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "p007-proc-1",
+        "status": "completed",
+        "code": {
+          "text": "Spirometry",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "127783003",
+              "display": "Spirometry"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p007"
+        },
+        "performedDateTime": "2026-06-18",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p007:Observation/p007-obs-1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p007-obs-1",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "exam"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "19926-5",
+              "display": "FEV1/FVC"
+            }
+          ],
+          "text": "FEV1/FVC"
+        },
+        "subject": {
+          "reference": "Patient/p007"
+        },
+        "effectiveDateTime": "2026-06-18",
+        "issued": "2026-06-18",
+        "valueQuantity": {
+          "value": 74,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p007:Observation/p007-obs-2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p007-obs-2",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "exam"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "FEV1 % predicted"
+        },
+        "subject": {
+          "reference": "Patient/p007"
+        },
+        "effectiveDateTime": "2026-06-18",
+        "issued": "2026-06-18",
+        "valueQuantity": {
+          "value": 71,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p007:Observation/p007-obs-3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p007-obs-3",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "Patient/p007"
+        },
+        "effectiveDateTime": "2026-06-18",
+        "issued": "2026-06-18",
+        "valueQuantity": {
+          "value": 0.71,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p007:Observation/p007-obs-4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p007-obs-4",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase (ALT)"
+        },
+        "subject": {
+          "reference": "Patient/p007"
+        },
+        "effectiveDateTime": "2026-06-18",
+        "issued": "2026-06-18",
+        "valueQuantity": {
+          "value": 14,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p007:Observation/p007-obs-5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p007-obs-5",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "subject": {
+          "reference": "Patient/p007"
+        },
+        "effectiveDateTime": "2026-06-18",
+        "issued": "2026-06-18",
+        "valueQuantity": {
+          "value": 13.4,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

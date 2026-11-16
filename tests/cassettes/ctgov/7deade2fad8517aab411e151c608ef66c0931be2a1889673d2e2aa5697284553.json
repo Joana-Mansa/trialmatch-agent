@@ -1,0 +1,49 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06084117"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Known chronic obstructive pulmonary disease\n* Acute hypercapnic exacerbation of this condition, defined as: PaCO2\\>45 mmHg or \\>6.0 kPa and pH 7.20-7.35\n* Age \\>40 years\n\nExclusion Criteria:\n\n* Asthma\n* Immediate need for intubation, based on clinical judgement of the attending physician.\n* Impossibility to apply either one of the two interventions\n* Patient not expected to give immediate or delayed informed consent (e.g. known cognitive impairment, dementia, active serious psychiatric disease, mental retardation).\n* Established home-NIV or home CPAP, known indication for home-NIV or CPAP (e.g. OSAS or obesitas hypoventilation syndrome).\n* Impeding death\n* Concurrent (respiratory) diseases that may influence treatment efficacy: acute heart infarction, cardiogenic lung edema, massive pulmonary embolism (intermediate-high risk or more). NB; pulmonary infections (viral and bacterial) are a common cause of exacerbation and are no reason for exclusion.\n* Other acute diseases that preclude participation in the trial such as hemodynamic instability (need for vasopressors), reduced consciousness with need for intubation, severe intoxication\n* Tracheostomized patients\n* Participation in other interventional trials\n* Impossibility to admit the patient to the participating ICU or monitored ward (e.g. medium care / high dependency unit, depending on local infrastructure).\n* Previous explicit (or written) objection to participation in research - bicarbonate \\<20 mmol/L",
+          "healthyVolunteers": false,
+          "minimumAge": "40 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "High Flow Nasal Oxygen for Exacerbation COPD",
+          "nctId": "NCT06084117"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

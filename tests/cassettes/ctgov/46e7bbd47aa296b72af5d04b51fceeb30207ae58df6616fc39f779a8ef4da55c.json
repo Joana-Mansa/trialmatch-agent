@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07062523"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18-80 years;\n* Fulfillment of the 2016 ACR-EULAR Classification Criteria for pSS at enrollment. OR diagnosis of a solid tumor scheduled for FAPI PET imaging\n\nExclusion Criteria:\n\n* Combined with tumors or other connective tissue diseases (for SS group);\n* Patients who are currently using hormones/biological agents (for both groups)；\n* Pregnancy or lactation",
+          "healthyVolunteers": true,
+          "maximumAge": "80 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Analyse of Inflammatory Activity of Sjögren's Syndrome on 68Ga-FAPI PET-CT",
+          "nctId": "NCT07062523"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

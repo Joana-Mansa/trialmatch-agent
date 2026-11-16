@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07077304"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "France"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years\n2. Ability to provide informed non-opposition\n3. Referred for a CMR and/or nuclear imaging exam\n\nAND a suspicion of one of the following ICARDs :\n\n1. Suspected Myocarditis (acute or chronic, and whatever the aetiologies)\n2. Suspected Myocardial Infarction with Non-Obstructive Coronary Arteries (MINOCA)\n3. Suspected Tako-Tsubo\n4. Suspected Pericarditis (acute or chronic, and whatever the aetiologies)\n5. Suspected Connective tissue disease with cardiovascular involvement:\n\n   * Systemic sclerosis\n   * Systemic lupus erythematosus\n   * Antiphospholipid syndrome\n   * Idiopathic inflammatory myopathies\n   * Rheumatoid arthritis, spondylarthritis\n6. Suspected Vasculitis with cardiovascular involvement:\n\n   * Small-vessel vasculitis (ANCA…)\n   * Large vessel vasculitis (Behcet disease, Takayasu…)\n7. Suspected Inflammatory disease with cardiovascular involvement:\n\n   * Sarcoidosis\n   * Still disease\n\nExclusion Criteria:\n\n1. Inability to provide non-opposition\n2. History of heart transplant",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "all patients with a suspicion of cardiovascular involvement due to a suspected or previously diagnosed ICARD referred for a CMR and/or nuclear imaging exam."
+        },
+        "identificationModule": {
+          "briefTitle": "EACVI Study on Multimodality Cardiovascular Imaging of Inflammatory Cardiovascular Diseases",
+          "nctId": "NCT07077304"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

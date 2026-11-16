@@ -1,0 +1,44 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07590193"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria for Part A and B\n\n* Participant must be 18-65 years of age\n* Participant must be overtly healthy\n\nInclusion Criteria for Part C\n\n* Participant must be 40-75 years of age\n* Confirmed diagnoses of T2DM\n\nExclusion Criteria for Part A and B\n\n* History of hypotension, syncope, or orthostatic intolerance\n* Systolic blood pressure \\>140 millimeters of mercury (mmHg) or diastolic blood pressure \\>90 mmHg\n\nExclusion Criteria for Part C\n\n* Hemoglobin A1c (HbA1c) \\>10% within the last 3 months\n* History of hypotension, syncope, or orthostatic intolerance\n* Systolic blood pressure \\>160 mmHg or diastolic blood pressure \\>100 mmHg",
+          "healthyVolunteers": true,
+          "maximumAge": "75 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "A Trial Evaluating AMG 127 in Healthy Participants and Participants With Type 2 Diabetes Mellitus",
+          "nctId": "NCT07590193"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,3463 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07064473"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Bulgaria"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "Colombia"
+            },
+            {
+              "country": "Colombia"
+            },
+            {
+              "country": "Colombia"
+            },
+            {
+              "country": "Colombia"
+            },
+            {
+              "country": "Colombia"
+            },
+            {
+              "country": "Colombia"
+            },
+            {
+              "country": "Colombia"
+            },
+            {
+              "country": "Colombia"
+            },
+            {
+              "country": "Colombia"
+            },
+            {
+              "country": "Croatia"
+            },
+            {
+              "country": "Croatia"
+            },
+            {
+              "country": "Croatia"
+            },
+            {
+              "country": "Croatia"
+            },
+            {
+              "country": "Croatia"
+            },
+            {
+              "country": "Croatia"
+            },
+            {
+              "country": "Croatia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Finland"
+            },
+            {
+              "country": "Finland"
+            },
+            {
+              "country": "Finland"
+            },
+            {
+              "country": "Finland"
+            },
+            {
+              "country": "Finland"
+            },
+            {
+              "country": "Finland"
+            },
+            {
+              "country": "Finland"
+            },
+            {
+              "country": "Finland"
+            },
+            {
+              "country": "Finland"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "Ireland"
+            },
+            {
+              "country": "Ireland"
+            },
+            {
+              "country": "Ireland"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Latvia"
+            },
+            {
+              "country": "Latvia"
+            },
+            {
+              "country": "Latvia"
+            },
+            {
+              "country": "Latvia"
+            },
+            {
+              "country": "Latvia"
+            },
+            {
+              "country": "Latvia"
+            },
+            {
+              "country": "Latvia"
+            },
+            {
+              "country": "Latvia"
+            },
+            {
+              "country": "Lithuania"
+            },
+            {
+              "country": "Lithuania"
+            },
+            {
+              "country": "Lithuania"
+            },
+            {
+              "country": "Lithuania"
+            },
+            {
+              "country": "Lithuania"
+            },
+            {
+              "country": "Lithuania"
+            },
+            {
+              "country": "Lithuania"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "New Zealand"
+            },
+            {
+              "country": "New Zealand"
+            },
+            {
+              "country": "New Zealand"
+            },
+            {
+              "country": "New Zealand"
+            },
+            {
+              "country": "New Zealand"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Philippines"
+            },
+            {
+              "country": "Philippines"
+            },
+            {
+              "country": "Philippines"
+            },
+            {
+              "country": "Philippines"
+            },
+            {
+              "country": "Philippines"
+            },
+            {
+              "country": "Philippines"
+            },
+            {
+              "country": "Philippines"
+            },
+            {
+              "country": "Philippines"
+            },
+            {
+              "country": "Philippines"
+            },
+            {
+              "country": "Philippines"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Saudi Arabia"
+            },
+            {
+              "country": "Saudi Arabia"
+            },
+            {
+              "country": "Saudi Arabia"
+            },
+            {
+              "country": "Saudi Arabia"
+            },
+            {
+              "country": "Saudi Arabia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Singapore"
+            },
+            {
+              "country": "Singapore"
+            },
+            {
+              "country": "Singapore"
+            },
+            {
+              "country": "Singapore"
+            },
+            {
+              "country": "Singapore"
+            },
+            {
+              "country": "Slovakia"
+            },
+            {
+              "country": "Slovakia"
+            },
+            {
+              "country": "Slovakia"
+            },
+            {
+              "country": "Slovakia"
+            },
+            {
+              "country": "Slovakia"
+            },
+            {
+              "country": "Slovakia"
+            },
+            {
+              "country": "Slovakia"
+            },
+            {
+              "country": "Slovakia"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Africa"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Switzerland"
+            },
+            {
+              "country": "Switzerland"
+            },
+            {
+              "country": "Switzerland"
+            },
+            {
+              "country": "Switzerland"
+            },
+            {
+              "country": "Switzerland"
+            },
+            {
+              "country": "Switzerland"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "Vietnam"
+            },
+            {
+              "country": "Vietnam"
+            },
+            {
+              "country": "Vietnam"
+            },
+            {
+              "country": "Vietnam"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria :\n\n* At least 18 years old at time of consent\n* Signed and dated written informed consent in accordance with ICH-GCP and local legislation prior to admission to the trial\n* Women of childbearing potential (WOCBP) must be ready and able to use highly effective methods of birth control per ICH M3 (R2).\n* Participants with medical history of hypertension and on active pharmacological treatment\n* Participants with medical history of type 2 diabetes mellitus (T2DM) and on active pharmacological treatment\n* Established cardiovascular (CV) disease and on active pharmacological treatment\n* At least one additional risk factor for developing heart failure (HF)\n\nExclusion Criteria:\n\n* History of HF or hospitalization for HF or treatment of HF\n* Atrial fibrillation or Atrial flutter with a resting heart rate \\>110 beats per minute (bpm) documented by echocardiogram (ECG) at Visit 1 (screening)\n* Advanced untreated conduction disease or untreated clinically relevant ventricular arrhythmia at Visit 1 (screening)\n* Treatment with an Mineralocorticoid receptor antagonist (MRA)\n* Treatment with amiloride or other potassium-sparing diuretic\n* Receiving the following treatments at Visit 1 (screening) or requiring such treatment before Visit 2 (randomisation), or planned during the trial:\n\n  * A direct renin inhibitor (e.g. aliskiren)\n  * More than one Angiotensin-converting enzyme inhibitor (ACEi) and/or Angiotensin receptor blocker (ARB) (including Angiotensin receptor-neprilysin inhibitor (ARNi)) used simultaneously\n  * Other aldosterone synthase inhibitors (e.g. baxdrostat)\n  * Systemic mineralocorticoid replacement therapy (e.g. fludrocortisone) Further exclusion criteria apply.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+          "nctId": "NCT07064473"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

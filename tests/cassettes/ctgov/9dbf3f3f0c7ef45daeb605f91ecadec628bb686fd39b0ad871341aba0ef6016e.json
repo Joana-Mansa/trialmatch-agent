@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07207954"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Georgia"
+            },
+            {
+              "country": "Moldova"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            },
+            {
+              "country": "Ukraine"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria for Healthy Participants:\n\n* Age 18-55\n* BMI - 18-32\n* Participants must be deemed by the Investigator to be generally healthy individuals based on a medical evaluation that includes a physical examination, medical history, vital signs, and the results from clinical labs and other safety assessments collected during the Screening period.\n\nExclusion Criteria for Healthy Participants:\n\n* Participants with any current or previous illness that, in the opinion of the investigator, might confound the results of the study or pose an additional, unacceptable risk to the participant or that could prevent, limit, or confound the protocol specified assessments or study results' interpretation.\n* Recent serious or ongoing infection\n* Known/suspected primary immunodeficiency\n* Receipt of injected or systemic glucocorticoids within 6 weeks prior to screening\n* Use of prohibited medications\n* Any of the following lab abnormalities:\n\n  * White blood cell (WBC) count \\<3.0 x 109/L\n  * Absolute neutrophil count (ANC) \\<2.0 x 109/L\n  * Hemoglobin (Hgb) \\<12.5 g/dL for males and \\<11.5 g/dL for females\n  * Platelet count \\<140 x 109/L\n  * Alanine transaminase (ALT) ≥1.2x upper limit of normal (ULN)\n  * Total bilirubin ≥1.2x ULN (except if Gilbert's disease is suspected etiology)\n  * Estimated glomerular filtration rate (eGFR) \\<80 mL/min/1.73m2 based on Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI 2021) formula.\n  * International normalized ratio (INR) ≥1.2 × ULN\n  * Glycated hemoglobin (HbA1c) \\>6%\n  * Positive urine cotinine test (Day -1 only), alcohol breath test or urine drug screen for substances of abuse. Positive tetrahydrocannabinol (THC) is not exclusionary.\n  * A Screening thyroid stimulating hormone (TSH) level that is \\<0.9 × lower limit normal (LLN) or ≥1.2 × ULN\n  * Cortisol level \\<1.0 × LLN (Collected in the AM at the Baseline Visit)\n\nInclusion Criteria for RA Participants:\n\n* Adults of age 18 to 75 years, inclusive, at the time of signing the ICF.\n* BMI within the range of 18.0- to 35.0 kg/m² (inclusive).\n* Has RA for ≥6 months.\n* Positive rheumatoid factor (RF) or anti-citrullinated protein antibody (ACPA) test at Screening (low or high positive acceptable).\n* A high-sensitivity C-reactive protein (hsCRP) level at Screening must be \\>ULN.\n* Has active RA disease defined as follows:\n\n  * Disease Activity Score of 28 joints-CRP (DAS28-CRP) \\>3.2 at Screening and Baseline\n  * Has ≥4 swollen and ≥4 tender joints on a 28-joint count at Screening and Baseline\n* On MTX orally or subcutaneously for at least 12 weeks prior to Screening. Dose of MTX (including route of administration) must have been stable at 15 to 25 mg weekly (or 10 to15mg in case of documented intolerance) for ≥ 12weeks at Randomization with plans to continue it at the same dose and route of administration for the duration of the study.\n\nExclusion Criteria for RA Participants:\n\n* Clinical evidence of significant unstable or uncontrolled acute or chronic diseases (e.g., cardiac \\[including congestive heart failure, angina, or history of myocardial infarction\\], pulmonary \\[including chronic obstructive pulmonary disease, asthma requiring systemic GC therapy, pulmonary hypertension, or pulmonary fibrosis\\], hematologic, gastrointestinal, hepatic, renal, neurological, psychiatric, dermatologic, musculoskeletal, or infectious diseases) that, in the opinion of the Investigator or Sponsor, constitutes an inappropriate risk or contraindication for participation in study or that could interfere with study objectives, conduct, or evaluation\n* Any other autoimmune or autoinflammatory disorder, which in the opinion of Investigator/Sponsor would constitute an inappropriate risk or a contraindication for participation in the study or that could interfere with the study objectives, conduct, or evaluation.\n* Recent serious or ongoing infection, or risk for serious infection, or acute or chronic infection\n* Known seropositivity for or active infection by HIV or strongyloides (if at risk of exposure (e.g., travel from/reside in endemic area))\n* Active or latent TB infection, as suggested by a positive chest radiograph OR positive/indeterminate QFT-TB Gold Plus or T-SPOT within the 12 weeks prior to Screening or a positive Screening CXR or QFT test. Indeterminate screening QFT tests are also exclusionary but may be repeated once and will be considered positive if retest results are positive or indeterminate/borderline.\n* Clinically significant abnormalities on ECG per the Investigator or Sponsor or any of the following mean ECG parameters on screening/baseline (triplicate) ECG:\n\n  * HR \\<40 or \\>100 beats per minute\n  * QTcF (Fridericia corrected QT) interval \\>450 ms (males) or \\>470 ms (females)\n  * QRS interval \\>120 ms\n  * PR interval \\>220 ms\n* Use or anticipated use of medications for the timeframes specified below:\n\n  * Unstable use of any herbal medicines (e.g., St. John's wort) and supplements within 4 weeks prior to Screening through Baseline or anticipated changes in use during study.\n  * Systemic or local (e.g., topical, oral, ophthalmic) corticosteroid (CS) use within 6 weeks prior to randomization or anticipated use during the study (other than as study intervention).\n  * Any intra-articular injection within 4 weeks prior to Screening through Baseline or anticipated use during the study.\n  * Use of cyclophosphamide, chlorambucil, leflunomide for \\<6 months or cyclosporine, mycophenolic acid, azathioprine, tacrolimus, or gold \\<8 weeks prior to Screening through Baseline or anticipated use during the study.\n  * Receipt of rituximab or any other cell depleting biologic therapy within 1 year of Screening through Baseline or anticipated use during the study.\n  * Use of any other commercial injectable biologic (including those for other non- arthritic conditions such as asthma, osteoporosis, lipids, atopic dermatitis) within 12 weeks or 5 half-lives (whichever is longer) prior to Screening through Baseline, or anticipated use during the study.\n  * Use of any other oral DMARD, including JAK-inhibitors, within 12 weeks prior to Screening through Baseline or anticipated used during the study. MTX or HCQ use is permitted as specified in the Inclusion Criteria\n  * Use of \\>1 systemic biologic therapy for the treatment of RA prior to Screening or Baseline. For those participants that have used no more than one systemic biologic therapy, the systemic biologic therapy must have been discontinued at least 12 weeks or 5 half-lives (whichever is longer) prior to Screening with no use through Baseline or anticipated use during the study.\n  * Receiving or has received any investigational drug (or is currently using an investigational device) within 30 days or 5 half-lives (whichever is longer), prior to Screening.\n  * Unstable use of topical or systemic nonsteroidal anti-inflammatory drugs (NSAIDs) OR use above the maximum allowed doses OR use of more than 1 systemic NSAID (other than prophylactic aspirin ≤325mg daily) in the 2 weeks prior to Screening through Baseline or anticipated use during the study.\n* The presence at Screening of any laboratory values of concern in the opinion of the Investigator or Sponsor or of any of the below based on central laboratory testing at Screening:\n\n  * WBC count \\<3.0 × 10⁹/L\n  * ANC \\<2.0 × 10⁹/L\n  * Hgb \\<10 g/dL\n  * Platelet count \\<100 × 10⁹/L\n  * ALT \\>2 × ULN\n  * Total bilirubin ≥1.5 × ULN (unless Gilbert's disease is suspected)\n  * eGFR \\<45 mL/min/1.73m² estimated based on CKD-EPI 2021 formula\n  * International normalized ratio \\>1.2 × ULN\n  * HbA1c \\>8%\n  * AM cortisol level at Baseline Visit \\<0.9 × LLN\n  * Positive alcohol breath test or urine drug screen for substances of abuse. Positive THC or positivity for other substances due to ongoing use of these drugs under physician supervision (e.g., prescription narcotics for known pain disorder) are not exclusionary.\n  * A Screening TSH level that is \\<0.9 × LLN or \\> 1.1 × ULN.",
+          "healthyVolunteers": true,
+          "maximumAge": "75 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Study of LFD-200 in Healthy Adults and Adults With Moderate to Severe Rheumatoid Arthritis",
+          "nctId": "NCT07207954"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

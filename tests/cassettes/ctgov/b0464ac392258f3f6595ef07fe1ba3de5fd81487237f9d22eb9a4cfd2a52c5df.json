@@ -1,0 +1,347 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,Phase,Condition,OverallStatus,LocationCountry",
+      "filter.overallStatus": "RECRUITING",
+      "pageSize": "10",
+      "query.cond": "type 2 diabetes",
+      "query.locn": "United States"
+    },
+    "path": "/api/v2/studies"
+  },
+  "response": {
+    "json": {
+      "nextPageToken": "ZVNj7o2Elu8o3lpyWc35o-32mpOQJJxuZPij3vYW",
+      "studies": [
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Type 2 Diabetes (T2DM)",
+                "Geriatric Syndromes",
+                "Disability Hearing",
+                "Disability Physical",
+                "Urinary Tract Infection(UTI)",
+                "Delirium Confusional State"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Using Virtual Reality to Improve Medical Training",
+              "nctId": "NCT07542834"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Type 2 Diabetes",
+                "Hyperglycemia"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Enhancing Preventative Health Behaviors Among Emergency Department Hyperglycemic Patients",
+              "nctId": "NCT06663813"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Lactose Intolerance",
+                "Lactose Intolerant",
+                "Lactase Persistence",
+                "Pre-Diabetes",
+                "Diabetes Mellitus, Type 2"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Milk for Diabetes Prevention",
+              "nctId": "NCT06513026"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Prediabetes / Type 2 Diabetes"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Whey Protein Ingestion and Glucose Control in Pre- and Post Diabetic Individuals",
+              "nctId": "NCT06694155"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Obesity",
+                "Liver Diseases",
+                "Liver Fibrosis",
+                "Liver Fat",
+                "Metabolic Dysfunction-Associated Steatotic Liver Disease",
+                "Metabolic Dysfunction-Associated Steatohepatitis",
+                "MASLD",
+                "MASH",
+                "Weight Loss",
+                "Insulin Resistance",
+                "Insulin Sensitivity",
+                "Insulin Sensitivity/Resistance",
+                "Metabolic Disease",
+                "Diabetes",
+                "Diabetes Mellitus, Type 2",
+                "NASH With Fibrosis",
+                "Non-Alcoholic Fatty Liver Disease",
+                "Non Alcoholic Fatty Liver",
+                "Non-alcoholic Steatohepatitis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Effect of Endoscopic Sleeve Gastroplasty in Patients With Obesity and MASH: A Randomized Controlled Trial",
+              "nctId": "NCT06138821"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Diabetes Mellitus, Type 2",
+                "Diabetes Mellitus, Type 1",
+                "Gastroparesis With Diabetes Mellitus"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Continuous Glucose Metrics in Patients With Gastroparesis in Type 1 or Type 2 Diabetes",
+              "nctId": "NCT06046833"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "PreDiabetes",
+                "Diet, Healthy",
+                "Nutritional and Metabolic Diseases"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Whole Food for Families: A Pilot RCT of a Dietary Guidelines-Based Intervention to Prevent Type 2 Diabetes",
+              "nctId": "NCT06482944"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Type 2 Diabetes",
+                "Overweight and Obesity"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Role of Microvascular Insulin Resistance and Cardiorespiratory Fitness Diabetes",
+              "nctId": "NCT04791371"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Gestational Diabetes",
+                "Diabetes Mellitus, Type 2"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE2"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "DETERMINE: Detemir vs NPH",
+              "nctId": "NCT05124457"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Diabetes Mellitus, Type 2"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE1"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "A Trial Evaluating AMG 127 in Healthy Participants and Participants With Type 2 Diabetes Mellitus",
+              "nctId": "NCT07590193"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        }
+      ]
+    },
+    "status": 200
+  }
+}

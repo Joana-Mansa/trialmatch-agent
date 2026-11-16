@@ -1,0 +1,502 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,Phase,Condition,OverallStatus,LocationCountry",
+      "filter.overallStatus": "RECRUITING",
+      "pageSize": "10",
+      "query.cond": "COPD",
+      "query.locn": "Netherlands"
+    },
+    "path": "/api/v2/studies"
+  },
+  "response": {
+    "json": {
+      "nextPageToken": "ZVNj7o2Elu8o3lpyWc35o-32mpOQJJxuYfai2v0bkA",
+      "studies": [
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Emphysema, Pulmonary",
+                "Emphysema or COPD"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Austria"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "United Kingdom"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "An Evaluation of the AeriSeal System for CONVERTing Collateral Ventilation Status in Patients With Severe Emphysema",
+              "nctId": "NCT06035120"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Acute Exacerbation of COPD"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "High Flow Nasal Oxygen for Exacerbation COPD",
+              "nctId": "NCT06084117"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "COPD"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Netherlands"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "PEP-buddy in COPD: Effect on Dyspnea Severity and Mechanism of Action",
+              "nctId": "NCT05938738"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "COPD"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Bronchoscopic EmphysemA Treatment in THE NetherLands",
+              "nctId": "NCT02815683"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "COPD"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Ultrasound of the Diaphragm Excursion Ratio as Physiological Biomarker in Acute Exacerbations of Chronic Obstructive Pulmonary Disease",
+              "nctId": "NCT07259174"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "COPD"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Respiratory Muscles in End-stage Lung Disease: Pathophysiological Processes & Clinical Consequences",
+              "nctId": "NCT06935825"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "COPD"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Netherlands"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Change in Task-related Oxygen Uptake After EBV Treatment",
+              "nctId": "NCT06702072"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Emphysema or COPD",
+                "Emphysema",
+                "Emphysema, Pulmonary",
+                "COPD",
+                "COPD (Chronic Obstructive Pulmonary Disease)"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Austria"
+                },
+                {
+                  "country": "Austria"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Netherlands"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "The REDUCE EU Study - Endobronchial Thermal Liquid Ablation (ETLA) for the Treatment of Emphysema",
+              "nctId": "NCT06655428"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Copd",
+                "Emphysema"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Exploring Novel Biomarkers for Emphysema Detection",
+              "nctId": "NCT05825261"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Chronic Obstructive Pulmonary Disease Exacerbation"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Austria"
+                },
+                {
+                  "country": "Austria"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Slovenia"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Sweden"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "The CATALINA Study",
+              "nctId": "NCT05008081"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        }
+      ]
+    },
+    "status": 200
+  }
+}

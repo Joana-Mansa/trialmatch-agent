@@ -1,0 +1,159 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06472310"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            },
+            {
+              "country": "Russia"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years at the time of inclusion;\n2. Signed and dated written informed consent in accordance with ICH GCP and local law prior to inclusion in the study;\n3. Patients with diagnosis of uncontrolled SA (Asthma Control Questionnaire-5 (ACQ-5) score \\> 1,5) established no less than 52 weeks prior to inclusion; Severe asthma is defined as asthma, that is controlled due to treatment with ICS in medium or high doses plus LABA and/or ALP, and/or LAMA, and/or systemic corticosteroids (sCS), and/or immunobiological therapy, while attempts to reduce the volume of therapy lead to a loss of symptom control, or asthma remains uncontrolled despite this treatment. Such therapy should be carried out at least 3 months before inclusion.\n\n   Uncontrolled asthma is defined as ACQ-5\\>1.5.\n4. Patients with the availability of at least 52 weeks of follow-up data (prior to inclusion) in the medical records.\n\nExclusion Criteria:\n\n1. Patients receiving any biological therapy currently or within 52 weeks prior to inclusion;\n2. Presence of chronic obstructive pulmonary disease (COPD) or idiopathic pulmonary fibrosis (ILF) currently or in the anamnesis;\n3. The participation in any clinical study currently or within 52 weeks prior to inclusion;\n4. An acute or chronic disease that, as deemed by Investigator, limits the ability of patients to participate in this study or could influence the interpretation of the results.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "5 000 adult patients with confirmed diagnosis of uncontrolled SA who receive medical treatment (excluding biological therapy) and are monitored and treated by pulmonologists or allergologists in approximately 50 clinical centers in about 50 regions of Russia"
+        },
+        "identificationModule": {
+          "briefTitle": "Clinical and demOgRaphic Features of Patients With Uncontrolled Severe Asthma in Russia (CORSAR)",
+          "nctId": "NCT06472310"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

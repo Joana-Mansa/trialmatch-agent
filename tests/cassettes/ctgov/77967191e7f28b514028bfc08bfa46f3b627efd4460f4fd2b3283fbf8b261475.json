@@ -1,0 +1,44 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06563544"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years or older;\n* Provided written informed consent;\n* Undergoing controlled mechanical ventilation via an endotracheal tube;\n* Reason for intubation being exacerbation of asthma or COPD;\n* Intubated ≤72 hours\n\nExclusion Criteria:\n\n* Severe sputum stasis or production requiring frequent bronchial suctioning (more than 5 times per nurse shift)\n* Untreated pneumothorax (i.e. no pleural drainage)\n* Hemodynamic instability defined as a mean arterial pressure below 60mmHg not responding to fluids and/or vasopressors or a noradrenalin dose \\>0.5mcrg/kg/min\n* High (\\>15 mmHg) or instable (an increase in sedation or osmotherapy is required) intracranial pressure\n* An inner tube diameter of 6mm or less\n* Anticipating withdrawal of life support and/or shift to palliation as the goal of care\n* Inability to perform adequate electrical impedance tomography (EIT) measurements with, e.g.:\n\n  * Have a thorax circumference inappropriate for EIT-belt\n  * Thoracic wounds, bandages or deformities preventing adequate fit of EIT-belt\n  * Recent (\\<7 days) pulmonary surgery including pneumonectomy, lobectomy or lung transplantation\n  * ICD device present (potential interference with proper functioning of the EIT device and ICD device)\n  * Excessive subcutaneous emphysema\n* Contra-indications for nasogastric tube or inability to perform adequate transpulmonary pressure measurements with, e.g.:\n\n  * Recent esophageal surgery\n  * Prior esophagectomy\n  * Known presence of esophageal varices\n  * Severe bleeding disorders",
+          "healthyVolunteers": false,
+          "maximumAge": "100 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "FCV vs VCV in Obstructive and Asthmatic Patients",
+          "nctId": "NCT06563544"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT03577197"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosed with de novo or recurrent advanced breast cancer since 2007\n* Diagnosed with or treated for advanced breast cancer in one of the participating hospitals\n* Participating hospitals (period of inclusion): Maastricht UMC+ (2007-2025), Zuyderland hospitals Sittard/Heerlen (2007-2025), Amphia Hospital Breda (2013-2025), Catharina Hospital Eindhoven (2007-2025), Elkerliek Hospital Helmond (2010-2025), Maxima Medical Center Veldhoven/Eindhoven (2007-2025), Jeroen Bosch Hospital Den Bosch (2013-2025), Laurentius Hospital Roermond (2007-2025), St. Annaziekenhuis Geldrop (2007-2025), St. Elisabeth Hospital Tilburg (2007-2009), St. Jans Gasthuis Weert (2007-2025), VieCuri Medical Center Venlo/Venray (2013-2025), all in the Netherlands.\n* Hospitals (and periods) were eligible for inclusion if (distant) registration from Maastricht UMC+ was possible.\n* The inclusion period may be prolonged after 2025.\n\nExclusion Criteria: none",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "All consecutive patient diagnosed with advanced breast cancer since 2007 in 11 hospitals in the Netherlands. No patients are being excluded. Also patients with no systemic / active anti-tumour therapy for advanced breast cancer will be included. The SONABRE Registry includes 11 hospitals: 1 academic, 7 teaching and 3 general hospitals. The Netherlands counts 114 hospitals, including 8 academic, 25 teaching, 58 general and 23 categorical hospitals."
+        },
+        "identificationModule": {
+          "briefTitle": "Southeast Netherlands Advanced Metastatic Breast Cancer Registry",
+          "nctId": "NCT03577197"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

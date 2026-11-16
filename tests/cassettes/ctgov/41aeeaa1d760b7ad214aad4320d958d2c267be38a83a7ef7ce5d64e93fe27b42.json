@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06876064"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "France"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age between 18 and 80 years old\n* Group 1: Individuals with high risk of RA (ACPA ≥ 2N or ACPA ≥ N and rheumatoid factor ≥ 2N) and clinical signs of arthralgia (CSA criteria ≥ 4).\n* Group 2: High-risk individuals (ACPA ≥ 2N or ACPA ≥ N and rheumatoid factor ≥ 2N) without clinical arthralgia (CSA criteria \\< 4).\n* Group 3: First-degree relatives of RA patients (no symptoms, negative controls).\n* Group 4: Newly diagnosed untreated RA patients (ACPA ≥ 2N or ACPA ≥ N and rheumatoid factor ≥ 2N) (positive controls).\n\nExclusion Criteria:\n\n* Groupe1-2-3:\n\n  • Presence of clinical joint swelling (synovitis) at the time of inclusion and previously noted by a doctor\n* All groups:\n\n  * Taking current or past background treatment for RA, even for another indication\n  * Corticosteroid therapy ≥10 mg at baseline and in the previous week\n  * Presence of another connective tissue disease (Sjögren's, dermatomyositis, scleroderma, Sharp syndrome, etc.)\n  * Subject unable to read and/or write\n  * Inability to follow the patient during the study period\n  * Failure to obtain consent\n  * Non-affiliation to a social security scheme,\n  * Persons placed under legal protection, under curatorship or under guardianship\n  * Pregnant or breastfeeding women\n  * Person participating in another intervention research including an\n  * exclusion period still in progress",
+          "healthyVolunteers": true,
+          "maximumAge": "80 Years",
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "The patients will be recruted during consultation or hospitalization."
+        },
+        "identificationModule": {
+          "briefTitle": "National Cohort of Subjects at Risk of Developing Rheumatoid Arthritis",
+          "nctId": "NCT06876064"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

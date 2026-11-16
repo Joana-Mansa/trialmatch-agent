@@ -1,0 +1,21 @@
+# Local run:  docker compose up --build   then  http://localhost:8000/docs
+# The API key is read from your shell environment (or a local .env file, which is
+# git-ignored); it is never baked into the image.
+# The port is bound to localhost only. Set TRIALMATCH_API_TOKEN to require
+# "Authorization: Bearer <token>" on every endpoint except /healthz.
+services:
+  trialmatch:
+    build: .
+    image: trialmatch-agent
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      TRIALMATCH_HTTP: ${TRIALMATCH_HTTP:-live}
+      TRIALMATCH_MODEL: ${TRIALMATCH_MODEL:-claude-opus-5-5}
+      TRIALMATCH_EFFORT: ${TRIALMATCH_EFFORT:-high}
+      TRIALMATCH_MAX_TURNS: ${TRIALMATCH_MAX_TURNS:-25}
+      TRIALMATCH_MAX_CONCURRENT_RUNS: ${TRIALMATCH_MAX_CONCURRENT_RUNS:-2}
+      TRIALMATCH_MAX_QUEUED_RUNS: ${TRIALMATCH_MAX_QUEUED_RUNS:-10}
+      TRIALMATCH_API_TOKEN: ${TRIALMATCH_API_TOKEN:-}
+    restart: unless-stopped

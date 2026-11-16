@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06638567"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients aged 18 or older\n* Diagnosed with type 2 diabetes mellitus\n* Undergoing gastointestinal or vascular surgery\n* Admitted to one of the participating surgical wards\n* Expected duration of stay at least one overnight stay\n* Willing and able to provide informed consent\n\nExclusion Criteria:\n\n* Diagnosed with type 1 diabetes mellitus\n* Female of child-bearing potential who is pregnant or breastfeeding.\n* Undergoing complete pancreatectomy\n* Undergoing bariatric surgery\n* Patients using a continuous insulin pump at home\n* Patients undergoing a necrotectomy/wound debridement from a pre-existent wound.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Postoperative Basal Bolus or Sliding Scale Insulin Regimen in DM2 and Its Effect on Surgical Site Infections.",
+          "nctId": "NCT06638567"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07401732"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Egypt"
+            },
+            {
+              "country": "Egypt"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with Rheumatoid arthritis defined by the American College of Rheumatology/European League Against Rheumatism collaborative initiative (ACR/EULAR) 2010 classification criteria.\n* Patients aged above 18 years old, well-orientated, and cooperative.\n\nExclusion Criteria:\n\n* concomitant thyroid dysfunction.\n* concomitant hypovitaminosis D.\n* concomitant cancer diagnosis, pregnancy.\n* jaw-related traumas, teeth, and gum diseases.\n* other rheumatologic conditions\n* other comorbidities.\n* other causes of TMJ arthritis, patients with TMJ, palatal or tongue congenital abnormalities, and patients who underwent TMJ injections in the last six months.\n* Patients with any language disorders or intellectually handicapped (as certain questions depend on the patient's ability to comprehend and express their emotions regarding their issue) and patients with anatomical anomalies impeding the functionality of flexible nasofibroscopy.\n* Any apparent causes of dysphagia other than RA.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients with RA defined by the American College of Rheumatology/European League Against Rheumatism collaborative initiative (ACR/EULAR) 2010 classification criteria."
+        },
+        "identificationModule": {
+          "briefTitle": "Dysphagia in Rheumatoid Arthritis",
+          "nctId": "NCT07401732"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

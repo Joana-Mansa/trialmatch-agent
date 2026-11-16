@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05831566"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion criteria:\n\n* Confirmed asthma diagnoses (≥12% and \\>200 ml reversibility in FEV1 or positive histamine/methacholine provocation test or FeNO ≥50) according to the asthma guidelines\n* Diagnosed with severe, refractory asthma with eligibility for treatment with specific asthma biologics (omalizumab, mepolizumab, benralizumab, reslizumab, dupilumab) as determined at the regional asthma MDTM according to the asthma guidelines\n* Age ≥ 18 years.\n* Previous prescribed asthma biologics have to be ceased ≥ 4 times the half-life of that specific biologic.\n* The patient has be relatively stable. The onset of an asthma exacerbation and/or a respiratory infection has to be ≥ 4 weeks ago.\n\nExclusion criteria:\n\n* Primary COPD diagnosis.\n* History of cancer:\n\n  * Current basal cell carcinoma, localized squamous cell carcinoma of the skin or in situ carcinoma of the cervix. Patients are eligible to participate in the study provided that curative therapy was completed at least 12 months prior to the start of the study.\n  * Current other malignancies. Patients are eligible to participate in the study provided that curative therapy was completed at least 5 years prior to the start of the study.\n* Inability to sufficiently understand and read the Dutch language.\n* Being unable to engage in a remote monitoring and coaching program through the use of a smartphone.\n* Being unable to engage in physical activity (e.g. physical disability).\n* Current pregnancy.\n* Current breastfeeding.\n* A liaison with the coordinating or (principal) investigator, which could likely influence the decision to participate in this study voluntarily (in concordance with the WMO - article 5).",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Expertise Asthma COPD Program with Digital Support",
+          "nctId": "NCT05831566"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

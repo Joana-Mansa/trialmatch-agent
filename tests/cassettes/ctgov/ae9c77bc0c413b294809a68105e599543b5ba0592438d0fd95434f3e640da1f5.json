@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07150000"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Germany"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants aged ≥ 18 years\n* Signed written informed consent to participate voluntarily in the study.\n* Confirmed diagnosis (by the treating physician) of one of the following autoimmune or autoinflammatory rheumatic diseases:\n* Rheumatoid arthritis (RA)\n* Psoriatic arthritis (PsA)\n* Axial spondyloarthritis (axSpA)\n* Giant cell arteritis (GCA)\n* Connective tissue diseases, including:\n\n  1. Systemic lupus erythematosus (SLE)\n  2. Systemic sclerosis (SSc)\n  3. Mixed connective tissue disease (MCTD)\n  4. Idiopathic inflammatory myopathies (IIM)\n* ANCA-associated vasculitides (AAV), including:\n\n  1. Microscopic polyangiitis (MPA)\n  2. Granulomatosis with polyangiitis (GPA)\n  3. Eosinophilic granulomatosis with polyangiitis (EGPA)\n* Autoinflammatory diseases, including\n\n  1. Familial Mediterranean fever (FMF)\n  2. Cryopyrin-associated periodic syndromes (CAPS)\n  3. TNF receptor-associated periodic syndrome (TRAPS)\n  4. Adult-onset Still's disease (AOSD)\n\n     Exclusion Criteria:\n* Refusal to participate in the study or inability to provide informed consent.\n\nInclusion Criteria - Healthy Control Group:\n\n* Participants aged ≥ 18 years (capable of providing informed consent).\n* Signed written informed consent to participate voluntarily in the study.\n\nExclusion Criteria - Healthy Control Group:\n\n\\- Presence of a known or active rheumatologic disease.",
+          "healthyVolunteers": true,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Participants will be recruited from the outpatient rheumatology clinic at the University Hospital Bonn. The study population includes adult patients (≥ 18 years) with a confirmed diagnosis of an autoimmune or autoinflammatory rheumatic disease, including: rheumatoid arthritis (RA), psoriatic arthritis (PsA), axial spondyloarthritis (axSpA), giant cell arteritis (GCA), connective tissue diseases \\[systemic lupus erythematosus (SLE), systemic sclerosis (SSc), mixed connective tissue disease (MCTD), idiopathic inflammatory myopathies (IIM)\\], ANCA-associated vasculitides \\[microscopic polyangiitis (MPA), granulomatosis with polyangiitis (GPA), eosinophilic granulomatosis with polyangiitis (EGPA)\\], and autoinflammatory disorders.\n\nIn addition, age- and sex-matched healthy controls without known rheumatologic conditions will be included for comparative analysis. All participants must be able and willing to provide informed cons"
+        },
+        "identificationModule": {
+          "briefTitle": "Clinical Assessment for Rheumatologic Disease - Research and Advancement in Safety and Efficacy",
+          "nctId": "NCT07150000"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

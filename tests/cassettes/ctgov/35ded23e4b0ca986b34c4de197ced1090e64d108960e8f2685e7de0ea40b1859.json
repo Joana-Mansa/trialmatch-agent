@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07145138"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Must be at least 18 years of age and be admitted to or seen at a UIH site.\n* Subjects must be willing and able to give written, informed consent\n\nExclusion Criteria:\n\n* Adults who are unable to provide consent\n* Women who are pregnant at the baseline visit,\n* Prisoners\n* Individuals who are not yet adults (infants, children, teenagers).",
+          "healthyVolunteers": true,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Only nonpregnant and noninstitutionalized adults will be considered for study enrollment. Two separate groups of patients will be eligible for study enrollment, those without a history of DCM (i.e. controls) and those with an identified history of DCM (i.e. cases). Clinic lists, inpatient team lists, and echocardiography lab lists will be surveyed daily by study coordinators to identify potential enrollees. Subjects will be approached for potential enrollment during outpatient visits to either the Family Medicine clinics, Internal Medicine clinics, or one of the four outpatient Cardiology Clinic or during inpatient stay at University of Illinois Hospital. Patients will be categorized as having DCM based on clinically report history or a transthoracic echocardiography (TTE) or cardiac magnetic resonance imaging (CMRI) showing LVEF \\<50% and LV end-diastolic diameter (LVEDD) ≥95th percentile, meeting criteria for DCM."
+        },
+        "identificationModule": {
+          "briefTitle": "UIC Multi-Ethnic DCM Registry",
+          "nctId": "NCT07145138"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

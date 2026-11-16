@@ -1,0 +1,64 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06338696"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> 18 years.\n* All patients diagnosed with ATTR-CM (Transthyretin cardiomyopathy) who have either symptomatic or asymptomatic must have evidence of cardiac involvement by echocardiogram as defined by left ventricle wall thickness of ≥ 12 mm and with at least one of the following criteria:\n* Positive scintigraphy by 99mTC-DPD \\[99mTC-3,3-diphosphono-1,2-propano-dicarboxylic acid\\] or 99mTC-PYP \\[Pyrophosphate\\] or 99mTC-HMDP \\[hydroxymethylene diphosphate\\] with Perugini grade ≥ 2 and/or H/CL (heart to contralateral lung) ratio \\> 1.5\n* Positive scintigraphy by 99mTC-DPD \\[99mTC-3,3-diphosphono-1,2-propano-dicarboxylic acid\\] or 99mTC-PYP \\[Pyrophosphate\\] or 99mTC-HMDP \\[hydroxymethylene diphosphate\\] with Perugini grade 1 and positive cardiac biopsy tissue confirmed which Congo red stain ≥ 4 sites\n* Positive scintigraphy by 99mTC-DPD \\[99mTC-3,3-diphosphono-1,2-propano-dicarboxylic acid\\] or 99mTC-PYP \\[Pyrophosphate\\] or 99mTC-HMDP \\[hydroxymethylene diphosphate\\] with Perugini grade 1 with positive non-cardiac biopsy tissue confirmed by Congo red stain\n* Abnormalities on CMR (Cardiac MRI) \\[Subendocardium LGE (late gadolinium enhancement) and/or elevated native T1 value and/or increased extracellular volume (ECV \\> 0.4)\\] with positive non-cardiac and/or cardiac tissue biopsy confirmed by Congo red stain\n\nExclusion Criteria:\n\n* Diagnosed with amyloidosis caused by proteins other than transthyretin (light chain Amyloidosis, etc.)\n* Diagnosed with secondary amyloidosis",
+          "healthyVolunteers": true,
+          "maximumAge": "100 Years",
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "All patients diagnosed with ATTR-CM,Transthyretin cardiomyopathy, who have either symptomatic or asymptomatic."
+        },
+        "identificationModule": {
+          "briefTitle": "Thailand ATTR-CM Registry",
+          "nctId": "NCT06338696"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

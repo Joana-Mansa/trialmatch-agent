@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05061368"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Canada"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\nParticipants will have COPD as defined as:\n\n1. Post bronchodilator Forced Expiratory Volume in one second (FEV1) to Forced Vital Capacity (FVC) ratio (FEV1/FVC) below the lower limit of normal\n2. FEV1 \\>30% of predicted (lower limit of GOLD severe COPD classification)\n\nCOPD Free Controls will have:\n\n1. No diagnosis of COPD\n2. Post bronchodilator Forced Expiratory Volume in one second (FEV1) to Forced Vital Capacity (FVC) ratio (FEV1/FVC) above the lower limit of normal\n3. FEV1 \\>80% of predicted\n\nExclusion Criteria:\n\n1. Absolute contraindication to exercise testing or an orthopedic condition that may limit exercise testing.\n2. Pre-existing cardiac conditions (heart failure, congenital heart defect, valvular disease) that may limit exercise testing\n3. A diagnosis of pulmonary hypertension preceding COPD\n4. Current phosphodiesterase type-5 inhibitor, nitrate, opioid, azole antifungal, macrolide antibiotic, protease inhibitor, alpha blocker, riociguat, mifepristone or rifamycin use.\n5. Pregnancy or lactation.\n6. Women of childbearing potential must be willing to use an acceptable method of contraception to avoid pregnancy throughout the study. Acceptable methods of contraception include tubal ligation, oral contraceptive, barrier methods (intra-uterine device, diaphragm, female condom, male condom). Abstinence is an acceptable form of contraception, only insofar as patients agree to use another acceptable method of birth control, preferably a barrier method, if they become sexually active.\n7. Postmenopausal female participants must be amenorrheic for ≥12 months.",
+          "healthyVolunteers": true,
+          "maximumAge": "80 Years",
+          "minimumAge": "40 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Oral Sildenafil for Exercise Capacity, Dyspnea and Cardiopulmonary Function in COPD",
+          "nctId": "NCT05061368"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

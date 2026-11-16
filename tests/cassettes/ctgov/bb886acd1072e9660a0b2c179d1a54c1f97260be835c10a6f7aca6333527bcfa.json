@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07237685"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age over 18 years\n* Previous completion of CCTA scan for CAD assessment\n* Diagnosed with Type 2 Diabetes and currently receiving glucose lowering treatment\n* Sufficient image quality of the CCTA scan (at least 2/3 vessels of sufficient quality for assessment).\n\nExclusion Criteria:\n\n* Inability to provide written informed consent\n* Presence of an unstable condition\n* Ingeligibility for CCTA acquisition due to severe renal dysfunction (eGFR ≤ 30 mL/min/1.73m²) or known hypersensitivity or contraindication to CT contrast agents\n* Any other treatment or clinically relevant condition that could interfere with the conduct or interpretation of the study in the opinion of the investigator\n* inability or unwillingness to comply with the protocol requirements, or deemed by investigator to be unfit for the study\n* Baseline (routine care) CCTA performed \\< 2 years or \\> 5 years before inclusion",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "In this study, patients with T2D who previously undergone CCTA for CAD assessment will be recruited. Patients will be included at three clinical sites: Amsterdam UMC, Cardiology centre Netherlands (CCN), University hospital of Salamanca - Fundacion Instituto de Estudios de ciencias de la salud de castilla y leon (IBSAL)."
+        },
+        "identificationModule": {
+          "briefTitle": "Evaluating Atherosclerotic Disease Progression in Patients With Diabetes Mellitus",
+          "nctId": "NCT07237685"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

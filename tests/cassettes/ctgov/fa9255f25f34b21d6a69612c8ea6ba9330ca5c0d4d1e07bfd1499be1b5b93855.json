@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06750497"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion criteria\n\n* Males and females with or without diagnosed type 2 diabetes\n* Use lifestyle changes, metformin, gliclazide, or a combination thereof as oral glucose-lowering treatments for T2D\n* Aged 18-80 years at the time of signing informed consent\n* 18.5 ≥ BMI ≤ 35 kg·m2\n\nExclusion criteria\n\n* Type 1 or a genetic form of diabetes\n* Any diagnosed cardiovascular (heart) disease or high blood pressure (≥160 mmHg systolic and/or ≥100 mmHg diastolic)\n* Chronic use of any prescribed or over-the-counter pharmaceuticals (excluding oral contraceptives and contraceptive devices) that interact with muscle substrate metabolism (e.g. selective serotonin reuptake inhibitors)\n* Consumption of a low-carbohydrate diet\n* Smoking or chewing tobacco\n* Known anaemia\n* Regular use of dietary protein and/or amino acid supplements (\\>3 times per week)\n* Currently involved in a structured progressive resistance training program (\\>3 times per week)\n* A personal or family history of thrombosis (clots)\n* Any previous motor disorders or inborn errors in muscle and/or lipid metabolism\n* History of kidney disease\n* History of liver disease\n* Pregnant or breastfeeding\n* History of any drug or alcohol abuse in the past two years\n* Claustrophobia\n* Unable to give consent",
+          "healthyVolunteers": true,
+          "maximumAge": "80 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Forearm Immobilization in T2D",
+          "nctId": "NCT06750497"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

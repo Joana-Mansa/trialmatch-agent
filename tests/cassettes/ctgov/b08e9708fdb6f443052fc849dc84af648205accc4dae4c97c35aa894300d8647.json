@@ -1,0 +1,325 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06972446"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Puerto Rico"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Serbia"
+            },
+            {
+              "country": "Slovakia"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Taiwan"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* At any time prior to the Screening Visit, participant must have been treated for \\> or = 3 months with at least 1 b/tsDMARD therapy but continued to exhibit active RA, or had to discontinue due to intolerability or toxicity, irrespective of treatment duration. The maximum cap for prior use of b/tsDMARD is 2.\n* Participant must be on a stable dose of methotrexate (MTX)\n\nExclusion Criteria:\n\n* Participant is taking nonsteroidal anti-inflammatory drugs (NSAIDs), acetaminophen/paracetamol, low-potency opioids (tramadol, codeine, hydrocodone, alone or in combination with acetaminophen), oral corticosteroids (equivalent to ≤ 10 mg/day of prednisone), or inhaled corticosteroids for stable medical conditions unless they have been on stable doses for ≥ 1 week prior to Baseline Visit.\n* History of any arthritis with onset prior to age 17 years or current diagnosis of inflammatory joint disease other than rheumatoid arthritis.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "A Study to Evaluate Different Targeted Therapies for Patients With Rheumatoid Arthritis",
+          "nctId": "NCT06972446"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

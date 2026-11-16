@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT02815683"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient is scheduled for a bronchoscopic lung volume treatment using one-way valves.\n\nExclusion Criteria:\n\n* There are no exclusion criteria for this study.",
+          "healthyVolunteers": false,
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "The study population exists of patients with severe emphysema who undergo a bronchoscopic lung volume reduction treatment with one-way endobronchial valves."
+        },
+        "identificationModule": {
+          "briefTitle": "Bronchoscopic EmphysemA Treatment in THE NetherLands",
+          "nctId": "NCT02815683"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

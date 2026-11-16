@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT03983603"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosed with allergic asthma (GINA step 1-4) which is in a stable phase at the moment of inclusion (defined as no changes in asthma control and lung function in (at least) the past three months)\n* Have been treated with prescribed asthma medication for at least one year\n* Aged 18-70 years old\n* BMI between 20 and 35 kg/m2\n* Willing to abstain from products containing plant sterols or stanols one month prior to the study (products with a cholesterol lowering claim of Becel ProActiv, Benecol, Danacol, store brands)\n* Willing to abstain from products containing plant sterols or stanols during the study (products with a cholesterol lowering claim of Becel ProActiv, Benecol, Danacol, store brands)\n* Willing to keep the intake of fish oil supplements constant\n\nExclusion Criteria:\n\n* Currently smoking or quitted smoking in the past year, with a maximum of 10 packyears as smoking history (packyears = packs per day \\* years of smoking)\n* Allergy to an ingredient of the soft chews\n* Suffering from inflammatory diseases (for CVD, illness must be minimally 3 years ago and currently under control in order to participate in the study)\n* Fasting plasma glucose \\> 7.0 mmol/L\n* Fasting serum TC \\> 8.0 mmol/L\n* Having donated blood within one month prior to the start of the study, or planning to donate blood during the study\n* Pregnant women\n* Breastfeeding women",
+          "healthyVolunteers": false,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Plant Stanol Esters and Preventing Asthma Symptoms",
+          "nctId": "NCT03983603"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

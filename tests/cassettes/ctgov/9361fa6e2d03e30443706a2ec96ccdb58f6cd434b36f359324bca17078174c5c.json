@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07154355"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients aged 18 to 85 with abnormal pulmonary or cardiovascular function.\n2. Individuals who have completed a medical screening form to confirm they are free from illnesses and prescription medications that could impair their ability to complete the required testing and fitness training.\n3. Participants who did not engage in structured, systematic moderate-to-intense strength or endurance training during the study period (specifically, not within the previous year).\n4. At the onset of the trial, participants were physically active but had never participated in formal exercise more than twice a week.\n\nExclusion Criteria:\n\n1. Patients with neuromuscular or skeletal disorders, or systemic diseases such as diabetes, cancer, or heart disease.\n2. Individuals using medications known to affect health or the interpretation of study results.\n3. Participants who have engaged in organized, systematic endurance or strength training of moderate to high intensity within the past year.\n4. Patients who decline to participate in the study.\n5. Other medical conditions or states that render exercise training inappropriate.",
+          "healthyVolunteers": false,
+          "maximumAge": "85 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Community Exercise Treating Effect on Cardiopulmonary Disease Patients",
+          "nctId": "NCT07154355"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

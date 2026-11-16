@@ -1,0 +1,434 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,Phase,Condition,OverallStatus,LocationCountry",
+      "filter.overallStatus": "RECRUITING",
+      "pageSize": "10",
+      "query.cond": "rheumatoid arthritis"
+    },
+    "path": "/api/v2/studies"
+  },
+  "response": {
+    "json": {
+      "nextPageToken": "ZVNj7o2Elu8o3lpyWc35o-32mpOQJJxnYfGh3vg",
+      "studies": [
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Rheumatoid Arthritis (RA"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Egypt"
+                },
+                {
+                  "country": "Egypt"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Dysphagia in Rheumatoid Arthritis",
+              "nctId": "NCT07401732"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Rheumatoid Arthritis (RA)"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "France"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "National Cohort of Subjects at Risk of Developing Rheumatoid Arthritis",
+              "nctId": "NCT06876064"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Sjogren's Syndrome"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "China"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE1",
+                "PHASE2"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Analyse of Inflammatory Activity of Sjögren's Syndrome on 68Ga-FAPI PET-CT",
+              "nctId": "NCT07062523"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Arthritis, Rheumatoid"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "The Reboot Study: A Safety Study of Abdominal Vagus Nerve Stimulation for Moderate to Severe Drug Refractory Rheumatoid Arthritis",
+              "nctId": "NCT07017686"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Rheumatoid Arthritis",
+                "Major Adverse Cardiac Events"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Pakistan"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE4"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Major Adverse Cardiovascular Events (MACE) in Rheumatoid Arthritis Patient With Moderate to Severe Disease Activity Treated With Tofacitinib and Statins vs TNF Inhibitors: TOFSTAT CLINICAL TRIAL",
+              "nctId": "NCT07554820"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Active Rheumatoid Arthritis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Serbia"
+                },
+                {
+                  "country": "Serbia"
+                },
+                {
+                  "country": "Serbia"
+                },
+                {
+                  "country": "Serbia"
+                },
+                {
+                  "country": "South Africa"
+                },
+                {
+                  "country": "South Africa"
+                },
+                {
+                  "country": "South Africa"
+                },
+                {
+                  "country": "South Africa"
+                },
+                {
+                  "country": "South Africa"
+                },
+                {
+                  "country": "South Africa"
+                },
+                {
+                  "country": "South Africa"
+                },
+                {
+                  "country": "South Africa"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE2"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "A Study to Assess the Safety and Efficacy of Different Doses of ELV001 to Treat Active Rheumatoid Arthritis in Patients With an Inadequate Response to Methotrexate and Tumor Necrosis Factor Inhibition (START SYNERGY)",
+              "nctId": "NCT07409103"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Rheumatoid Arthritis (RA)"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "China"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "EARLY_PHASE1"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Clinical Study of (A-319) in the Treatment of Active Rheumatoid Arthritis",
+              "nctId": "NCT07347860"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Myocarditis",
+                "ANCA Associated Vasculitis",
+                "Pericarditis",
+                "Systemic Sclerosis",
+                "Systemic Lupus Erythematosus",
+                "Idiopathic Inflammatory Myopathies",
+                "Rheumatoid Arthritis",
+                "Spondylarthritis",
+                "Behcet Disease",
+                "Takayasu Arteritis",
+                "Sarcoidosis",
+                "Still Disease",
+                "Tako Tsubo Cardiomyopathy"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "France"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "EACVI Study on Multimodality Cardiovascular Imaging of Inflammatory Cardiovascular Diseases",
+              "nctId": "NCT07077304"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Osteo Arthritis Knee",
+                "Rheumatoid Arthritis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Japan"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "ROSA Knee Intraoperative Planning Flexibility Study",
+              "nctId": "NCT05966519"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Rheumatoid Arthritis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Georgia"
+                },
+                {
+                  "country": "Moldova"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Ukraine"
+                },
+                {
+                  "country": "Ukraine"
+                },
+                {
+                  "country": "Ukraine"
+                },
+                {
+                  "country": "Ukraine"
+                },
+                {
+                  "country": "Ukraine"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE1"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Study of LFD-200 in Healthy Adults and Adults With Moderate to Severe Rheumatoid Arthritis",
+              "nctId": "NCT07207954"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        }
+      ]
+    },
+    "status": 200
+  }
+}

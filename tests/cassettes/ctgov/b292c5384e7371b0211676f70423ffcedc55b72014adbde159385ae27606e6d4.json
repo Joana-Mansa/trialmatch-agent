@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06046833"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Over the age of 18 years.\n* Hemoglobin A1c ≤11% within the last 6 months.\n* Patients with diagnosis of type 1 Diabetes or type 2 Diabetes for at least one year.\n* Normal thyroid-stimulating hormone (TSH) within the last year.\n* No episodes of diabetic ketoacidosis (DKA), Hyperosmolar Hyperglycemic Status (HHS), or hypoglycemia in the past 2 weeks requiring ER visit or hospitalization.\n* Symptoms of gastroparesis have been present for at least the past 3 months, in patients with gastroparesis.\n* In patients with gastroparesis, documented delayed gastric emptying on scintigraphy and/or wireless motility capsule (Smart Pill) as defined by greater than 10% retention at 4 hours or greater than 4-hour gastric transit time (GTT) in the past five years.\n* Patients using a Smartphone (iPhone or Android) compatible with LibreView App.\n\nExclusion Criteria:\n\n* Hemoglobin A1c of \\>11% at enrollment.\n* Advanced chronic kidney disease (serum creatinine of \\>2 mg/dL or estimated glomerular filtration rate (eGFR) \\<30mL/min/1.73m² using Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) formula).\n* Advanced and significant cardiovascular disease or unstable angina.\n* Advanced liver disease that may affect glucose profiles.\n* Post-transplant patients.\n* History of gastric surgery.\n* Patients with symptoms secondary to celiac disease (e.g. diarrhea, nausea, vomiting, abdominal pain) at the time of the enrollment.\n* Pregnancy or women of reproductive age group not taking adequate precautions for pregnancy for 28 days.\n* Patients on steroids or immunomodulators or chemoradiation that might affect glucose profiles.\n* Patients on opiates or glucagon-like peptide-1 (GLP-1) agonists (Ozempic, Wegovy, Mounjaro, Trulicity). If previously taking these medications, patients can be enrolled after 2 weeks of the last dose.\n* Patient on recreational or illicit drugs (i.e., marijuana, opiates, cocaine, etc.).\n* Patients on motility medications such as Reglan (Metoclopramide), Motegrity (Prucalopride), Cisapride, Domperidone, Erythromycin. If previously taking any of these medications, patients can be enrolled after 1 week of the last dose.\n* Clinically significant abnormalities on upper GI endoscopy.\n* Presence of imaging evidence of gastric or intestinal obstruction.\n* Patient previously participated in the study.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Continuous Glucose Metrics in Patients With Gastroparesis in Type 1 or Type 2 Diabetes",
+          "nctId": "NCT06046833"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

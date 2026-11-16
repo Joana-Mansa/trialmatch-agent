@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06126692"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with severe asthma that requires High dose ICS (corresponding to minimum 1600 micrograms Budesonide per day) + either LABA, LTRA, or LAMA OR Fixed Prednisolone treatment (OCS) minimum 50% of the time. Minimum 2 exacerbations in the last year or fixed Prednisolone treatment (OCS) minimum 50% of the time OR ACQ\\>1.5 AND Fulfils national criteria for specific biologic treatment.\n* Patients with mild/moderate asthma that requires Low/Medium dose of ICS/LABA +/- LTRA. ACQ \\< 1.5. No exacerbations in the last year or need of Prednisolone treatment (OCS). Markers of T2 inflammation (B-eos ≥ 0.15 actual or ≥ 0.30 the last year or Sputum eos ≥ 3%, FeNO ≥ 25, allergens positivity). Not direct candidate for treatments with monoclonal antibodies.\n* Healthy volunteers that reports no respiratory diseases, No history of asthma or respiratory symptoms, normal lung function. No history of allergies. No lower or upper respiratory infections in the past 4 weeks.\n\nExclusion Criteria:\n\n* Patients with severe asthma:\n\n  1. Known hypersensitivity to the active substance or any of the excipients\n  2. Participation in an interventional clinical trial within 3 months of visit 1 or receipt of any investigational medicinal product within 3 months or 5 half-lives. Participation in other observational studies is acceptable if in the view of the investigator it will not impact on the study outcomes.\n  3. Other clinically significant medical disease or uncontrolled concomitant disease that is likely, in the opinion of the investigator, to require a change in therapy or impact the ability to participate in the study.\n* Patients with mild/moderate asthma:\n\n  1. Unable to understand written information due to language barriers.\n  2. Unable to give informed consent, i.e., patients who are incapable.\n  3. Show sign of symptoms of uncontrolled asthma (ACQ score higher than 1.5, OCS use, history of exacerbations within the past year).\n* Healthy volunteers:\n\n  1. Unable to understand written information due to language barriers.\n  2. Unable to give informed consent, i.e., patients who are incapable.",
+          "healthyVolunteers": true,
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "The study will constitute a real-life population of patients with severe asthma, who are eligible to receive biological treatment according to relevant national criteria. The study will include all age groups.\n\nFurthermore, the study will include two control groups, a group of mild/moderate asthmatics and a group of healthy volunteers. All controls will be age-, sex-, and smoking-history-matched with the group of patients with severe asthma. The rationale behind the control groups is to compare those patients who show the best response to Anti-IgE, Anti-IL5(R), Anti-IL4/IL13, anti-TSLP treatments with those who are not candidate for a biologic therapy, both mild/moderate asthmatics and healthy individuals. In this way, the study aims to explore whether there are biomarkers indicative of a better response to monoclonal antibodies."
+        },
+        "identificationModule": {
+          "briefTitle": "3TR Asthma Biologics Cohort (ABC) Study",
+          "nctId": "NCT06126692"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

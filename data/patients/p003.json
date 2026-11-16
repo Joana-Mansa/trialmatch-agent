@@ -1,0 +1,1029 @@
+{
+  "resourceType": "Bundle",
+  "id": "bundle-p003",
+  "meta": {
+    "tag": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "code": "HTEST",
+        "display": "test health data"
+      },
+      {
+        "system": "urn:trialmatch:tags",
+        "code": "synthetic",
+        "display": "Synthetic record, not a real person"
+      }
+    ]
+  },
+  "type": "collection",
+  "timestamp": "2026-11-01T00:00:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:trialmatch:p003:Patient/p003",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p003",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:trialmatch:synthetic-mrn",
+            "value": "SYN-P003"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Calloway602",
+            "given": [
+              "Denise318"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1979-08-22",
+        "address": [
+          {
+            "city": "Portland",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Condition/p003-cond-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "p003-cond-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "HER2-positive invasive ductal carcinoma of left breast",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "254837009",
+              "display": "Malignant neoplasm of breast"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "onsetDateTime": "2024-01-29",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Procedure/p003-proc-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "p003-proc-1",
+        "status": "completed",
+        "code": {
+          "text": "Core needle biopsy of left breast"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "performedDateTime": "2024-01-22",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-1",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "48676-1",
+              "display": "HER2 [Interpretation] in Tissue"
+            }
+          ],
+          "text": "HER2 status"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2024-01-26",
+        "issued": "2024-01-26",
+        "valueCodeableConcept": {
+          "text": "Positive"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-2",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "16112-5",
+              "display": "Estrogen receptor [Interpretation] in Tissue"
+            }
+          ],
+          "text": "Estrogen receptor status"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2024-01-26",
+        "issued": "2024-01-26",
+        "valueCodeableConcept": {
+          "text": "Negative"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-3",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "16113-3",
+              "display": "Progesterone receptor [Interpretation] in Tissue"
+            }
+          ],
+          "text": "Progesterone receptor status"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2024-01-26",
+        "issued": "2024-01-26",
+        "valueCodeableConcept": {
+          "text": "Negative"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:MedicationRequest/p003-med-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "p003-med-1",
+        "status": "completed",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Doxorubicin hydrochloride 2 MG/ML Injectable Solution",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "3639",
+              "display": "doxorubicin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "authoredOn": "2024-02-12",
+        "dosageInstruction": [
+          {
+            "text": "60 mg/m2 IV every 2 weeks for 4 cycles"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/p003-cond-1"
+          }
+        ],
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:MedicationRequest/p003-med-2",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "p003-med-2",
+        "status": "completed",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Cyclophosphamide 1000 MG Injection",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "3002",
+              "display": "cyclophosphamide"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "authoredOn": "2024-02-12",
+        "dosageInstruction": [
+          {
+            "text": "600 mg/m2 IV every 2 weeks for 4 cycles"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/p003-cond-1"
+          }
+        ],
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:MedicationRequest/p003-med-3",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "p003-med-3",
+        "status": "completed",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Paclitaxel 6 MG/ML Injectable Solution",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "56946",
+              "display": "paclitaxel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "authoredOn": "2024-04-08",
+        "dosageInstruction": [
+          {
+            "text": "80 mg/m2 IV weekly for 12 weeks"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/p003-cond-1"
+          }
+        ],
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:MedicationRequest/p003-med-4",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "p003-med-4",
+        "status": "completed",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Trastuzumab Injection",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "224905",
+              "display": "trastuzumab"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "authoredOn": "2024-04-08",
+        "dosageInstruction": [
+          {
+            "text": "IV every 3 weeks to complete 1 year"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/p003-cond-1"
+          }
+        ],
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Procedure/p003-proc-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "p003-proc-2",
+        "status": "completed",
+        "code": {
+          "text": "Chemotherapy (AC regimen: doxorubicin and cyclophosphamide)",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "367336001",
+              "display": "Chemotherapy"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "performedPeriod": {
+          "start": "2024-02-12",
+          "end": "2024-03-25"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Procedure/p003-proc-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "p003-proc-3",
+        "status": "completed",
+        "code": {
+          "text": "Lumpectomy of left breast",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "392021009",
+              "display": "Lumpectomy of breast"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "performedDateTime": "2024-08-06",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Procedure/p003-proc-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "p003-proc-4",
+        "status": "completed",
+        "code": {
+          "text": "Echocardiography",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "40701008",
+              "display": "Echocardiography"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "performedDateTime": "2026-05-14",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-4",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "imaging"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10230-1",
+              "display": "Left ventricular Ejection fraction"
+            }
+          ],
+          "text": "Left ventricular ejection fraction"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2024-01-31",
+        "issued": "2024-01-31",
+        "valueQuantity": {
+          "value": 58,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-5",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "imaging"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10230-1",
+              "display": "Left ventricular Ejection fraction"
+            }
+          ],
+          "text": "Left ventricular ejection fraction"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2026-05-14",
+        "issued": "2026-05-14",
+        "valueQuantity": {
+          "value": 55,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-6",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2026-05-14",
+        "issued": "2026-05-14",
+        "valueQuantity": {
+          "value": 0.74,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-7",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase (ALT)"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2026-05-14",
+        "issued": "2026-05-14",
+        "valueQuantity": {
+          "value": 22,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-8",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2026-05-14",
+        "issued": "2026-05-14",
+        "valueQuantity": {
+          "value": 12.4,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-9",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2026-10-06",
+        "issued": "2026-10-06",
+        "valueQuantity": {
+          "value": 0.77,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-10",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-10",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase (ALT)"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2026-10-06",
+        "issued": "2026-10-06",
+        "valueQuantity": {
+          "value": 21,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p003:Observation/p003-obs-11",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p003-obs-11",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "effectiveDateTime": "2026-10-06",
+        "issued": "2026-10-06",
+        "valueQuantity": {
+          "value": 12.6,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

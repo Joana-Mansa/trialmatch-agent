@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07511933"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\nFor all groups:\n\n* Written informed consent\n* Age ≥ 18 years old\n* WHO PS 0-3\n* Measurable lesion ≥10mm according to RANO BM\n\nFor brain metastases groups:\n\n\\- newly diagnosed brain metastases from either NSCLC (group 1) or melanoma (group 2) or breast cancer (group 7).\n\nFor radiation necrosis groups:\n\n\\- Brain lesion at the location of a formerly brain metastases that has been treated with SRT (\\> 9 months ago), with the definite diagnosis of radiation necrosis at the location of formerly SRT-treated brain metastases of NSCLC (group 3), melanoma (group 4) and/ or breast cancer (group 8).\n\nFor diagnostic dilemma groups:\n\n\\- Brain lesion at the location of a formerly brain metastases with a diagnostic dilemma of radiation necrosis and recurrent brain metastases of NSCLC (group 5), melanoma (group 6) and/ or breast cancer (group 9).\n\nExclusion Criteria:\n\nFor all groups:\n\n* Known allergy to Ga68-PSMA\n* Epileptic seizure less than 7 days before Ga68-PSMA PET/CT scan\n* Life expectancy less than 3 months\n* Patients with known prostate carcinoma\n* Pregnancy",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Novel Ga68-PSMA PET/CT-tracer to Differentiate Between Radiation Necrosis and Tumor Progression in Brain Metastases",
+          "nctId": "NCT07511933"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

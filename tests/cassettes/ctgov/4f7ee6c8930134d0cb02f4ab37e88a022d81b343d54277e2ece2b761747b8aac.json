@@ -1,0 +1,105 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05008081"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Slovenia"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Sweden"
+            },
+            {
+              "country": "Turkey (Türkiye)"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 years and older\n* Established diagnosis of COPD by medical doctor (based on clinical history OR pulmonary function test with an FEV1/FVC \\< 0.7)\n* Current hospitalization with suspicion of an acute exacerbation of COPD (AECOPD)\n* Inclusion within 48 hours post hospital admission\n* Voluntary written informed consent of the participant or his/her representative obtained prior to any study procedure\n\nExclusion Criteria:\n\n* Patients unwilling or unable to comply with study procedures\n* Patients not requiring treatment with systemic corticosteroids, antibiotics or both as a minimum therapy for the index AECOPD\n* Patients with a confirmed positive test result for COVID19, or those highly suspected based on clinical examination",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients with COPD, hospitalized for an acute exacerbation"
+        },
+        "identificationModule": {
+          "briefTitle": "The CATALINA Study",
+          "nctId": "NCT05008081"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

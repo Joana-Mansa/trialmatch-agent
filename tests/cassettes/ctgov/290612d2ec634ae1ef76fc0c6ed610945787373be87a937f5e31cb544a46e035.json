@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT04621396"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Canada"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Pregnant women with type 2 diabetes, gestational diabetes, or no diabetes.\n* From self-identified Indigenous heritage (e.g., Cree, Oji-Cree, Métis, Anishinaabe, etc.).\n* Are delivering and residing in Manitoba.\n* Mother/Father and children must be biological family members.\n\nExclusion Criteria:\n\n* Mothers or children with type 1 diabetes.\n* Residing outside of Manitoba.",
+          "healthyVolunteers": true,
+          "maximumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT"
+          ],
+          "studyPopulation": "Children between the age of 0 and 18 or until a diagnosis of type 2 diabetes.\n\nDiagnosis of diabetes will be made according to the Canadian Diabetes Association criteria. There must be 2 abnormal blood glucose tests on different days OR 1 abnormal blood glucose test + symptoms of diabetes:\n\nFasting plasma glucose of \\> 7.0 mmol/L or Random glucose \\> 11.1mmol/L or 2-hour glucose \\> 11.1 mmol/L after a standard oral glucose tolerance test (75g)."
+        },
+        "identificationModule": {
+          "briefTitle": "The Next Generation Longitudinal Birth Cohort Diabetes Study",
+          "nctId": "NCT04621396"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,Phase,Condition,OverallStatus,LocationCountry",
+      "filter.overallStatus": "RECRUITING",
+      "pageSize": "10",
+      "query.cond": "heart failure"
+    },
+    "path": "/api/v2/studies"
+  },
+  "response": {
+    "json": {
+      "nextPageToken": "ZVNj7o2Elu8o3lpyWc35o-32mpOQJJxsZ_ai1fg",
+      "studies": [
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Breast Cancer",
+                "Disability Physical",
+                "Heart Failure",
+                "Cardiotoxicity"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Canada"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Breast cancEr, FITness and ExeRcise for Heart Health: The BE-FITTER Study",
+              "nctId": "NCT06595147"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "HIV Infection",
+                "Advanced End Stage Heart Failure"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "HIV+ Deceased Donor Heart Transplant Study for HIV+ Recipients",
+              "nctId": "NCT06659952"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Heart Failure",
+                "Dilated Cardiomyopathy (DCM)"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "UIC Multi-Ethnic DCM Registry",
+              "nctId": "NCT07145138"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Bradycardia",
+                "Heart Failure",
+                "Ventricular Dysfunction"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Czechia"
+                },
+                {
+                  "country": "Czechia"
+                },
+                {
+                  "country": "Czechia"
+                },
+                {
+                  "country": "Czechia"
+                },
+                {
+                  "country": "Netherlands"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Ultra-High Frequency - Electrocardiogram (UHF-ECG) for the Diagnosis of Ventricular Electrical Dyssynchrony (VED)",
+              "nctId": "NCT06641362"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Clinically Stable Myocardial Infarction or Heart Failure Patients",
+                "Heart Failure",
+                "Myocardial Infarction (MI)"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Taiwan"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "A Pilot Randomized Controlled Trial Comparing Core Exercise, Aerobic Exercise, and Combined Exercise in Patients Undergoing Phase II Cardiac Rehabilitation.",
+              "nctId": "NCT07243769"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Congestive Heart Failure(CHF)",
+                "Pleural Effusion Due to Congestive Heart Failure"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "DRAIN: DRainage in Acute Decompensated Heart faIlure With Pleural effusioNs",
+              "nctId": "NCT07419360"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Heart Failure",
+                "Diuretic Resistance"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE1"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Mechanisms of Diuretic Resistance in Heart Failure, Aim 3",
+              "nctId": "NCT06209359"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Transthyretin Amyloid Cardiomyopathy (ATTR-CM)"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Thailand"
+                },
+                {
+                  "country": "Thailand"
+                },
+                {
+                  "country": "Thailand"
+                },
+                {
+                  "country": "Thailand"
+                },
+                {
+                  "country": "Thailand"
+                },
+                {
+                  "country": "Thailand"
+                },
+                {
+                  "country": "Thailand"
+                },
+                {
+                  "country": "Thailand"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Thailand ATTR-CM Registry",
+              "nctId": "NCT06338696"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Chronic Heart Failure",
+                "Iron Deficiency, Latent"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Russia"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE4"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "The Prevalence of Iron Deficiency and the Effectiveness of Ferinject® in Patients With HFpEF (ID-HFpEF)",
+              "nctId": "NCT05793996"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Ventricular Assist Device",
+                "Advanced Heart Failure",
+                "Anticipatory Guidance"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Multi-Site Feasibility Testing of the Ventricular Assist Device Anticipatory Guidance Tool",
+              "nctId": "NCT06823583"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        }
+      ]
+    },
+    "status": 200
+  }
+}

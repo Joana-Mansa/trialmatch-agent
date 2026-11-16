@@ -1,0 +1,5 @@
+# Gold verdict labels, to be filled by a human reviewer. One JSON object per line:
+# {"patient_id": "p001", "nct_id": "NCT01234567", "expected_verdict": "likely_eligible", "notes": "why"}
+# expected_verdict is one of likely_eligible, possibly_eligible, likely_ineligible.
+# Lines starting with '#' and rows with "placeholder": true are skipped by the loader.
+{"patient_id": "p001", "nct_id": "NCT00000000", "expected_verdict": "likely_eligible", "notes": "example row, replace with a real label", "placeholder": true}

@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07076147"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* \\* \\>= 30 years\n\n  * =\\< 75 years\n  * Women with either:\n\n    * Genetic test results showing moderately increased breast cancer risk due to a pathogenic/likely pathogenic variant in ATM, CHEK2, BARD1, RAD51C, or RAD51D (Mutation carrier group) OR\n    * Calculated lifetime breast cancer risk estimates between 20% and 40% according to the Tyrer-Cuzick V8.0B empiric risk model (Empiric risk group)\n  * Patients provided breast cancer risk assessments by genetic counselors at USC Norris or LA General Hospital beginning in 2021 and at least 12 months ago\n  * Women recommended to undergo annual breast MRI and/or annual mammogram beginning at the time of their genetic counseling risk assessment\n  * English or Spanish speaking patients\n\nExclusion Criteria:\n\n* \\* History of breast cancer before genetic counseling at University of Southern California (USC)\n\n  * Any metastatic cancer diagnosis at time of genetic counseling risk assessment\n  * Deceased\n  * Patient underwent a risk reducing mastectomy before their genetic counseling risk assessment",
+          "healthyVolunteers": true,
+          "maximumAge": "75 Years",
+          "minimumAge": "30 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "FEMALE",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Women provided with a breast cancer risk assessment by genetic counselors at USC Norris or LA General Hospital with either genetic test results showing moderately increased breast cancer risk due to a pathogenic/likely pathogenic variant in ATM, CHEK2, BARD1, RAD51C, or RAD51D or a calculated lifetime breast cancer risk estimates between 20% and 40% according to the Tyrer-Cuzick V8.0B empiric risk model who are recommended to undergo annual breast MRI and/or annual mammogram."
+        },
+        "identificationModule": {
+          "briefTitle": "Breast Cancer Screening Adherence for Women at Moderate Risk for Breast Cancer",
+          "nctId": "NCT07076147"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

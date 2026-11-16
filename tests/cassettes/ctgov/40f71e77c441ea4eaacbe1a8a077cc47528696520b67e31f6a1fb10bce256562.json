@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06649162"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Among patients with type 2 diabetes, those who are scheduled to administer a fixed-dose combination of dapagliflozin/pioglitazone at baseline (visit 1)\n* Those who voluntarily signed a written personal information collection and usage agreement after listening to an explanation about the objective and method, etc. of this clinical study.\n\nExclusion Criteria:\n\n* Those who have a history of taking a fixed-dose combination of dapagliflozin/pioglitazone at baseline (visit 1).\n* Those who are expected to need insulin prescription during the study period.",
+          "healthyVolunteers": false,
+          "minimumAge": "19 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients with type 2 diabetes scheduled to administer a fixed-dose combination of dapagliflozin/pioglitazone"
+        },
+        "identificationModule": {
+          "briefTitle": "A Study to Identify the Risk of Non-alcoholic Fatty Liver Disease (NAFLD) in Patients With Type 2 Diabetes in Clinical Practice and to Evaluate the Clinical Usefulness of Dapagliflozin/Pioglitazone Combination Therapy",
+          "nctId": "NCT06649162"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06903546"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Indonesia"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Controlled Diabetes Mellitus type 2 with HbA1c \\<7.5%\n* BMI 23-35 kg/m2\n* On anti-cholesterol therapy\n\nExclusion Criteria:\n\n* Using injection therapy (insulin or GLP-1 RA)\n* History of bees product allergy\n* Active smoker\n* Consuming alcohol\n* Altered liver (ALT\\>35 IU/L) and kidney (eGFR\\<90 mL/min) function\n* Pregnant and breastfeeding women\n* History of cardiovascular disease (heart attack, stroke)",
+          "genderBased": true,
+          "genderDescription": "Male and female",
+          "healthyVolunteers": false,
+          "maximumAge": "59 Years",
+          "minimumAge": "35 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "The Effect of Propolis Administration on Cholesterol Level in Diabetic Type 2 Patients",
+          "nctId": "NCT06903546"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

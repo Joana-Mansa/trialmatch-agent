@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06150950"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Fontan failure, defined as history of a Fontan procedure and at least one of the following: systemic ventricular EF \\<50% (by echocardiography, cardiac magnetic resonance imaging, or computer tomography), protein losing enteropathy, plastic bronchitis, chronic loop diuretics prescribed by ACHD Cardiologist, and/or peak VO2 \\< 50% predicted (by FRIEND equation)\n* Age \\>= 18 years old\n\nExclusion Criteria:\n\n* Inotrope-dependence\n* Symptomatic, uncontrolled arrhythmias\n* Pregnancy\n* Contraindication to cardiac rehab or already enrolled in cardiac rehabilitation\n* Inability to comply with the protocol\n* Recent (\\<3 months) planned Fontan pathway percutaneous or surgical intervention\n* Resting hypoxemia with baseline oxygen saturation \\<80%",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "REHAB Fontan Failure: A Trial of Cardiac Rehabilitation",
+          "nctId": "NCT06150950"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

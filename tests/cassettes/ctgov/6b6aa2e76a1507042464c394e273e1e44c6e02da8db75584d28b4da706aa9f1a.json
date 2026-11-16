@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07212530"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Spain"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Informed consent by parents/guardians and participants.\n* Aged between 12 and 16 years old\n\nExclusion Criteria:\n\n* No access to internet or new technologies\n* Not a Spanish speaker.",
+          "healthyVolunteers": true,
+          "maximumAge": "16 Years",
+          "minimumAge": "12 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "EmoTIChealth: Promoting Adolescent Health Through a Serious Game.",
+          "nctId": "NCT07212530"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

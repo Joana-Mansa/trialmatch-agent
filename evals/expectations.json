@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "description": "Planted-disqualifier rules for the synthetic patients in data/patients. kind 'criterion': a trial counts toward the denominator when its eligibility text matches criteria_regex (case-insensitive); it is a hit when some assessment is an exclusion with status met or an inclusion with status not_met, cites at least one of correct_refs, and the verdict is not likely_eligible. kind 'hard_check': a trial counts when the code hard check (age, sex) fails for the patient; it is a hit when the verdict is likely_ineligible. Patients without a rule (p001, p005, p008) are clean.",
+  "rules": {
+    "p002": {
+      "issue": "renal impairment (latest eGFR about 24, CKD stage 4)",
+      "kind": "criterion",
+      "criteria_regex": "eGFR|renal (impairment|insufficiency|failure)|creatinine clearance|dialysis|kidney",
+      "correct_refs": [
+        "Observation/p002-obs-4",
+        "Observation/p002-obs-5",
+        "Observation/p002-obs-6",
+        "Observation/p002-obs-7",
+        "Observation/p002-obs-8",
+        "Observation/p002-obs-9",
+        "Observation/p002-obs-10",
+        "Condition/p002-cond-2"
+      ]
+    },
+    "p003": {
+      "issue": "prior chemotherapy (doxorubicin and cyclophosphamide)",
+      "kind": "criterion",
+      "criteria_regex": "prior (chemo|systemic|anti-?cancer)|previous(ly)? (treated|chemotherapy)|treatment-na[iï]ve",
+      "correct_refs": [
+        "MedicationRequest/p003-med-1",
+        "MedicationRequest/p003-med-2",
+        "MedicationRequest/p003-med-3",
+        "MedicationRequest/p003-med-4",
+        "Procedure/p003-proc-2"
+      ]
+    },
+    "p004": {
+      "issue": "currently pregnant",
+      "kind": "criterion",
+      "criteria_regex": "pregnan|lactat|breast-?feed",
+      "correct_refs": [
+        "Observation/p004-obs-4",
+        "Condition/p004-cond-2"
+      ]
+    },
+    "p006": {
+      "issue": "age 81, above common maximum ages",
+      "kind": "hard_check"
+    },
+    "p007": {
+      "issue": "age 17, below adult minimum ages",
+      "kind": "hard_check"
+    }
+  }
+}

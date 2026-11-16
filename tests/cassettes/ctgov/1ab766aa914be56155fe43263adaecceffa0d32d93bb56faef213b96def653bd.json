@@ -1,0 +1,1228 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,Phase,Condition,OverallStatus,LocationCountry",
+      "filter.overallStatus": "RECRUITING",
+      "pageSize": "10",
+      "query.cond": "rheumatoid arthritis",
+      "query.locn": "Germany"
+    },
+    "path": "/api/v2/studies"
+  },
+  "response": {
+    "json": {
+      "nextPageToken": "ZVNj7o2Elu8o3lpyWc35o-32mpOQJJxmZvmj2PcW",
+      "studies": [
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Rheumatoid Arthritis",
+                "Systemic Lupus Erythematosus"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Ukraine"
+                },
+                {
+                  "country": "Ukraine"
+                },
+                {
+                  "country": "Ukraine"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE1"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Study Evaluating Safety, Tolerability, PK/PD of Surovatamig in Adult RA or SLE Participants",
+              "nctId": "NCT07201558"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Moderate to Severe Rheumatoid Arthritis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "A Comparison Study of Persistence of UPadacitinib vs. TNF-inhibitoRs In a German Real-world SettING",
+              "nctId": "NCT06712628"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Arthritis, Rheumatoid"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Germany"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Impact of a High-fiber Diet on the Microbiome and Disease Activity in Patients With Rheumatoid Arthritis",
+              "nctId": "NCT06492200"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Systemic Lupus Erythematosus",
+                "Idiopathic Inflammatory Myopathies",
+                "Rheumatoid Arthritis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Hong Kong"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE1"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "A Study to Investigate Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of AZD5492 in Adult Participants With Systemic Lupus Erythematosus or Idiopathic Inflammatory Myopathies or Rheumatoid Arthritis.",
+              "nctId": "NCT06916806"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Systemic Sclerosis",
+                "Idiopathic Inflammatory Myopathies",
+                "Rheumatoid Arthritis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Sweden"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE1",
+                "PHASE2"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "A Study of AZD0120 in Autoimmune Diseases",
+              "nctId": "NCT07295847"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Rheumatoid Arthritis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Czechia"
+                },
+                {
+                  "country": "Czechia"
+                },
+                {
+                  "country": "Czechia"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Hungary"
+                },
+                {
+                  "country": "Hungary"
+                },
+                {
+                  "country": "Hungary"
+                },
+                {
+                  "country": "Hungary"
+                },
+                {
+                  "country": "Hungary"
+                },
+                {
+                  "country": "Hungary"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Puerto Rico"
+                },
+                {
+                  "country": "Puerto Rico"
+                },
+                {
+                  "country": "Puerto Rico"
+                },
+                {
+                  "country": "Puerto Rico"
+                },
+                {
+                  "country": "Puerto Rico"
+                },
+                {
+                  "country": "Puerto Rico"
+                },
+                {
+                  "country": "Puerto Rico"
+                },
+                {
+                  "country": "Serbia"
+                },
+                {
+                  "country": "Serbia"
+                },
+                {
+                  "country": "Serbia"
+                },
+                {
+                  "country": "Serbia"
+                },
+                {
+                  "country": "Slovakia"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Taiwan"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE2"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "A Study to Evaluate Different Targeted Therapies for Patients With Rheumatoid Arthritis",
+              "nctId": "NCT06972446"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Osteoarthritis, Knee",
+                "Joint Diseases",
+                "Rheumatoid Arthritis of Knee",
+                "Posttraumatic Arthropathy"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Germany"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Comparative Study of Navigation-assisted OrthoPilot® Elite and Robotic-assisted MAKO® Total Knee Arthroplasty",
+              "nctId": "NCT05980442"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Refractory Autoimmune Diseases"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Czechia"
+                },
+                {
+                  "country": "Czechia"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Israel"
+                },
+                {
+                  "country": "Israel"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Poland"
+                },
+                {
+                  "country": "Romania"
+                },
+                {
+                  "country": "Romania"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE1"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "A Study of Healthy Donor CD19-targeted Allogeneic CAR T Cells in Participants With Severe, Refractory Autoimmune Diseases",
+              "nctId": "NCT07115745"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Rheumatic Diseases",
+                "Rheumatoid Arthritis (RA)",
+                "Giant Cell Arteritis (GCA)",
+                "Psoriatic Arthritis (PsA)",
+                "Axial Spondylarthritis (axSpA)",
+                "Polymyalgia Rheumatica (PMR)",
+                "ANCA Associated Vasculitis (AAV)",
+                "Connective Tissue Disease (CTD)",
+                "Systemic Sclerosis (SSc)",
+                "Systemic Lupus Erthematosus (SLE)",
+                "Idiopathic Inflammatory Myopathy (IIM)",
+                "Autoinflammatory Disease",
+                "Gout Arthritis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Germany"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Clinical Assessment for Rheumatologic Disease - Research and Advancement in Safety and Efficacy",
+              "nctId": "NCT07150000"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Elbow Joint Destruction",
+                "Post-traumatic Lesions",
+                "Ankylosed Joints",
+                "Advanced Rheumatoid Arthritis",
+                "Joint Instability or Loss of Motion",
+                "Acute Comminuted Articular Fracture of Elbow Joint Surfaces",
+                "Bone Loss Contributing to Elbow Instability",
+                "Bilateral Ankylosis From Causes Other Than Active Sepsis",
+                "Post-traumatic Arthritis",
+                "Degenerative Arthritis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Finland"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Netherlands"
+                },
+                {
+                  "country": "United Kingdom"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Clinical Outcomes Study of the Nexel Total Elbow",
+              "nctId": "NCT02469662"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        }
+      ]
+    },
+    "status": 200
+  }
+}

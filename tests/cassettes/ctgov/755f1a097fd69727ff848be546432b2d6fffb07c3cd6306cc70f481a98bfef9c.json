@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06513026"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* LNP genotype (LCT gene rs4988235, GG genotype)\n* History of pre-diabetes, defined as fasting blood glucose 100-125 mg/dL and/or hemoglobin A1c (HbA1c) 5.7-6.4% and have not been diagnosed with diabetes nor take diabetes medication (pre-diabetes determined at most recent study visit \\[for HCHS/SOL participant\\] or most recent medical chart or self-report \\[for other participant\\])\n* Drink ≤1 cup milk/day\n* Basic computer or smartphone skills\n* Can speak and read English fluently\n\nExclusion Criteria:\n\n* Diabetes diagnosis\n* Taking anti-diabetes medication\n* Cancer, cardiovascular disease (CVD), or life-threatening illness\n* Known milk allergy\n* Has severe GI symptoms after drinking milk\n* History of GI surgery\n* Had a double mastectomy\n* Smoking\n* More than 1 alcoholic beverage/day\n* Pregnant or breastfeeding\n* Colonoscopy in last 2 weeks\n* Antibiotics in last 3 months\n* Taking probiotics or fiber supplements (if taking, must be able to stop taking during study)\n* Taking laxatives, stool softeners, anti-diarrheal (if taking, must be able to stop taking during study)\n* Taking lactase pills (if taking, must be able to stop taking)\n* Participating in extreme dieting program\n* Planning extended travel that would prevent participation in study\n* Taking medication that must be taken separate from calcium or dairy products",
+          "genderBased": true,
+          "genderDescription": "Stratified in a 1:1 ratio",
+          "healthyVolunteers": false,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Milk for Diabetes Prevention",
+          "nctId": "NCT06513026"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

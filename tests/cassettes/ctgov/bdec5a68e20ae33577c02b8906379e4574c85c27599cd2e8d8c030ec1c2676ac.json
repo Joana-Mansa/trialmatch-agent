@@ -1,0 +1,60 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06858748"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Males and females (≥18 years old)\n\nAsthma: Respiratory physician confirmed diagnosis of moderate-to-severe asthma and Historical objective evidence of asthma and/or specialist/respirologist confirmation (post-bronchodilator reversibility and/or methacholine bronchoprovocation test \\<8 mg/mL)\n\nCOPD: Respiratory physician confirmed diagnosis of COPD that is moderate-to-severe according to GOLD criteria (post-bronchodilator FEV1/FVC\\<LLN and FEV1\\< 80%pred) and CAT score ≥10 or mMRC score ≥ 2\n\nChronic cough: Refractory Chronic Cough (RCC) and Unexplained Chronic Cough (UCC) lasting \\>1 year with Normal chest radiograph and no airflow obstruction (FEV1/FVC \\>Lower Limit of Normal)\n\nHealthy participants: No history of respiratory disease or other pulmonary disorders and no use of inhaled medications or corticosteroids with normal spirometry and Modified Medical Research Council (mMRC) Dyspnea Scale =\\<1\n\nExclusion Criteria:\n\n* Pregnant or breastfeeding\n* Current smoker or \\>10 yr pack history or smoked within the last 6 months\n* Exacerbation within 4 weeks of recruitment\n* Preterm birth (≤36 weeks gestation) or perinatal complications\n* History of other pulmonary disorders\n* Specialist/Respirologist suspects primary ciliary dyskinesia (PCD)\n* Current use of mucolytic medications\n* Memory, cognitive, or psychiatric limitations that may prevent optimal participation\n* Treatment with current biologic therapy: anti-IgE mAb within 130 days, anti-IL-4/4R, IL-5/5R, IL-13, or TSLP within 2 months or 5 half-lives whichever is longer prior to visit 1",
+          "healthyVolunteers": true,
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "A coalition of 25 clinicians and scientists from across Canada have united to establish the Canadian Consortium for understanding the role of airway mucus occlusions in chronic cough, COPD, and asthma (CANMuc)."
+        },
+        "identificationModule": {
+          "briefTitle": "Canadian Consortium on Airway Mucus Occlusions in Asthma, COPD and Chronic Cough",
+          "nctId": "NCT06858748"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07554820"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Pakistan"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* • RA diagnosis with moderate to severe disease activity, based on DAS-28 despite on \\> 2 conventional DMARDs.\n\n  * One or more CVD risk factors, such as hypertension, diabetes, smoking, high cholesterol, etc.\n  * Age 50 or older.\n\nExclusion Criteria:\n\n* Known contraindications to statins.\n\n  * History of major adverse CV events (e.g., recent myocardial infarction or stroke).\n  * Pregnancy or breastfeeding.",
+          "healthyVolunteers": false,
+          "maximumAge": "85 Years",
+          "minimumAge": "50 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Major Adverse Cardiovascular Events (MACE) in Rheumatoid Arthritis Patient With Moderate to Severe Disease Activity Treated With Tofacitinib and Statins vs TNF Inhibitors: TOFSTAT CLINICAL TRIAL",
+          "nctId": "NCT07554820"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

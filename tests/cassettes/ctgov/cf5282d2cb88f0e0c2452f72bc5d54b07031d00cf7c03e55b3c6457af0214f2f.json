@@ -1,0 +1,469 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,Phase,Condition,OverallStatus,LocationCountry",
+      "filter.overallStatus": "RECRUITING",
+      "pageSize": "10",
+      "query.cond": "COPD"
+    },
+    "path": "/api/v2/studies"
+  },
+  "response": {
+    "json": {
+      "nextPageToken": "ZVNj7o2Elu8o3lpyWc35o-32mpOQJJxnYfOi3fg",
+      "studies": [
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Chronic Obstructive Lung Disease",
+                "Chronic Obstructive Pulmonary Disease"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Mapping and Characterization of Alveolar Cells During Smoking and Chronic Obstructive Disease",
+              "nctId": "NCT05227547"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "COPD",
+                "COPD Exacerbation"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE3"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Supported Rescue Packs Post-discharge in Chronic Obstructive Pulmonary Disease",
+              "nctId": "NCT06347536"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Lung Cancer (Diagnosis)"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Blood Based Risk Evaluation With AI for Targeted Primary Health Care in Early Lung Cancer Detection",
+              "nctId": "NCT07552584"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Chronic Obstructive Pulmonary Disease (COPD)"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                },
+                {
+                  "country": "Denmark"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE4"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Comparing Hydrocortisone and Prednisolone for Acute Exacerbation of Chronic Obstructive Pulmonary Disease (AECOPD)",
+              "nctId": "NCT06892210"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "COPD",
+                "AE COPD"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Canada"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Predicting Acute Exacerbations of COPD Using Wearable Devices and Remote Monitoring Technology With AI/ML Models",
+              "nctId": "NCT06802003"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Coronary Heart Disease (CHD)",
+                "Heart Failure",
+                "Cardiomyopathy",
+                "COPD",
+                "Bronchial Asthma",
+                "Respiratory Failure",
+                "Thoracic Tumors",
+                "Cardiopulmonary Diseases"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "China"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Community Exercise Treating Effect on Cardiopulmonary Disease Patients",
+              "nctId": "NCT07154355"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Pulmonary Disease, Chronic Obstructive"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "The ROAM Research Study Therapy (LTOT) Version",
+              "nctId": "NCT06810323"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Chronic Obstructive Pulmonary Disease"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Canada"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE2"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Oral Sildenafil for Exercise Capacity, Dyspnea and Cardiopulmonary Function in COPD",
+              "nctId": "NCT05061368"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Asthma",
+                "Chronic Obstructive Pulmonary Disease (COPD)",
+                "Chronic Cough (CC)"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Canadian Consortium on Airway Mucus Occlusions in Asthma, COPD and Chronic Cough",
+              "nctId": "NCT06858748"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Chronic Obstructive Pulmonary Disease (COPD)",
+                "Pulmonary Hyperinflation"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Italy"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Effect of Simeox® on Residual Volume in COPD Patients With Pulmonary Hyperinflation",
+              "nctId": "NCT07665931"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        }
+      ]
+    },
+    "status": 200
+  }
+}

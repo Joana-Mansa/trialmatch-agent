@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07419360"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients age \\>18 years and.\n* Clinical diagnosis of acute decompensated heart failure with at least one clinical sign of volume overload (e.g., peripheral edema, pleural effusion, or ascites) and\n* Assessment of left ventricular ejection fraction (LVEF) by echocardiography performed during the time of index hospitalization or within 3 months prior to enrollment and\n* Serum NT-proBNP level of \\>1000 pg/ml or Serum BNP\\>250 pg/ml at the time of enrollment and\n* Radiographic evidence of moderate to large pleural effusion, defined as pleural fluid occupying more than 1/3rd of the hemithorax on chest X-ray.\n\nExclusion Criteria:\n\n* Clinical indication for diagnostic thoracentesis - Presence of fever, clinical signs of infection, or atypical pleural effusion for CHF (unilateral left-sided effusion, findings suggestive of malignancy, infection, or alternative etiologies) or.\n* Loculated pleural effusion - Evidence of loculated pleural effusion on thoracic ultrasound, as defined as the presence of septations or complex homogenous echogenic fluid (see Imaging Assessment section) or.\n* Clinical indication for therapeutic thoracentesis - Presence of massive pleural effusion with acute respiratory failure requiring positive pressure ventilation, high-flow oxygen therapy (\\>15 liters per minute of flow), or tension hydrothorax (massive effusion with mediastinal shift and hemodynamic compromise) or.\n* Contraindication to thoracentesis, uncontrolled bleeding diathesis, or irreversible INR \\> 2.0 and platelet count \\<50,000 or.\n* Patient with mechanical mitral valve, where anticoagulation cannot be safely held or.\n* Pleural procedure, such as but not limited to thoracentesis, chest tube placement, or thoracoscopy, within 3 months prior to enrollment or.\n* Cardiac or thoracic surgery within 3 months prior to enrollment or.\n* Requirement for chronic renal replacement therapy, such as hemodialysis or peritoneal dialysis or.\n* Pregnancy or\n* Inability or unwillingness to provide informed consent, or current incarceration (prisoners).",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "DRAIN: DRainage in Acute Decompensated Heart faIlure With Pleural effusioNs",
+          "nctId": "NCT07419360"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

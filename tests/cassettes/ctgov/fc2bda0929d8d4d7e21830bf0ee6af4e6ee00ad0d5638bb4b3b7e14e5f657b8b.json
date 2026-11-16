@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06823583"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n(For patient inclusion):\n\n* scheduled for a VAD implantation\n* English-speaking as the VAD AG Tool v5.0 has not yet been translated beyond English age ≥19 years at the time of implant as most states in North America have an age of majority for consent signing.\n\n(-VAD clinician for the clinician evaluation process)\n\nExclusion Criteria:\n\n* Not scheduled for VAD surgery\n* Non English speaking\n* \\<19 yrs of age (Not a VAD Clinician for the clinician evaluation process)",
+          "healthyVolunteers": false,
+          "minimumAge": "19 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Advanced heart failure patients will be approached by their internal VAD teams who have been scheduled for a VAD implantation. Only age requirement is \\>/= 19 as the age of majority in most states for consenting is 19. The goal is to consent consecutively so as to limit selection bias as much as able to. This is a feasibility study so consecutive approaching is key."
+        },
+        "identificationModule": {
+          "briefTitle": "Multi-Site Feasibility Testing of the Ventricular Assist Device Anticipatory Guidance Tool",
+          "nctId": "NCT06823583"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

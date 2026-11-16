@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06810323"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\nPost-Bronchodilator FEV1/FVC \\<.80\n\n* Race demographics of the recruitment area reflect the population of the Charlottesville Metropolitan Statistical Area (MSA).\n* Due to underrepresentation in local demographics, special effort (via targeted advertising) will be made to recruit Hispanic participants to better match national percentages.\n* Participants with medical history of COPD\n* Subjects has to have a prescription for oxygen use via nasal cannula or mask at home\n* At baseline of health with no hospitalization/exacerbation within the past 6 weeks\n* Use of Continuous oxygen at baseline\n\nExclusion Criteria:\n\nPost -Bronchodilator FEV1 \\< 25%\n\n* Intermittent oxygen use at home\n* Inability to understand simple instructions\n* No respiratory infections and exacerbation within 6 weeks of study",
+          "healthyVolunteers": false,
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "100 COPD subjects with continuous oxygen wear"
+        },
+        "identificationModule": {
+          "briefTitle": "The ROAM Research Study Therapy (LTOT) Version",
+          "nctId": "NCT06810323"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

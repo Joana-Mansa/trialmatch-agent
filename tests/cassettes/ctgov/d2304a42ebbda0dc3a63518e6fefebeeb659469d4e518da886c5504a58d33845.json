@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07292805"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* adult (\\>18 years)\n* severe uncontrolled asthma (defined as ACQ above 1.5) despite optimal medical therapy (GINA treatment step 5; alternative diseases excluded, therapy compliance and adequate inhalation technique confirmed)\n* 1 or more trials of treatment with a biologic or ineligible for biologic treatment\n* 2 or more severe asthma exacerbations in the previous year (defined as the need for a course of OCS or doubling dose of maintenance OCS for at least 3 consecutive days)\n* FEV1 ≥ 50% predicted after 400μg inhaled salbutamol or equivalent\n\nExclusion Criteria:\n\n* chronic OCS therapy at a dose \\>20 mg/day prednisone equivalent\n* 1 or more ICU admission for mechanical or endotracheal intubation for\n* asthma in the previous year.\n* anti-coagulation therapy that cannot be stopped temporarily\n* pregnancy\n* body mass index ≥35\n* current or ex-smokers with \\>20 pack years\n* DLCOc \\<70%\n* Subject has a known sensitivity to medications required to perform bronchoscopy\n* Subject is using immunosuppressant therapy other than oral steroid therapy that impact on BT\n* Subject has bleeding diathesis, platelet dysfunction, thrombocytopenia with platelet count less than 100,000/mm2 or known coagulopathy\n* Comorbidities that are a contra-indication for BT such as severe heart failure and other respiratory diseases including bronchiectasis, interstitial lung disease, emphy-sema, cystic fibrosis, mechanical upper airway obstruction, Churg-Strauss syndrome, and allergic bronchopulmonary aspergillosis (ABPA)\n* Subject uses an internal or external pacemaker or cardiac defibrillator..",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Bronchial Thermoplasty for Adults With Severe Asthma in the Biologic Era",
+          "nctId": "NCT07292805"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

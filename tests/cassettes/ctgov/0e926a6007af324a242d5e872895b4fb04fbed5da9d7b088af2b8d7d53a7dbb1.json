@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06278662"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Is 4 to 18 years old\n* Is patient at the children's department at Medisch Spectrum Twente at moment of inclusion\n* Is diagnosed with asthma by a pediatrician following the Global Initiative for Asthma(GINA) guidelines 2022 \\[8\\]:\n\n  \\*Medical history fitting asthma diagnosis:\n* Based on (typical) symptoms: (nighttime) wheezing, dyspnea, coughing (triggered by either viral infections, exercise, allergens or weather changes)\n* (Possibly) supplemented with a family history/atopy\n\nAND\n\n\\*Spirometry variable expiratory airflow limitation by at least one of these criteria:\n\n* FEV1/FVC reduced compared to lower limit of normal(Z-score ≤ -1.64)\n* Positive bronchodilator responsiveness(increase FEV1\\>12%)\n* Positive Exercise Challenge Test (ECT)(decrease FEV1≥ 13%)\n* Excessive variation in lung function (LF) between tests from different dates (variation FEV1\\>12% pred)\n\nExclusion Criteria:\n\n* The child and/or parent(s) has/have insufficient command of the Dutch language resulting in the insufficient ability to understand and/or answer questions",
+          "healthyVolunteers": false,
+          "maximumAge": "18 Years",
+          "minimumAge": "4 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Cohort Multiple Randomized Controlled Trial in Pediatric Asthma",
+          "nctId": "NCT06278662"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

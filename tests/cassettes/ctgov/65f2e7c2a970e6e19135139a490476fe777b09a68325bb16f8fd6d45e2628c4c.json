@@ -1,0 +1,51 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06935825"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "In order to be eligible to participate in this study, a participant must meet all of the following criteria:\n\n* Age \\> 18 years old\n* Severe COPD defined as COPD GOLD stage III or IV (FEV1 \\< 50% of predicted; FEV1/FVC ratio \\< 70%, no significant reversibility, smoking history of at least 10 pack-years).\n* Being on the lung transplant waiting list\n* Being able to understand the patient information and provide written informed consent for participation in the study\n\nA potential participant who meets any of the following criteria will be excluded from participation in this study:\n\n* Patients suffering from acute conditions at the time of inclusion or LTx\n* Patients using more than 20 mg of morphine, or an equivalent, or more than 20 mg oxazepam, or an equivalent, at the time of inclusion or LTx",
+          "healthyVolunteers": false,
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "COPD patients on the lung transplantation waiting list"
+        },
+        "identificationModule": {
+          "briefTitle": "Respiratory Muscles in End-stage Lung Disease: Pathophysiological Processes & Clinical Consequences",
+          "nctId": "NCT06935825"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

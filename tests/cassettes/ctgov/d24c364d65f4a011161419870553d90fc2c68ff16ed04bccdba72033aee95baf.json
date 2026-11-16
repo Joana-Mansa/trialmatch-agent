@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05793996"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Russia"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent to participate in the study;\n* In New York Heart Association (NYHA) II-III functional class due to stable symptomatic chronic heart failure (CHF);\n* Left ventricular ejection fraction (LVEF) ≥50%; objective signs of structural and/or functional disorders of the heart consistent with the presence of LV diastolic dysfunction/increased LV filling pressure, including elevated levels of natriuretic peptide;\n* Screening ferritin below 100 µg/L, or below 300 µg/L when transferrin saturation (TSAT) is below 20%;\n* Screening haemoglobin (Hb) at the time of switching on ( 90-150 g/l).\n\nExclusion Criteria:\n\n* Uncontrolled arterial hypertension;\n* Аnemia not related to iron deficiency;\n* Аnemia with a hemoglobin level of less than 90 g/l;\n* Less than 1 year after acute myocardial infarction;\n* Less than 1 year after acute cerebral circulation disorder;\n* Less than 1 year after surgical interventions, including non-cardiac operations and myocardial revascularization (coronary bypass surgery, coronary artery stenting), operations for valvular pathology;\n* Chronic alcoholism (including alcoholic heart disease), mental disorders;\n* Severe hepatic (increased transaminase levels above the upper three limits of normal) and renal insufficiency (glomerular filtration rate less than 15 ml/min/1.73 m2);\n* Known active infection, clinically significant bleeding, active malignancy;\n* Severe autoimmune diseases (systemic lupus erythematosus, rheumatoid arthritis, etc.);\n* Severe bronchial asthma, COPD in the acute stage;\n* Allergic reactions to medications in the anamnesis, eczema, atopic allergic reaction;\n* Blood transfusions and taking erythropoiesis-stimulating drugs during the previous three months.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "The Prevalence of Iron Deficiency and the Effectiveness of Ferinject® in Patients With HFpEF (ID-HFpEF)",
+          "nctId": "NCT05793996"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

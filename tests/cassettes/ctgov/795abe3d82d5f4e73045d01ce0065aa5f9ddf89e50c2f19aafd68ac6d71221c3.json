@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06694155"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Males and females ages 50-70 years.\n2. Body mass index between 25-45 kg/m2\n3. Capable of providing informed consent.\n4. COVID-19 negative and/or asymptomatic.\n5. Willing to abstain from drinking alcohol or consuming marijuana and CBD products during the 7-day study meal period on two occasions.\n6. HbA1c: 5.7-6.4% or 6.5% to 7.5% or fasting glucose ≥100 mg/dL\n\nExclusion Criteria:\n\n1. Subject who does not/will not eat dairy protein sources.\n2. Subjects taking exogenous insulin injections or GLP /GIP injections or other appetite suppressants.\n3. Unwilling to keep a detailed 7 day food journal on two occasions\n4. Unwilling to wear a CGM for 7 days on two occasions and share the data with the research team.\n5. Lactose intolerance.\n6. Hemoglobin \\<10g/dL at screening.\n7. History of chemotherapy or radiation therapy for cancer in the 6 months prior to enrollment.\n8. History of gastrointestinal bypass/reduction surgery.\n9. Pregnant or lactating individuals.\n10. History of a chronic inflammatory disease (e.g. Lupus, Crohn's disease)\n11. Currently receiving androgen (e.g., testosterone) or anabolic (e.g., GH, IGF-I) therapy.\n12. Currently using corticosteroid medications (cortisone, hydrocortisone, prednisone, etc.).\n13. Unwilling to avoid using protein or amino-acid supplements during participation.\n14. Unwilling to fast overnight.\n15. Any medical condition or medication that the PI or clinical study staff finds contradictory to this study.",
+          "healthyVolunteers": false,
+          "maximumAge": "70 Years",
+          "minimumAge": "50 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Whey Protein Ingestion and Glucose Control in Pre- and Post Diabetic Individuals",
+          "nctId": "NCT06694155"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

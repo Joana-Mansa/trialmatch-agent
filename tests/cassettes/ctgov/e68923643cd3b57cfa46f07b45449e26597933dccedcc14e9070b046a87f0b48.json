@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05825261"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults aged over 18 years\n* current respiratory smptoms (any dyspnea, cough or sputum)\n* spirometry confirmed diagnosis of a non-fully reversible airflow obstruction, defined as a post bronchodilator Forced Expiratory Volume at one second/Forced Vital Capacity (FEV1/FVC ratio) \\< 0.7 and/or emphysemateus abnormalities on CT imaging.\n* presence of risk factors or causes associated with COPD\n* chest CT scan performed in the past 12 months prior to inclusion to the study\n* able to understand, read and write Dutch language\n\nExclusion Criteria:\n\n* acute exacerbation of COPD within 8 weeks of start of the study\n* comorbidities affecting speech or breathing coordination (neuromuscular disease, CVA\\< BMI \\> 40)\n* comorbidities affecting speech characteristics of dyspnea (severe heart failure, interstitial lung disease)\n* comorbidities affecting respiratory system including but not exclusive to asthma or cystic fibrosis\n* comorbidities that significantly interfere with interpretation of speech (audio signals), such as Parkinson's disease, bulbar palsy, or vocal cord paralysis.\n* Medical history of lobectomy or endoscopic lung volume reduction (ELVR)\n* inability to carry out a capnography recording.\n* investigator's uncertainty about the willingness or ability of the patients to comply with the protocol requirements.\n* participation in another study involving investigational products. Participation in observational studies is allowed.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "The source population (primary dataset) consists of COPD patients in whom a chest CT was performed within 12 months before inclusion into the study."
+        },
+        "identificationModule": {
+          "briefTitle": "Exploring Novel Biomarkers for Emphysema Detection",
+          "nctId": "NCT05825261"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

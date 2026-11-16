@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05938738"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥40 years\n2. Read, understood and signed Informed Consent\n3. COPD Gold class II-IV/ B or E (FEV1\\<60% of predicted, CAT ≥10 points)\n\n5\\. Optimized standard therapy according to the study physician 6. Episodic breathlessness requiring intervention (i.e. taking rest during physical activities, as needed inhalation medication, breathing techniques, as needed opioids) at least three days per week\n\nExclusion Criteria:\n\n1. Other severe disease causing episodic breathlessness\n2. Life expectancy ≤ 3 months\n3. Exacerbation of COPD 4 weeks prior to inclusion\n4. Change in COPD management targeted at breathlessness 8 weeks prior to inclusion\n5. Inability to use the PEP buddy device\n6. Currently participating in another interventional clinical study\n7. Any other conditions, which, in the opinion of the investigator would make the patient unsuitable for inclusion, or could interfere with the patient participating in or completing the study.",
+          "healthyVolunteers": false,
+          "minimumAge": "40 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "PEP-buddy in COPD: Effect on Dyspnea Severity and Mechanism of Action",
+          "nctId": "NCT05938738"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

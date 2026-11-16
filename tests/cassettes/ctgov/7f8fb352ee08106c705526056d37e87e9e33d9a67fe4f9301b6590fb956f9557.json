@@ -1,0 +1,637 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07085767"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Austria"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Belgium"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Greece"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hong Kong"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Hungary"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Israel"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Malaysia"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Portugal"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "Romania"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "South Korea"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Spain"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Taiwan"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "Thailand"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult female or male participants.\n* ER+, HER2- locally advanced or metastatic breast cancer that is not amenable to curative therapy.\n* Evaluable disease (measurable disease per RECIST 1.1 or bone-only disease).\n* De novo advanced breast cancer or with disease recurrence occurring after 12 months of completing adjuvant endocrine therapy (with or without CDK4/6 inhibitors)\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n* Adequate hematologic, hepatic, and renal functions.\n* Female participants can be pre-, peri- or postmenopausal.\n* Male and pre- or peri-menopausal female participants must be willing to take a GnRH (or LHRH) agonist.\n\nExclusion Criteria:\n\n* Disease recurrence during adjuvant endocrine therapy\n* Currently receiving or previously received systemic anti-cancer therapy for ER+, HER2- advanced breast cancer.\n* Previously received treatment with fulvestrant, elacestrant or an investigational endocrine therapy in any setting.\n* History of allergic reactions to study treatment.\n* Any contraindications to letrozole and ribociclib.\n* Symptomatic central nervous system metastases, carcinomatous meningitis, leptomeningeal disease, or a spinal cord compression that require immediate treatment.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Palazestrant in Combination With Ribociclib for the First-line Treatment of ER+/HER2- Advanced Breast Cancer",
+          "nctId": "NCT07085767"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,Phase,Condition,OverallStatus,LocationCountry",
+      "filter.overallStatus": "RECRUITING",
+      "pageSize": "10",
+      "query.cond": "type 2 diabetes"
+    },
+    "path": "/api/v2/studies"
+  },
+  "response": {
+    "json": {
+      "nextPageToken": "ZVNj7o2Elu8o3lpyWc35o-32mpOQJJxrbfCm3Pg",
+      "studies": [
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Diabete Type 2"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Italy"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Normast3 for Adults With Diabetic Polyneuropathy",
+              "nctId": "NCT07689214"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Type 2 Diabetes (T2DM)",
+                "Geriatric Syndromes",
+                "Disability Hearing",
+                "Disability Physical",
+                "Urinary Tract Infection(UTI)",
+                "Delirium Confusional State"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Using Virtual Reality to Improve Medical Training",
+              "nctId": "NCT07542834"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Type 2 Diabetes",
+                "Gestational Diabetes Mellitus"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Canada"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "The Next Generation Longitudinal Birth Cohort Diabetes Study",
+              "nctId": "NCT04621396"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Type 2 Diabetes",
+                "Hyperglycemia"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Enhancing Preventative Health Behaviors Among Emergency Department Hyperglycemic Patients",
+              "nctId": "NCT06663813"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Type 2 Diabetes"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "A Study to Identify the Risk of Non-alcoholic Fatty Liver Disease (NAFLD) in Patients With Type 2 Diabetes in Clinical Practice and to Evaluate the Clinical Usefulness of Dapagliflozin/Pioglitazone Combination Therapy",
+              "nctId": "NCT06649162"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Diabetes Mellitus Type 2"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Indonesia"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE4"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "The Effect of Propolis Administration on Cholesterol Level in Diabetic Type 2 Patients",
+              "nctId": "NCT06903546"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Lactose Intolerance",
+                "Lactose Intolerant",
+                "Lactase Persistence",
+                "Pre-Diabetes",
+                "Diabetes Mellitus, Type 2"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Milk for Diabetes Prevention",
+              "nctId": "NCT06513026"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Prediabetes / Type 2 Diabetes"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Whey Protein Ingestion and Glucose Control in Pre- and Post Diabetic Individuals",
+              "nctId": "NCT06694155"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Type 2 Diabetes"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Italy"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Interdisciplinary Counselling in DIAbetes",
+              "nctId": "NCT07583355"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Type 2 Diabetes Mellitus",
+                "Obesity"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Turkey (Türkiye)"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Ocular Changes in Patients Using Tirzepatide or Semaglutide",
+              "nctId": "NCT07924618"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        }
+      ]
+    },
+    "status": 200
+  }
+}

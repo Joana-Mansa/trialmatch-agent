@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07259174"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "• Inclusion criteria:\n\nIn order to be eligible to participate in this study, a subject must meet all of the following criteria:\n\n* Hospitalization primarily because of severe acute exacerbation of COPD\n* Spirometry record within last 5 years, with: post-bronchodilator FEV1/FVC \\< 0,70 and FEV1% \\< 80%predicted\n* Minimum of 10 packyears\n\n  * Exclusion criteria:\n\nA potential subject who meets any of the following criteria will be excluded from participation in this study:\n\n* Established diagnosis of diaphragm diaphragm paralysis.\n* Inability for diaphragm imaging (e.g. mechanical ventilation, or unable to follow vocal instructions).\n* Those not able or unwilling to give written informed consent.\n* Pregnant women",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Hospitalized AECOPD patients"
+        },
+        "identificationModule": {
+          "briefTitle": "Ultrasound of the Diaphragm Excursion Ratio as Physiological Biomarker in Acute Exacerbations of Chronic Obstructive Pulmonary Disease",
+          "nctId": "NCT07259174"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

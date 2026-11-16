@@ -1,0 +1,125 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT04786262"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Italy"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Norway"
+            },
+            {
+              "country": "Saudi Arabia"
+            },
+            {
+              "country": "Saudi Arabia"
+            },
+            {
+              "country": "Switzerland"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Clinical history of T1D with \\>=5 years of duration of insulin dependence\n* At least two episodes of documented severe hypoglycemia in the 12 months prior to enrollment\n* Stable diabetic treatment\n* Consistent use of continuous glucose monitor (CGM) for at least 3 months before Screening and willingness to use CGM for the duration of the study\n\nKey Exclusion Criteria:\n\n-Prior islet cell transplant, organ transplant, or cell therapy\n\nOther protocol-defined Inclusion/Exclusion criteria may apply",
+          "healthyVolunteers": false,
+          "maximumAge": "65 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "A Safety, Tolerability, and Efficacy Study of VX-880 and VX-017 in Participants With Type 1 Diabetes",
+          "nctId": "NCT04786262"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

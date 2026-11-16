@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06663813"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Persons 18 years of age or older who present as patients in the Robert Wood Johnson University Hospital Emergency Department with or without a preexisting Type 2 Diabetes Mellitus diagnosis with a blood glucose of ≥200 mg/dL. Participants must speak English to participate in the study.\n\nExclusion Criteria:\n\n* Age less than 18 years and blood glucose \\&lt;200 mg/dL.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Enhancing Preventative Health Behaviors Among Emergency Department Hyperglycemic Patients",
+          "nctId": "NCT06663813"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

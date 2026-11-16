@@ -1,0 +1,79 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06892210"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥40 years\n* Chronic obstructive pulmonary disease with acute exacerbation, unspecified: ICDJ44\n\nExclusion Criteria:\n\n* All diagnoses that would merit treatment with a specific corticosteroid\n* Pregnant or breastfeeding women\n* Active tuberculosis or invasive fungal infection",
+          "healthyVolunteers": false,
+          "minimumAge": "40 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Comparing Hydrocortisone and Prednisolone for Acute Exacerbation of Chronic Obstructive Pulmonary Disease (AECOPD)",
+          "nctId": "NCT06892210"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

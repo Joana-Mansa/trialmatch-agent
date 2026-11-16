@@ -1,0 +1,1631 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,Phase,Condition,OverallStatus,LocationCountry",
+      "filter.overallStatus": "RECRUITING",
+      "pageSize": "10",
+      "query.cond": "breast cancer"
+    },
+    "path": "/api/v2/studies"
+  },
+  "response": {
+    "json": {
+      "nextPageToken": "ZVNj7o2Elu8o3lpyWc35o-32mpOQJJxnY_mi0A",
+      "studies": [
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Breast Cancer Metastatic"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE1"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Clinical Trial of Avasopasem in Patients With Metastatic Hormone Receptor Positive Breast Cancer With Progression on a CDK 4/6 Inhibitor and Hormonal Therapy",
+              "nctId": "NCT07137871"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Breast Cancer",
+                "Disability Physical",
+                "Heart Failure",
+                "Cardiotoxicity"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Canada"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Breast cancEr, FITness and ExeRcise for Heart Health: The BE-FITTER Study",
+              "nctId": "NCT06595147"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Breast Cancer"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Egypt"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Compare Analgesia Between MTP Block And ESPB in MRM",
+              "nctId": "NCT06888258"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Breast Cancer",
+                "Solid Tumor"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "China"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE1"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "A Study of GNC-077 in Patients With Locally Advanced or Metastatic Breast Cancer and Other Solid Tumors",
+              "nctId": "NCT06609187"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Breast Cancer"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "China"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE3"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Neoadjuvant Endocrine Therapy Versus Chemotherapy in Premenopausal Patients With ER+ & HER2- Breast Cancer",
+              "nctId": "NCT02535221"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Anatomic Stage IV Breast Cancer AJCC v8",
+                "Metastatic HER2-Positive Breast Carcinoma",
+                "Oligometastatic Breast Carcinoma"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE3"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Adding Surgery and Radiation to the Usual Treatment for HER2-Positive Breast Cancer That Had Already Spread at Diagnosis",
+              "nctId": "NCT07578116"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Oligometastatic Breast Carcinoma",
+                "Breast Cancer",
+                "Metastatic Breast Cancer",
+                "Metastatic Breast Carcinoma",
+                "ER+ Breast Cancer",
+                "HER2+ Breast Cancer"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE2"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "A Study on Adding Precisely Targeted Radiation Therapy (Stereotactic Body Radiation Therapy) to the Usual Treatment Approach (Drug Therapy) in People With Breast Cancer",
+              "nctId": "NCT05534438"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Chest Wall Tumor",
+                "Breast Cancer",
+                "Lung Cancer",
+                "Esophageal Cancer",
+                "Mediastinal Cancers",
+                "Spine Metastases",
+                "Spinal Tumor",
+                "Thoracic Cancer",
+                "Thoracic Neoplasms"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE2"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Pharmacologic Therapies to Mitigate Radiation- Associated Heart Disease",
+              "nctId": "NCT07685938"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "DCIS",
+                "Breast Cancer",
+                "Breast Neoplasms",
+                "Sentinel Lymph Node"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Hong Kong"
+                },
+                {
+                  "country": "Sweden"
+                },
+                {
+                  "country": "Sweden"
+                },
+                {
+                  "country": "Sweden"
+                },
+                {
+                  "country": "Sweden"
+                },
+                {
+                  "country": "Sweden"
+                },
+                {
+                  "country": "Sweden"
+                },
+                {
+                  "country": "Sweden"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE3"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Delayed Sentinel Lymph Node Biopsy in Ductal Cancer in Situ",
+              "nctId": "NCT04722692"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Breast Neoplasms",
+                "Neoplasm Metastasis"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Argentina"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Australia"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Belgium"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Brazil"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "France"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Greece"
+                },
+                {
+                  "country": "Ireland"
+                },
+                {
+                  "country": "Ireland"
+                },
+                {
+                  "country": "Ireland"
+                },
+                {
+                  "country": "Ireland"
+                },
+                {
+                  "country": "Ireland"
+                },
+                {
+                  "country": "Ireland"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Italy"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Japan"
+                },
+                {
+                  "country": "Singapore"
+                },
+                {
+                  "country": "Singapore"
+                },
+                {
+                  "country": "Singapore"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "South Korea"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Spain"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Taiwan"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "Turkey (Türkiye)"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                },
+                {
+                  "country": "United Kingdom"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE3"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "A Study of Tersolisib (LY4064809/STX-478) With Other Anti-Cancer Treatments in Participants With Advanced Breast Cancer With a Genetic Change (PIK3CA)",
+              "nctId": "NCT07174336"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        }
+      ]
+    },
+    "status": 200
+  }
+}

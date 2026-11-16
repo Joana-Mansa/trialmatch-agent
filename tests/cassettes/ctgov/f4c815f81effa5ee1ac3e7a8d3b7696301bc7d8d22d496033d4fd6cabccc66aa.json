@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07812623"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults aged 18 years or older\n* Diagnosis of type 2 diabetes mellitus (T2DM)\n* Written informed consent obtained before any study procedures\n* HbA1c \\>55 mmol/mol prior to study participation\n* For participants with T2DM only: BMI \\>25 kg/m²\n* Sufficient command of the Dutch language to complete study questionnaires\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding\n* Active malignancy, except adequately treated basal cell carcinoma or squamous cell carcinoma of the skin",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "A Twelve-Week Pilot Study Evaluating the Usability and Preliminary Effects of SugarVita 2.0 in Adults With Type 2 Diabetes",
+          "nctId": "NCT07812623"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

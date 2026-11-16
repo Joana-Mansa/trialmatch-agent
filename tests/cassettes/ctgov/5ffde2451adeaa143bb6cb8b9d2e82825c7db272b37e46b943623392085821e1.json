@@ -1,0 +1,608 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,Phase,Condition,OverallStatus,LocationCountry",
+      "filter.overallStatus": "RECRUITING",
+      "pageSize": "10",
+      "query.cond": "asthma"
+    },
+    "path": "/api/v2/studies"
+  },
+  "response": {
+    "json": {
+      "nextPageToken": "ZVNj7o2Elu8o3lpyWc35o-32mpOQJJxuZ_ei3fUW",
+      "studies": [
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Severe Asthma"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                },
+                {
+                  "country": "Russia"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Clinical and demOgRaphic Features of Patients With Uncontrolled Severe Asthma in Russia (CORSAR)",
+              "nctId": "NCT06472310"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Asthma, Bronchial"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                },
+                {
+                  "country": "Germany"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "A Non-interventional, Prospective Study With Benralizumab",
+              "nctId": "NCT06422078"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Coronary Heart Disease (CHD)",
+                "Heart Failure",
+                "Cardiomyopathy",
+                "COPD",
+                "Bronchial Asthma",
+                "Respiratory Failure",
+                "Thoracic Tumors",
+                "Cardiopulmonary Diseases"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "China"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Community Exercise Treating Effect on Cardiopulmonary Disease Patients",
+              "nctId": "NCT07154355"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Asthma, Allergic",
+                "Cardiovascular Diseases"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Netherlands"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Plant Stanol Esters and Preventing Asthma Symptoms",
+              "nctId": "NCT03983603"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Asthma",
+                "Asthma Attack",
+                "Asthma Exacerbations"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "PHASE4"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Individualizing Treatment for Asthma in Primary Care (Full Study)",
+              "nctId": "NCT07052942"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Asthma",
+                "Chronic Obstructive Pulmonary Disease (COPD)",
+                "Chronic Cough (CC)"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                },
+                {
+                  "country": "Canada"
+                }
+              ]
+            },
+            "designModule": {},
+            "identificationModule": {
+              "briefTitle": "Canadian Consortium on Airway Mucus Occlusions in Asthma, COPD and Chronic Cough",
+              "nctId": "NCT06858748"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Type 1 Diabetes",
+                "Asthma",
+                "Allergic Rhinitis",
+                "Food Allergy",
+                "Adolescent Development"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "Spain"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "EmoTIChealth: Promoting Adolescent Health Through a Serious Game.",
+              "nctId": "NCT07212530"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Bronchial Asthma",
+                "Airway Disease"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "China"
+                },
+                {
+                  "country": "China"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "FeNO Detection in Asthma Diagnosis: A New Technology Approach",
+              "nctId": "NCT06852911"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Asthma in Children"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "SMART Implementation-Effectiveness Trial 2",
+              "nctId": "NCT07138027"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        },
+        {
+          "protocolSection": {
+            "conditionsModule": {
+              "conditions": [
+                "Asthma",
+                "COPD",
+                "Cystic Fibrosis",
+                "Ciliary Motility Disorders",
+                "Bronchiectasis",
+                "Airway Malacia",
+                "Healthy Control"
+              ]
+            },
+            "contactsLocationsModule": {
+              "locations": [
+                {
+                  "country": "United States"
+                },
+                {
+                  "country": "United States"
+                }
+              ]
+            },
+            "designModule": {
+              "phases": [
+                "NA"
+              ]
+            },
+            "identificationModule": {
+              "briefTitle": "Acoustic Waveform Respiratory Evaluation",
+              "nctId": "NCT06512064"
+            },
+            "statusModule": {
+              "overallStatus": "RECRUITING"
+            }
+          }
+        }
+      ]
+    },
+    "status": 200
+  }
+}

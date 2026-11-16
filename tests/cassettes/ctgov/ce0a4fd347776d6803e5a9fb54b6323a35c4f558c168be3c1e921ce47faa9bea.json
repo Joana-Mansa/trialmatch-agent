@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05124457"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Inclusion criteria will include pregnant women with pre-existing T2DM and GDM who requiring insulin to manage their blood sugars in pregnancy.\n\nExclusion Criteria:\n\n1. Multiple Gestation\n2. Type 1 Diabetes mellatus\n3. Age \\< 18\n4. Known or suspected hypersensitivity to NPH or insulin detemir\n5. Known fetal major malformations\n6. Chronic renal or hepatic insufficiency\n7. Known to be HIV, Hepatitis B, or Hepatitis C positive\n8. Indication for planned premature delivery (placenta accrete, or prior classical cesarean delivery)\n9. Insulin dependent before conception",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "DETERMINE: Detemir vs NPH",
+          "nctId": "NCT05124457"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07138027"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Clinic Inclusion Criteria:\n\n* The clinic is a pediatric primary care clinic that is part of the Children's Hospital of Philadelphia (CHOP) Pediatric Research Consortium (PeRC).\n* The clinic agrees to participate in SMART \\& SIMPLE study.\n\nPatient Inclusion Criteria:\n\n* Ages 5-18 years;\n* Has clinic visit at participating practice during study interval (sick, well, or follow-up)\n* Prescribed at least one prescription for an inhaled corticosteroid (ICS) or ICS-long-acting beta agonist (ICS-LABA) for maintenance asthma therapy in the past year;\n* Evidence of uncontrolled asthma as determined by: (1) uncontrolled Asthma Control Tool score in the past 6 months OR (2) two or more systemic corticosteroids prescribed for an asthma exacerbation in the past 12 months (one occurring in the past 6 months)\n\nClinic Exclusion Criteria:\n\n\\- The clinic is not willing to participate in SMART \\& SIMPLE study interventions.\n\nPatient Exclusion Criteria:\n\n\\- Transferred clinics or left the CHOP Pediatric Care Network.",
+          "healthyVolunteers": false,
+          "maximumAge": "18 Years",
+          "minimumAge": "5 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "SMART Implementation-Effectiveness Trial 2",
+          "nctId": "NCT07138027"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

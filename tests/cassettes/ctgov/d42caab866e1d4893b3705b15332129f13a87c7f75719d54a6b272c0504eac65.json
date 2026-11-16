@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06595147"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Canada"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥60 years\n* Previously diagnosed with early-stage (I-III) BC\n* Completed (≥1 year post) primary cardiotoxic treatment (anthracycline-based chemotherapy or trastuzumab-based biological therapy).\n\nExclusion Criteria:\n\n* Have a history of coronary artery disease, heart failure, persistent and permanent arrhythmia (e.g. currently in atrial fibrillation), stroke, or chronic obstructive pulmonary disease\n* Develop signs or symptoms of myocardial ischemia (≥1mm horizontal or down-sloping ST segment depression on electrocardiogram) during the cardiopulmonary (VO2peak) test\n* Have any research MRI contraindications (e.g. any type of pacemaker), or any orthopedic limitation preventing exercise testing\n* Currently performing structured exercise training (defined as ≥30 mins/day of moderate-to-vigorous aerobic and/or resistance exercise training on ≥4 days/week)\n* Are unwilling to be randomized to either ExT or STRETCH",
+          "healthyVolunteers": false,
+          "minimumAge": "60 Years",
+          "sex": "FEMALE",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Breast cancEr, FITness and ExeRcise for Heart Health: The BE-FITTER Study",
+          "nctId": "NCT06595147"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07017686"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            },
+            {
+              "country": "Australia"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female (18 - 75 years of age).\n2. Adult-onset rheumatoid arthritis (RA) (onset age 18 years or above) as defined by the 2010 ACR/EULAR classification criteria, and Rheumatoid Factor (RF) or Cyclic Citrullinated Peptide (CCP) Antibody/Anti-Citrullinated Peptide Antibody (ACPA) must be positive (above lab ranges).\n3. Moderate-severe active RA defined by at least 4/28 tender and 4/28 swollen joints.\n4. Have active disease that has not responded to a 3-month trial of, or has intolerance limiting a full 3 month trial of, at least 2 biologic and/or new targeted synthetic DMARDs (e.g. JAK inhibitors).\n5. Using a stable, continuous dose of at least 1 biological and/or synthetic DMARD for \\>8 weeks prior to study screening and for the duration of the trial.\n6. Women of childbearing age must not be pregnant or trying to become pregnant and must agree to use an effective method of contraception for the duration of their participation in the trial.\n7. Medicare eligibility.\n8. Provision of informed consent, in the form of a signed and dated informed consent form.\n\nExclusion Criteria:\n\n1. Unable or unwilling to provide written informed consent.\n2. Current diagnosis of major psychiatric disorder/s, or meets criteria as such on the Mini International Neuropsychiatric Interview (MINI), with the exception of stable, well controlled Major Depression or Anxiety Disorder.\n3. A medical condition that could interfere with study procedures, and/or confound evaluation of study endpoints, as determined by the Investigator.\n4. Medical conditions that have resulted in severe autonomic neuropathy e.g. poorly controlled type 2 diabetes or metabolic disease.\n5. History of previous surgical interventions including vagotomy, splenectomy, bariatric surgery.\n6. History of gastric hiatus hernia.\n7. Previously implanted active medical devices (e.g., dorsal root ganglion or spinal cord stimulators, cardiac pacemakers, automatic implantable cardioverter-defibrillators, drug pumps), or likely need for implantation of such devices within 6 months after start of this study.\n8. A condition that requires routine Magnetic Resonance Imaging (MRI) scans\n9. Is, in the opinion of the Principal Investigator/s not a suitable candidate for the trial.",
+          "healthyVolunteers": false,
+          "maximumAge": "75 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "The Reboot Study: A Safety Study of Abdominal Vagus Nerve Stimulation for Moderate to Severe Drug Refractory Rheumatoid Arthritis",
+          "nctId": "NCT07017686"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

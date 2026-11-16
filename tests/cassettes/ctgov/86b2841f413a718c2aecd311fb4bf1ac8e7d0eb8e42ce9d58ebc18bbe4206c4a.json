@@ -1,0 +1,139 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06347536"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            },
+            {
+              "country": "United Kingdom"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 40 years\n* Individuals admitted to hospital with COPD exacerbation who have recently been discharged (discharged from ongoing support from secondary care team which includes hospital and virtual wards). Admission is defined as an episode in which a patient with an exacerbation of COPD is admitted to a ward and has stayed in hospital for 4 hours or more, including Emergency Medicine Centres, Medical Admission Units, Clinical Decision Units, short stay wards or similar but excludes patients treated transiently before being discharged from Emergency Department.\n* Ability to provide written informed consent\n\nExclusion Criteria:\n\n* Individuals who require invasive ventilation during the hospital admission\n* Patients who have an expected survival of less than 90 days\n* Patients with signs of new consolidation on chest X-ray (if available).\n* Individuals who have been discharged to a residential or nursing home to residential or nursing home.\n* Individuals who are unable to manage a supported self-management plan.\n* Individuals with no access to telephone.\n* Individuals who are already taking part in an interventional trial.\n* Previous participation in the RAPID trial.",
+          "healthyVolunteers": false,
+          "minimumAge": "40 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Supported Rescue Packs Post-discharge in Chronic Obstructive Pulmonary Disease",
+          "nctId": "NCT06347536"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

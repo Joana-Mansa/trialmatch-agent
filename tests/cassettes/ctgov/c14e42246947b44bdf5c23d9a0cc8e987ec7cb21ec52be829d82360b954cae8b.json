@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07542834"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria: able to read and speak English, are age 18 years and older, and are a medical student enrolled at the Ohio University Heritage College of Osteopathic Medicine enrolled in the 2025-2026 academic year.\n\n\\-\n\nExclusion Criteria: unable to read and speak English, 17 years or younger, and are not a medical student enrolled at the Ohio University Heritage College of Osteopathic Medicine enrolled in the 2025-2026 academic year.\n\n\\-",
+          "healthyVolunteers": true,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Using Virtual Reality to Improve Medical Training",
+          "nctId": "NCT07542834"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

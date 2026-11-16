@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06492200"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Germany"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients over 18 years old\n* Diagnosis of Rheumatoid Arthritis according to the ACR criteria of 2010\n* The patient can understand the scope of the study and consents in writing to participate.\n\nExclusion Criteria:\n\n* Age under 18\n* Lack of consent capability\n* Insufficient knowledge of the German language\n* Chronic inflammatory bowel disease\n* Liver cirrhosis\n* History of mechanical ileus\n* Patients with altered gastrointestinal passage (e.g., stoma patients)\n* Use of antibiotics within the past three months\n* Use of ground psyllium husks four weeks prior to study inclusion",
+          "healthyVolunteers": false,
+          "maximumAge": "99 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Impact of a High-fiber Diet on the Microbiome and Disease Activity in Patients With Rheumatoid Arthritis",
+          "nctId": "NCT06492200"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

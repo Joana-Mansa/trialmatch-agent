@@ -1,0 +1,398 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07219173"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Argentina"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Brazil"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "Canada"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "Germany"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "India"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Japan"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Mexico"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            },
+            {
+              "country": "Poland"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Physician-diagnosed asthma who have received a physician-prescribed asthma controller medication for at least 12 months prior to screening visit.\n* Participants must have an asthma control questionnaire-6 (ACQ-6) score of ≥1.5 on 2 out of 3 visits before randomization.\n* History of 1 severe asthma exacerbation that led to systemic glucocorticoid treatment in the last 12 months prior to screening visit.\n\nExclusion Criteria:\n\n* Participants are excluded from the study if any of the following criteria apply:\n\n  * An established diagnosis of occupational asthma\n* Known pre-existing, clinically important lung condition other than asthma, including but not limited to:\n\n  * chronic respiratory infection\n  * bronchiectasis\n  * pulmonary fibrosis\n  * allergic bronchopulmonary aspergillosis\n  * emphysema\n  * chronic bronchitis\n  * eosinophilic granulomatosis with polyangiitis\n  * chronic obstructive pulmonary disease, and\n  * other mimics of asthma, that is, vocal cord dysfunction.\n* Have a current or recent acute, active infection. For at least 30 days before screening visit and up to the randomization visit.",
+          "healthyVolunteers": false,
+          "maximumAge": "75 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "A Study to Evaluate Brenipatide Compared With Placebo in Adult Participants With Uncontrolled Moderate to Severe Asthma",
+          "nctId": "NCT07219173"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

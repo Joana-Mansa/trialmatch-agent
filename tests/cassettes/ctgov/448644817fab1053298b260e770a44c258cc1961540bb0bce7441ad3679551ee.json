@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06702735"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\nSelection phase:\n\n* Pediatrician diagnosed asthma\n* Health care professional thinks perception might be poor\n* Age 7 until 15 years old\n* Adequate understanding of Dutch language\n\nIntervention phase:\n\n* Adequate number of lung function measurements + VAS scores during selection phase, defined as:\n* At least 4 measurements after exercise or when experiencing symptoms and\n* At least 2 standard measurements\n* Poor perception during selection phase, defined as:\n* At least 1 measurement in red zone on Perception Rainbow and/or\n* At least 2 measurements in orange zone on Perception Rainbow and/or\n* Average of all measurements after exercise or when experiencing symptoms in yellow zone (or orange/red)and/or\n* Average of all measurements in yellow zone (or orange/red)\n\nExclusion Criteria:\n\n* Severe comorbidity (for example psychomotor retardation or severe cardiopulmonary conditions)\n* Not able to fill in VAS score (for example due to blindness)\n* Not able to perform technically correct spirometry manoeuvres\n* Medication change in past 2 weeks\n* Exacerbation which required oral prednisone in the past 6 weeks\n* Exacerbation at the moment of inclusion\n* No device (computer, tablet or smartphone) with internet connection available at home",
+          "healthyVolunteers": false,
+          "maximumAge": "15 Years",
+          "minimumAge": "7 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "The Rainbow Study - the Effect of Feedback on Asthmatic Symptom Perception",
+          "nctId": "NCT06702735"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

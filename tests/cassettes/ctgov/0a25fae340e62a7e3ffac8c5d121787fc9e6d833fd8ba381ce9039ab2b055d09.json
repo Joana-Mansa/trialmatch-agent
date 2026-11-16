@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT04791371"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Sedentary (defined as less than 1 hour per week of physical activity)\n* BMI: 25-40\n* Men and women with and without type 2 diabetes\n\nExclusion Criteria:\n\n* Documented cardiovascular disease\n* Uncontrolled hypertension: disease systolic blood pressure (SBP) \\> 150, diastolic blood pressure (DBP)\\> 110\n* Obstructive pulmonary disease or asthma\n* Peripheral neuropathy\n* Physical impairment that would limit exercise ability\n* Subjects taking beta blockers, calcium channel blockers, insulin, or Thiazolidinediones (TZD)\n* Current or past smoking within the last 1 years\n* Current tobacco use\n* Anemia\n* Control HbA1c \\> 5.7, T2DM HbA1c \\> 9\n* Pregnant, nursing or hormonal therapy (other than contraceptives)\n* Peri or post-menopausal women\n* Type 1 diabetes\n* Hepatic or renal disease.",
+          "healthyVolunteers": true,
+          "maximumAge": "55 Years",
+          "minimumAge": "30 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Role of Microvascular Insulin Resistance and Cardiorespiratory Fitness Diabetes",
+          "nctId": "NCT04791371"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06512064"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 8-70 years (to ensure ability to perform other PFTs; up to 75 years for COPD subjects in the UPMC adult clinic only).\n2. Ability to perform spirometry and oscillometry\n3. Signed informed consent (and assent for children as appropriate)\n4. No respiratory or other major disease (for healthy controls), or physician-diagnosed asthma, COPD, CF, or other airway diseases\n\nExclusion Criteria:\n\n1. Inability or unwillingness to perform AWARE, spirometry, or oscillometry\n2. Acute or chronic illness that, at the judgement of investigators, may affect lung function and alter the results of AWARE or the reference PFTs (spirometry and AOS)",
+          "healthyVolunteers": true,
+          "maximumAge": "70 Years",
+          "minimumAge": "8 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Acoustic Waveform Respiratory Evaluation",
+          "nctId": "NCT06512064"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06888258"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Egypt"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* ASA I-II.\n* Undergoing modified radical mastectomy surgery.\n* Body mass index (BMI) from 18.5 to 30 kg/m2\n\nExclusion Criteria:\n\n* Patient refusal.\n* Known allergy to local anesthetics.\n* Bleeding disorders; platelets count \\<50,000 , prothrombin concentration \\< 60% or any coagulopathy disorder.\n* Use of any anti-coagulants.\n* Inability to provide informed consent.\n* ASA III-IV.\n* Neurological disorders.\n* Patient with psychiatric disorders",
+          "healthyVolunteers": false,
+          "maximumAge": "60 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Compare Analgesia Between MTP Block And ESPB in MRM",
+          "nctId": "NCT06888258"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

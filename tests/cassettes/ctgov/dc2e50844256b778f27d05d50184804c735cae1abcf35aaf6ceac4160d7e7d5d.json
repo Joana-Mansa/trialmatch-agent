@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06852911"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "China"
+            },
+            {
+              "country": "China"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Patients:\n\nInclusion Criteria:\n\n1. Participants must be a minimum of 18 years of age, irrespective of gender;\n2. Individuals must possess a diagnosis of bronchial asthma that aligns with the international GINA 2023 diagnostic criteria;\n3. Respiratory symptoms must have been evident for at least 6 weeks;\n4. Participants should either have no history of smoking or have discontinued smoking for a period exceeding 5 years.\n\nExclusion Criteria:\n\n1. The concurrent use of additional asthma medications (such as glucocorticoids) alongside short-acting bronchodilators within the prior 4 weeks;\n2. A diagnosis of respiratory infection within the preceding 4 weeks;\n3. Conditions such as pregnancy, lactation, or menstruation;\n4. Participation in other clinical research studies;\n5. Any underlying medical or psychiatric conditions that, in the investigator's assessment, would render the individual unsuitable for participation in the study.\n\nHealthy:\n\nInclusion Criteria:\n\n1. Participants must be at least 18 years of age, with no restrictions on gender;\n2. Individuals should not have a history of allergic diseases or chronic respiratory conditions, and must not exhibit any significant abnormalities in health assessments conducted within the past year;\n3. There should be no acute illnesses or medication history within the preceding four weeks, and participants must not display any typical symptoms of respiratory infections;\n4. A history of smoking is not permitted, or individuals must have ceased smoking for a minimum of five years.\n\nExclusion Criteria:\n\n1. Individuals who are pregnant, breastfeeding, or currently experiencing menstruation;\n2. Those who have been on long-term medication;\n3. Participants involved in other clinical research studies;\n4. Any potential medical or psychological conditions that the researcher deems may render the subject unsuitable for participation in the study.",
+          "healthyVolunteers": true,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "FeNO Detection in Asthma Diagnosis: A New Technology Approach",
+          "nctId": "NCT06852911"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

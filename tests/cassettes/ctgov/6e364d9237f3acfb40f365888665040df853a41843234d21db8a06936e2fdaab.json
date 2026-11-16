@@ -1,0 +1,49 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05227547"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            },
+            {
+              "country": "France"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 18\n2. Patient undergoing lung resection surgery (lobectomy, pneumonectomy, segmentectomy) for cancer or suspected cancer\n3. Acceptance to participate in the protocol\n4. Affiliated to a social security plan\n\nExclusion Criteria:\n\n1. Chronic autoimmune disease\n2. Patient under guardianship or curators\n3. Neo-adjuvant chemotherapy\n4. History of thoracic radiotherapy\n5. Pregnant woman\n6. Minor patient\n7. Person not able to consent\n8. Person deprived of liberty",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Mapping and Characterization of Alveolar Cells During Smoking and Chronic Obstructive Disease",
+          "nctId": "NCT05227547"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

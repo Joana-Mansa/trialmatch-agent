@@ -1,0 +1,58 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05301881"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically confirmed invasive breast cancer\n* Metastatic breast cancer\n* o Oligoprogression is defined as an increase of ≥20% in size or, in case of FDG-PET-CT, metabolic activity (≥20% in SUVmax) involving a maximum of two lesions. These lesions may consist of: 1 or 2 distant metastatic lesions limited to 1 organ, the primary tumor or locoregional lymph nodes.\n* Systemic treatment can be either endocrine, targeted, chemotherapy or immune-checkpoint blockade\n* Patients should be on systemic therapy for at least six months. Status should be stable disease or partial or complete response for at least 6 months.\n* Oligoprogression has to be detected with radiological imaging comparing the lesion on the same type of imaging modality as has been used at the start of systemic therapy.\n* Lesion(s) must be amenable to resection, radiotherapy or percutaneous ablation with the intent of local obliteration.\n* The radiological imaging that shows progression must be performed within 70 days prior to LAT.\n* Bone metastases are classified as progressive if the lytic component of the lesion increases by ≥20% or the FDG-uptake increases by ≥20% on FDG-PET-CT\n* Lymph nodes should be larger than 15 mm upon first detection of oligoprogression to be classified as progressive.\n* Oligo-progression has to be confirmed with a FDG-PET-CT-scan 5-7 weeks after the initial scan that showed oligoprogression.\n* Age ≥18\n* World Health Organization (WHO) Performance Status 0 or 1\n* Signed written informed consent before patient registration according to ICH/GCP, and national/local regulations\n\nExclusion Criteria:\n\n* Having received more than two lines of systemic therapy for MBC If a treatment regimen has been de-escalated without adding other therapies, this is seen as one line of therapy. For example: Pertuzumab/trastuzumab+docetaxel followed by pertuzumab/trastuzumab will be viewed as one line of systemic therapy.\n* Other malignancy except carcinoma in situ and basal-cell and squamous cell carcinoma of the skin, unless the other malignancy was treated ≥5 years ago with curative intent without the use of chemotherapy or radiation therapy\n* Current pregnancy or breastfeeding. Women of childbearing potential must use adequate contraceptive protection\n* Presence of any medical condition that would place the patient at unusual risk, up to the discretion of the clinician\n* Presence of any psychological, familial, sociological, or geographical condition potentially hampering compliance with the study protocol and follow-up schedule",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "COntinue the SaMe Systemic Therapy After Local Ablative Therapy for Oligo Progression in Metastatic Breast Cancer - the COSMO Study",
+          "nctId": "NCT05301881"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

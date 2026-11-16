@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06659952"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\nAll individuals with advanced heart failure and HIV infection who meet the study inclusion and exclusion criteria will be eligible for participation in the study.\n\n* Participant meets the standard criteria for heart transplant at the local center.\n* Participant is able to understand and provide informed consent.\n* Participant meets with an independent advocate per the HOPE Act Safeguards and Research Criteria.\n* Documented HIV infection (by any licensed assay, or documented history of detectable HIV-1 RNA).\\*\n* Participant is ≥ 18 years old.\n* Opportunistic complications: if prior history of an opportunistic infection, the participant has received appropriate therapy and has no evidence of active disease. Medical record documentation should be provided whenever possible.\\*\n* CD4+ (cluster of differentiation 4+) T-cell count: ≥ 200/μL within 16 weeks of transplant.\\*\n* HIV-1 RNA is below 50 copies RNA/mL.\\*/\\*\\* Viral blips between 50-400 copies will be allowed as long as there are not consecutive measurements \\> 200 copies/mL. \\*\\*Organ recipients who are unable to tolerate ART due to organ failure or recently started Antiretroviral Therapy (ART) may have detectable viral load and still be eligible if a safe and effective antiretroviral regimen to be used by the recipient after transplantation is described.\n* Participant is willing to comply with all medications related to their transplant and HIV management.\n* For participants with a history of aspergillus colonization or disease, no evidence of active disease.\n* The participant must have or be willing to start seeing a primary medical care provider with expertise in HIV management.\n* Agreement to use contraception; according to the FDA Office of Women's Health (http://www.fda.gov/birthcontrol), there are a number of birth control methods that are more than 80% effective. Female participants of child-bearing potential must consult with their physician and determine the most suitable method(s) from this list to be used from the time that study treatment begins until after study completion.\n* Participant is not suffering from significant wasting (e.g. body mass index \\< 21) thought to be related to HIV disease.\n\nExclusion Criteria:\n\nIndividuals who meet any of these criteria are not eligible for enrollment as study participants:\n\n* Participant has a history of progressive multifocal leukoencephalopathy (PML) or primary central nervous system (CNS) lymphoma.\\*\n* Participant is pregnant or breastfeeding. (Note: Participants who become pregnant post-transplant will continue to be followed in the study and will be managed per local site practice. Women that become pregnant should not breastfeed.)\n* Past or current medical problems or findings from medical history, physical examination or laboratory testing that are not listed above, which, in the opinion of the investigator, may pose additional risks from participation in the study, may interfere with the participant's ability to comply with study requirements or that may impact the quality or interpretation of the data obtained from the study.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "HIV+ Deceased Donor Heart Transplant Study for HIV+ Recipients",
+          "nctId": "NCT06659952"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

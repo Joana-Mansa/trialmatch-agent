@@ -1,0 +1,1000 @@
+{
+  "resourceType": "Bundle",
+  "id": "bundle-p001",
+  "meta": {
+    "tag": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "code": "HTEST",
+        "display": "test health data"
+      },
+      {
+        "system": "urn:trialmatch:tags",
+        "code": "synthetic",
+        "display": "Synthetic record, not a real person"
+      }
+    ]
+  },
+  "type": "collection",
+  "timestamp": "2026-11-01T00:00:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:trialmatch:p001:Patient/p001",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p001",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:trialmatch:synthetic-mrn",
+            "value": "SYN-P001"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Dalen731",
+            "given": [
+              "Marieke482"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1970-05-14",
+        "address": [
+          {
+            "city": "Utrecht",
+            "country": "Netherlands"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Condition/p001-cond-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "p001-cond-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Type 2 diabetes mellitus",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes mellitus type 2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "onsetDateTime": "2016-03-08",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Condition/p001-cond-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "p001-cond-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Essential hypertension",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "59621000",
+              "display": "Essential hypertension"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "onsetDateTime": "2018-09-20",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:MedicationRequest/p001-med-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "p001-med-1",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Metformin hydrochloride 1000 MG Oral Tablet",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "6809",
+              "display": "metformin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "authoredOn": "2016-03-08",
+        "dosageInstruction": [
+          {
+            "text": "1000 mg twice daily with meals"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/p001-cond-1"
+          }
+        ],
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:MedicationRequest/p001-med-2",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "p001-med-2",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Lisinopril 10 MG Oral Tablet",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "29046",
+              "display": "lisinopril"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "authoredOn": "2018-09-20",
+        "dosageInstruction": [
+          {
+            "text": "10 mg once daily"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/p001-cond-2"
+          }
+        ],
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-1",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2025-10-02",
+        "issued": "2025-10-02",
+        "valueQuantity": {
+          "value": 7.4,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-2",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-03-11",
+        "issued": "2026-03-11",
+        "valueQuantity": {
+          "value": 7.8,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-3",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-09-15",
+        "issued": "2026-09-15",
+        "valueQuantity": {
+          "value": 8.1,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-4",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33914-3",
+              "display": "Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)"
+            }
+          ],
+          "text": "Estimated glomerular filtration rate (eGFR)"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2025-10-02",
+        "issued": "2025-10-02",
+        "valueQuantity": {
+          "value": 76,
+          "unit": "mL/min/1.73m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min/{1.73_m2}"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-5",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33914-3",
+              "display": "Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)"
+            }
+          ],
+          "text": "Estimated glomerular filtration rate (eGFR)"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-03-11",
+        "issued": "2026-03-11",
+        "valueQuantity": {
+          "value": 74,
+          "unit": "mL/min/1.73m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min/{1.73_m2}"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-6",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33914-3",
+              "display": "Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)"
+            }
+          ],
+          "text": "Estimated glomerular filtration rate (eGFR)"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-09-15",
+        "issued": "2026-09-15",
+        "valueQuantity": {
+          "value": 72,
+          "unit": "mL/min/1.73m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min/{1.73_m2}"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-7",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-09-15",
+        "issued": "2026-09-15",
+        "valueQuantity": {
+          "value": 168,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-8",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-03-11",
+        "issued": "2026-03-11",
+        "valueQuantity": {
+          "value": 0.86,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-9",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase (ALT)"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-03-11",
+        "issued": "2026-03-11",
+        "valueQuantity": {
+          "value": 24,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-10",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-10",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-03-11",
+        "issued": "2026-03-11",
+        "valueQuantity": {
+          "value": 13.2,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-11",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-11",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-09-15",
+        "issued": "2026-09-15",
+        "valueQuantity": {
+          "value": 0.89,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-12",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-12",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1742-6",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase (ALT)"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-09-15",
+        "issued": "2026-09-15",
+        "valueQuantity": {
+          "value": 27,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Observation/p001-obs-13",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "p001-obs-13",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "effectiveDateTime": "2026-09-15",
+        "issued": "2026-09-15",
+        "valueQuantity": {
+          "value": 13.0,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:trialmatch:p001:Procedure/p001-proc-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "p001-proc-1",
+        "status": "completed",
+        "code": {
+          "text": "Diabetic retinopathy screening (fundus photography)"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "performedDateTime": "2026-04-22",
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            },
+            {
+              "system": "urn:trialmatch:tags",
+              "code": "synthetic",
+              "display": "Synthetic record, not a real person"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

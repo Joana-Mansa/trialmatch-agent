@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07924618"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Turkey (Türkiye)"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 years or older\n* Diagnosis of obesity\n* Receiving semaglutide or tirzepatide as part of routine clinical care\n* Participants with or without type 2 diabetes mellitus\n* Availability for baseline and follow-up ophthalmologic examinations\n\nExclusion Criteria:\n\n* Age under 18 years\n* Not receiving semaglutide or tirzepatide\n* Inability to complete the required ophthalmologic examinations or imaging assessments",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Adults with obesity who are receiving semaglutide or tirzepatide as part of routine clinical care will be included. Participants will include individuals with and without type 2 diabetes mellitus. The study population will be evaluated in four observational cohorts according to diabetes status and medication: obesity with diabetes receiving semaglutide, obesity with diabetes receiving tirzepatide, obesity without diabetes receiving semaglutide, and obesity without diabetes receiving tirzepatide."
+        },
+        "identificationModule": {
+          "briefTitle": "Ocular Changes in Patients Using Tirzepatide or Semaglutide",
+          "nctId": "NCT07924618"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

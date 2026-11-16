@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07552584"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Denmark"
+            },
+            {
+              "country": "Denmark"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosed with COPD.\n* =\\> 50 years.\n* Former or current smoker.\n* Speaks and understands Danish.\n* Able to give informed consent to participation.\n\nExclusion Criteria:\n\n* Had a CT scan of the thorax within 6 months.\n* Received active treatment for cancer within one year (except non-melanoma skin cancer and carcinoma in situ cervicis uteri).\n* Diagnosed with cancer within one year (except non-melanoma skin cancer and carcinoma in situ cervicis uteri).\n* Presents with symptoms giving suspicion of cancer (except non-melanoma skin cancer and carcinoma in situ cervicis uteri).\n* In a condition not allowing diagnostic workup for or treatment of lung cancer.\n* Does not have Eboks (electronic communication with Danish authorities).",
+          "healthyVolunteers": false,
+          "minimumAge": "50 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Blood Based Risk Evaluation With AI for Targeted Primary Health Care in Early Lung Cancer Detection",
+          "nctId": "NCT07552584"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

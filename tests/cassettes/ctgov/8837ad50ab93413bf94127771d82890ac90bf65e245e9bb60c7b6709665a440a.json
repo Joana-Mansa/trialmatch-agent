@@ -1,0 +1,77 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06641362"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "United States"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Czechia"
+            },
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults with bradycardia or heart failure scheduled for first time pacemaker implant (including CRT/CSP) with one of the following: Bradycardia with ventricular synchrony and QRS duration \\<= 110 ms, Bradycardia with LBBB, Bradycardia with RBBB, Bradycardia with other IVCD necessitating intervention, or Heart failure with LBBB\n* Understands the nature of the study and is willing to comply with all study requirements.\n* Provides written informed consent.\n* A negative pregnancy test prior to the procedure for participants of child-bearing potential.\n\nExclusion Criteria:\n\n* Complete AV block (3rd-degree AV block) without a stable escape rhythm or other circumstances where there is no measurable QRS.\n* Subjects with a previous or current pacemaker or defibrillator implant.\n* Anatomical or other conditions that may make a 12-lead ECG difficult to obtain, such as an allergy to components of the ECG pads, burns, open wounds, etc.\n* Currently enrolled in another investigational device or drug trial that has not completed the active treatment phase and/or would conflict with this study.\n* Other co-morbid condition(s) that could limit the participant's ability to participate in the study or to comply with study requirements or impact the scientific integrity of the study.",
+          "genderBased": true,
+          "genderDescription": "Different QRS duration requirements for male and female.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Participants who are eligible for this study must have bradycardia or heart failure and are scheduled for pacemaker device implantation. Baseline ECG requirements must be met."
+        },
+        "identificationModule": {
+          "briefTitle": "Ultra-High Frequency - Electrocardiogram (UHF-ECG) for the Diagnosis of Ventricular Electrical Dyssynchrony (VED)",
+          "nctId": "NCT06641362"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

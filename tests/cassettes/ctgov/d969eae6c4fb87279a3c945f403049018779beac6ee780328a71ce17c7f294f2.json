@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT06702072"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Netherlands"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patient is scheduled for a bronchoscopic lung volume treatment using Pulmonx Zephyr Endobronchial Valves;\n2. Patient read, understood and signed the Informed Consent Form.\n\nExclusion Criteria:\n\n1\\) Patients who cannot perform ADL activities without the use of Long Term Oxygen Therapy (LTOT).",
+          "healthyVolunteers": false,
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "The study population exists of patients with severe emphysema who undergo a bronchoscopic lung volume reduction treatment with one-way endobronchial valves."
+        },
+        "identificationModule": {
+          "briefTitle": "Change in Task-related Oxygen Uptake After EBV Treatment",
+          "nctId": "NCT06702072"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

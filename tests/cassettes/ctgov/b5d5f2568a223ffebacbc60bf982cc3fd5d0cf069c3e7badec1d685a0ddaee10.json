@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05980442"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Germany"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Indication for a TKA with a fixed-bearing total knee endoprosthesis\n* Written informed consent for participating in the clinical study\n\nExclusion Criteria:\n\n* Patient age \\<18 years and \\>90 years\n* Patient not willing to participate at the follow-up\n* Pregnancy\n* retropatellar arthrosis requiring patella resurfacing\n* American Society of Anaesthesiologists (ASA) Classification \\>3",
+          "healthyVolunteers": false,
+          "maximumAge": "90 Years",
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients between 18 and 90 years of age having indication for a fixed-bearing total knee endoprosthesis, without retropatellar arthrosis requiring patella resurfacing"
+        },
+        "identificationModule": {
+          "briefTitle": "Comparative Study of Navigation-assisted OrthoPilot® Elite and Robotic-assisted MAKO® Total Knee Arthroplasty",
+          "nctId": "NCT05980442"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

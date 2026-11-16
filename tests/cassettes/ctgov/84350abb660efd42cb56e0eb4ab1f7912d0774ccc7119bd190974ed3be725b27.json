@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07243769"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Taiwan"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age over 18 years.\n* Diagnosed with myocardial infarction or heart failure with stable condition, and referred for participation in Phase II cardiac rehabilitation.\n* Able to regularly attend training sessions twice a week.\n\nExclusion Criteria:\n\n* Underwent cardiac surgery within the past three months.\n* Presence of a pacemaker, defibrillator, or left ventricular assist device.\n* Cognitive impairment or dementia that prevents understanding or following training instructions.\n* Inability to complete cardiopulmonary exercise testing.\n* Pregnancy.\n* Contraindications to cardiac rehabilitation based on the American College of Sports Medicine (ACSM) guidelines, such as unstable angina, uncontrolled severe hypertension (resting systolic BP \\>180 mmHg or diastolic BP \\>110 mmHg), orthostatic hypotension (drop in BP \\>20 mmHg upon position change), severe aortic stenosis, uncontrolled severe arrhythmia, decompensated heart failure, third-degree atrioventricular block, acute pericarditis or myocarditis, aortic dissection, acute pulmonary embolism, or other acute medical conditions such as infection or fever.\n* Refusal to participate in the study.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "A Pilot Randomized Controlled Trial Comparing Core Exercise, Aerobic Exercise, and Combined Exercise in Patients Undergoing Phase II Cardiac Rehabilitation.",
+          "nctId": "NCT07243769"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

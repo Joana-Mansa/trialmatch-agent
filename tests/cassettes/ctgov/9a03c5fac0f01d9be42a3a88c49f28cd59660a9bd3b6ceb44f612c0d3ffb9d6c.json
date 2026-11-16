@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT07583355"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Italy"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* diagnosis of T2DM of at least 3 months;\n* age between 25 and 80 years;\n* engagement in insufficient PA (\\< 150 minutes per week of moderate-intensity PA, according to WHO guidelines);\n* ability to walk independently;\n* 18.5 \\< BMI (kg/m²) \\< 40.\n\nExclusion Criteria:\n\n* the presence of severe cardiovascular, neurological, or musculoskeletal conditions that contraindicate PA;\n* refusal or inability to provide written informed consent.",
+          "healthyVolunteers": false,
+          "maximumAge": "80 Years",
+          "minimumAge": "25 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Interdisciplinary Counselling in DIAbetes",
+          "nctId": "NCT07583355"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

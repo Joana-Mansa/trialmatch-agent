@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "params": {
+      "fields": "NCTId,BriefTitle,OverallStatus,LocationCountry,EligibilityModule"
+    },
+    "path": "/api/v2/studies/NCT05966519"
+  },
+  "response": {
+    "json": {
+      "protocolSection": {
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "country": "Japan"
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* 20 years and over\n* Skeletally matured\n* Decision to have Total Knee Arthroplasty with ROSA Knee System being made independently and prior to recruitment into study\n* Willing and able to complete scheduled follow-up evaluations as described in the study protocol\n* Has participated in the informed consent process and is willing and able to sign an Institutional Review Board (IRB)/Ethics Committee (EC) approved informed consent form\n\nExclusion Criteria:\n\n* Has serious bone defect(s), which require(s) metallic augment, synthetic bone or allograft\n* Is septic, has an active infection or has osteomyelitis at the affected joint\n* Has vascular insufficiency, muscular atrophy at the implant site or neuromuscular disease which might jeopardize the outcome of the surgery\n* Has any concomitant disease which is likely to jeopardize the functioning or success of the implant\n* Is known to be pregnant\n* Is a prisoner, known alcohol or drug abuser or mentally incompetent or unable to understand what participation in this study entails\n* Has a known sensitivity or allergy to one or more of the implanted materials",
+          "healthyVolunteers": false,
+          "minimumAge": "20 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "The study population will comprise of males and females who require primary total knee arthroplasty and satisfy the inclusion/exclusion criteria outlined in this section of the protocol. In order to avoid potential selection bias, each Investigator will offer study participation to each consecutive eligible patient presenting as a candidate for primary total knee arthroplasty using the commercially available Zimmer Biomet total knee systems. Eligible candidates who express interest in study participation will be offered Informed Consent."
+        },
+        "identificationModule": {
+          "briefTitle": "ROSA Knee Intraoperative Planning Flexibility Study",
+          "nctId": "NCT05966519"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        }
+      }
+    },
+    "status": 200
+  }
+}

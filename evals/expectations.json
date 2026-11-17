@@ -5,7 +5,7 @@
     "p002": {
       "issue": "renal impairment (latest eGFR about 24, CKD stage 4)",
       "kind": "criterion",
-      "criteria_regex": "eGFR|renal (impairment|insufficiency|failure)|creatinine clearance|dialysis|kidney",
+      "criteria_regex": "\\beGFR\\b|creatinine clearance|\\bCKD\\b|(?<!end-stage )(?<!end stage )\\b(renal|kidney) (impairment|insufficiency|failure|disease|function)",
       "correct_refs": [
         "Observation/p002-obs-4",
         "Observation/p002-obs-5",

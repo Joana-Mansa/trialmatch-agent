@@ -184,6 +184,7 @@ class GroundingIssue(BaseModel):
         "unknown_evidence_ref",  # cited a resource id not in the patient record
         "hard_check_contradiction",  # verdict eligible but a code check failed
         "unknown_trial",  # nct_id never retrieved during the run
+        "criteria_not_fetched",  # assessed from search results only, criteria never read
         "empty_assessments",
         "not_recruiting",  # trial is not RECRUITING
         "verdict_inconsistent",  # verdict contradicts the criterion assessments

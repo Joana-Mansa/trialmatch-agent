@@ -111,3 +111,13 @@ def test_not_recruiting_and_truncated(fake_store, fake_trials):
     )
     kinds = sorted(i.kind for i in validate(_report(), fake_store, {NCT}, {}, {NCT: elig}))
     assert kinds == ["criteria_truncated", "not_recruiting"]
+
+
+def test_trial_assessed_without_fetching_its_criteria(fake_store, fake_trials, diabetic_patient):
+    # Seen in search only: criteria were never read, so assessments are recalled or
+    # borrowed from another trial (qwen3:4b did this on p002).
+    hard = _hard(diabetic_patient, fake_trials)
+    issues = validate(_report(), fake_store, {NCT}, hard, eligibility={})
+    assert [i.kind for i in issues] == ["criteria_not_fetched"]
+    fetched = {NCT: fake_trials.eligibility(NCT)}
+    assert validate(_report(), fake_store, {NCT}, hard, eligibility=fetched) == []

@@ -87,7 +87,7 @@ summary.
 
 ## Report
 
-Include every trial whose eligibility you fetched, ranked with the best fits \
+Include every trial whose eligibility you fetched, and only those, ranked with the best fits \
 first and likely_ineligible trials last. Set trials_considered to the number of \
 distinct trials you saw in search results. Each summary is two or three sentences \
 for a coordinator: why the trial fits or does not, and what to verify next. Use \

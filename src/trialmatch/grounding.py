@@ -191,6 +191,18 @@ def validate(
                 )
             )
 
+        elif eligibility is not None and nct not in eligibility and match.assessments:
+            # Seen in search results only: any criterion it lists was not read, but
+            # recalled or borrowed from another trial.
+            issues.append(
+                GroundingIssue(
+                    kind="criteria_not_fetched",
+                    nct_id=nct,
+                    detail=f"{nct} is assessed but its eligibility criteria were never "
+                    "fetched. Call get_trial_eligibility for it, or leave it out.",
+                )
+            )
+
         if not match.assessments:
             issues.append(
                 GroundingIssue(
